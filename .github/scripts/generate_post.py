@@ -1,0 +1,206 @@
+import os, json, urllib.request, urllib.error, urllib.parse, sys, random
+from datetime import datetime, timezone
+
+now = datetime.now(timezone.utc)
+today = now.strftime("%Y-%m-%d")
+hour = now.hour
+api_key = os.environ["OPENROUTER_API_KEY"]
+timestamp = now.strftime("%Y-%m-%d-%H")
+
+SEU_MARKET_FACTS = """
+- Empresa brasileira: minimercados autônomos 24h em condomínios residenciais e comerciais.
+- Operação 100% self-checkout: totem com Pix, crédito, débito e aproximação.
+- Implantação gratuita para o condomínio: estrutura, equipamentos e estoque são da operação.
+- O condomínio cede o espaço ocioso e recebe o serviço pronto, sem custo nem rateio.
+- Modelos: Compact (2x2m), Wall (3x1m), Smart (3x2m — mais vendido), Prime (4x2m).
+- Tecnologia: acesso por app, câmeras em nuvem, alertas automáticos de estoque.
+- Reposição periódica com curadoria conforme o perfil do condomínio.
+- Suporte via WhatsApp para moradores e síndico.
+- Site oficial: seumarket.com.br
+NÃO DIZER:
+- Que tem centenas de unidades instaladas (não confirme números desconhecidos)
+- Que produtos são mais baratos que supermercados (são preços de mercado)
+- Que o serviço é totalmente gratuito (cobra dos consumidores nos produtos)
+"""
+
+IMAGE_PROMPTS = {
+    "mercado_autonomo": "minimalist modern blog banner, sleek autonomous convenience store interior with self-checkout kiosk, soft lighting, no text, professional retail aesthetic",
+    "sindico": "minimalist modern blog banner, modern building management concept, neutral tones, professional corporate aesthetic, no text",
+    "tecnologia": "minimalist modern blog banner, digital access control and surveillance camera icons, clean dark blue palette, professional tech aesthetic, no text",
+    "seguranca": "minimalist modern blog banner, security shield icon and camera silhouette, dark background with blue accents, professional aesthetic, no text",
+    "espaco": "minimalist modern blog banner, architectural floor plan of small store inside a building corridor, clean lines, neutral tones, professional aesthetic, no text",
+    "conveniencia": "minimalist modern blog banner, grocery items and smartphone with QR code payment, soft green tones, professional lifestyle aesthetic, no text",
+    "implantacao": "minimalist modern blog banner, installation and setup concept with tools and building blueprint, neutral professional tones, no text",
+    "gestao": "minimalist modern blog banner, modern property management dashboard concept, clean blue and white tones, professional aesthetic, no text",
+    "valorizacao": "minimalist modern blog banner, upward growth arrow above a residential building silhouette, clean green palette, professional real estate aesthetic, no text",
+    "sustentabilidade": "minimalist modern blog banner, green leaf icon integrated with building silhouette, eco-friendly tones, professional aesthetic, no text",
+}
+DEFAULT_IMAGE_PROMPT = "minimalist modern blog banner, convenience store shelf inside a residential building, clean neutral tones, professional retail aesthetic, no text"
+
+TOPICOS_OPERACIONAL = [
+    ("mercado_autonomo", "Escreva um artigo explicando como funciona um minimercado autônomo 24h instalado dentro de um condomínio residencial: como o morador acessa, faz o pagamento self-checkout, como funciona a reposição e qual a diferença para um mercado comum."),
+    ("implantacao", "Escreva um artigo detalhando o processo de implantação de um minimercado autônomo em condomínio: análise do espaço, modelos disponíveis e o que o condomínio precisa providenciar."),
+    ("espaco", "Escreva um artigo comparando os modelos Compact (2x2m), Wall (3x1m), Smart (3x2m) e Prime (4x2m) e qual atende melhor cada tipo de condomínio."),
+    ("conveniencia", "Escreva um artigo sobre o mix ideal de produtos para um minimercado autônomo em condomínio: bebidas, snacks, higiene, mercearia e limpeza."),
+    ("mercado_autonomo", "Escreva um artigo sobre o self-checkout em minimercados de condomínio: como funciona o totem, formas de pagamento e por que é diferente de um caixa humano."),
+]
+
+TOPICOS_SINDICO = [
+    ("sindico", "Escreva um artigo para síndicos sobre como propor e aprovar um minimercado autônomo em assembleia: argumentos, objeções comuns e como respondê-las."),
+    ("valorizacao", "Escreva um artigo sobre como um minimercado autônomo 24h valoriza um condomínio residencial sem custo extra na taxa condominial."),
+    ("gestao", "Escreva um artigo sobre os benefícios para síndicos: aproveitamento de áreas ociosas, redução de entregadores externos e diferencial no mercado imobiliário."),
+    ("sindico", "Escreva um artigo com as perguntas mais frequentes de síndicos antes de instalar um minimercado autônomo: custo, segurança, contrato e suporte."),
+    ("valorizacao", "Escreva um artigo sobre como amenities internos como academia, coworking e minimercado autônomo estão se tornando decisivos na escolha de onde morar."),
+]
+
+TOPICOS_TECNOLOGIA = [
+    ("tecnologia", "Escreva um artigo sobre a tecnologia de um minimercado autônomo em condomínio: app de acesso, câmeras em nuvem e alertas de estoque sem funcionários presenciais."),
+    ("seguranca", "Escreva um artigo sobre segurança em minimercados autônomos: como câmeras, identificação do morador e pagamento rastreável reduzem perdas."),
+    ("tecnologia", "Escreva um artigo sobre como Pix e pagamento por aproximação transformaram o varejo de conveniência em condomínios residenciais."),
+    ("gestao", "Escreva um artigo sobre como dados de consumo de um minimercado autônomo ajudam a melhorar o mix de produtos e beneficiam os moradores."),
+    ("sustentabilidade", "Escreva um artigo sobre como minimercados autônomos em condomínios contribuem para hábitos mais sustentáveis: menos deslocamento e compras de proximidade."),
+]
+
+pool = TOPICOS_OPERACIONAL if hour < 12 else (TOPICOS_SINDICO if hour < 19 else TOPICOS_TECNOLOGIA)
+image_key, topic = random.choice(pool)
+slug = f"post-{timestamp}"
+image_prompt = IMAGE_PROMPTS.get(image_key, DEFAULT_IMAGE_PROMPT)
+
+if pool == TOPICOS_OPERACIONAL:
+    category = random.choice(["Como funciona", "Guias"])
+elif pool == TOPICOS_SINDICO:
+    category = random.choice(["Gestão condominial", "Para síndicos"])
+else:
+    category = random.choice(["Tecnologia", "Sustentabilidade"])
+
+tags_map = {
+    "mercado_autonomo": ["mercado autônomo", "self-checkout", "conveniência"],
+    "sindico": ["síndico", "gestão condominial", "assembleia"],
+    "tecnologia": ["tecnologia", "acesso digital", "pagamento"],
+    "seguranca": ["segurança", "câmeras", "controle de acesso"],
+    "espaco": ["modelos", "espaço", "compact", "smart", "prime"],
+    "conveniencia": ["conveniência", "produtos", "24 horas"],
+    "implantacao": ["implantação", "instalação", "sem custo"],
+    "gestao": ["gestão", "síndico", "condomínio"],
+    "valorizacao": ["valorização", "imóvel", "amenities"],
+    "sustentabilidade": ["sustentabilidade", "consumo local", "proximidade"],
+}
+tags = tags_map.get(image_key, ["mercado autônomo", "condomínio"])
+
+system_msg = (
+    "Você é o redator do blog do Seu Market, empresa de minimercados autônomos 24h em condomínios brasileiros. "
+    "Escreve artigos informativos, úteis e com tom humano — sem soar como IA. "
+    "REGRAS OBRIGATÓRIAS:\n"
+    "1. NUNCA use bullet points, traços ou listas. Tudo em parágrafos corridos.\n"
+    "2. Use ## apenas para títulos de seção. Jamais ### ou ####.\n"
+    "3. Links sempre no formato [texto visível](url). Nunca URL crua.\n"
+    "4. Tom natural, direto. Sem 'Além disso', 'Outrossim', 'Em conclusão'.\n"
+    "5. NUNCA invente estatísticas ou fatos não fornecidos.\n"
+    "6. Escreva 100% em português do Brasil.\n"
+    "Retorne APENAS um objeto JSON puro, sem blocos de código Markdown."
+)
+
+user_msg = (
+    f"Hoje é {today}. {topic}\n\n"
+    f"FATOS OBRIGATÓRIOS — use SOMENTE esses dados, nunca invente:\n{SEU_MARKET_FACTS}\n\n"
+    "Escreva um artigo com NO MÍNIMO 1200 palavras em português do Brasil. "
+    "Use ## para títulos de seção e **negrito** para ênfase. "
+    "Sem bullet points, sem traços, sem ###. Apenas parágrafos corridos. "
+    "Links no formato [texto](url). Ao citar o Seu Market, linke para [seumarket.com.br](https://seumarket.com.br).\n\n"
+    "Retorne APENAS este JSON:\n"
+    "{\n"
+    f'  "id": "{slug}",\n'
+    '  "title": "<título atraente em português>",\n'
+    f'  "slug": "{slug}",\n'
+    '  "excerpt": "<resumo com até 200 caracteres>",\n'
+    '  "content": "<artigo em Markdown, \\n para quebras, mínimo 1200 palavras, sem bullet, sem ###>",\n'
+    f'  "category": "{category}",\n'
+    '  "author": "Seu Market",\n'
+    f'  "date": "{today}",\n'
+    '  "readingTime": 6,\n'
+    '  "featured": false,\n'
+    '  "coverImage": "",\n'
+    f'  "tags": {json.dumps(tags, ensure_ascii=False)}\n'
+    "}"
+)
+
+MODELS = [
+    "nvidia/nemotron-3-super-120b-a12b:free",
+    "google/gemma-4-31b-it:free",
+    "nvidia/nemotron-3-nano-30b-a3b:free",
+    "mistralai/mistral-small-3.2-24b-instruct:free",
+]
+
+response_data = None
+content = ""
+
+for model in MODELS:
+    print(f"Tentando modelo: {model}")
+    payload = json.dumps({
+        "model": model,
+        "messages": [
+            {"role": "system", "content": system_msg},
+            {"role": "user", "content": user_msg}
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4500
+    }).encode()
+
+    req = urllib.request.Request(
+        "https://openrouter.ai/api/v1/chat/completions",
+        data=payload,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "HTTP-Referer": "https://seumarket.com.br",
+            "X-Title": "Seu Market Blog"
+        }
+    )
+
+    try:
+        with urllib.request.urlopen(req) as resp:
+            data = json.loads(resp.read())
+        msg = data.get("choices", [{}])[0].get("message", {})
+        content = msg.get("content") or msg.get("reasoning") or ""
+        if not content.strip():
+            print(f"Modelo {model} retornou vazio, próximo...")
+            continue
+        content = content.strip()
+        response_data = data
+        print(f"Sucesso com {model} ({len(content)} chars)")
+        break
+    except urllib.error.HTTPError as e:
+        print(f"Modelo {model} falhou: {e.code} - {e.read().decode()[:200]}")
+        continue
+
+if not response_data or not content:
+    print("Todos os modelos falharam.")
+    sys.exit(1)
+
+if content.startswith("```"):
+    content = "\n".join(content.split("\n")[1:-1]).strip()
+if not content.startswith("{"):
+    start, end = content.find("{"), content.rfind("}") + 1
+    if start != -1 and end > start:
+        content = content[start:end]
+
+try:
+    post = json.loads(content)
+except json.JSONDecodeError as e:
+    print(f"Erro JSON: {e}\nConteúdo: {content[:500]}")
+    sys.exit(1)
+
+post["readingTime"] = max(1, round(len(post.get("content", "").split()) / 200))
+post["author"] = "Seu Market"
+post["category"] = category
+
+encoded_prompt = urllib.parse.quote(image_prompt)
+post["coverImage"] = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=1200&height=630&nologo=true&seed={abs(hash(slug)) % 99999}"
+
+os.makedirs("public/blog-posts", exist_ok=True)
+filepath = f"public/blog-posts/{slug}.json"
+with open(filepath, "w", encoding="utf-8") as f:
+    json.dump(post, f, ensure_ascii=False, indent=2)
+
+print(f"Post salvo: {filepath}")
+print(f"Título: {post.get('title', 'sem título')}")
