@@ -4,12 +4,13 @@ import logo from "@/assets/logo-seu-market.png";
 import { WHATSAPP_URL } from "@/lib/constants";
 
 const links = [
-  { href: "#sobre", label: "Quem somos" },
-  { href: "#modelos", label: "Modelos" },
-  { href: "#beneficios", label: "Benefícios" },
-  { href: "#tecnologia", label: "Tecnologia" },
-  { href: "#faq", label: "FAQ" },
-  { href: "#contato", label: "Contato" },
+  { href: "/#sobre", label: "Quem somos" },
+  { href: "/#modelos", label: "Modelos" },
+  { href: "/#beneficios", label: "Benefícios" },
+  { href: "/#tecnologia", label: "Tecnologia" },
+  { href: "/blog", label: "Blog" },
+  { href: "/#faq", label: "FAQ" },
+  { href: "/#contato", label: "Contato" },
 ];
 
 export function Navbar() {
@@ -32,7 +33,7 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-18 py-3 flex items-center justify-between">
-        <a href="#top" className="flex items-center" aria-label="Seu Market Br - Início">
+        <a href="/" className="flex items-center" aria-label="Seu Market Br - Início">
           <div className={`rounded-xl transition-all ${scrolled ? "" : "bg-white/95 px-3 py-1.5 shadow-card"}`}>
             <img src={logo} alt="Seu Market Br" className="h-10 md:h-11 w-auto" />
           </div>
