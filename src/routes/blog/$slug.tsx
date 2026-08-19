@@ -19,11 +19,11 @@ function renderMarkdown(md: string): string {
       '<h2 class="font-display font-bold text-2xl md:text-3xl text-primary-dark mt-10 mb-4">$1</h2>'
     )
     .replace(
-      /\*\*(.+?)\*\*/g,
+      /[*][*](.+?)[*][*]/g,
       '<strong class="font-bold text-primary-dark">$1</strong>'
     )
     .replace(
-      /\\[([^\\]]+)\]\\(([^)]+)\\)/g,
+      /\[([^\]]+)\]\(([^)]+)\)/g,
       '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors">$1</a>'
     )
     .replace(
