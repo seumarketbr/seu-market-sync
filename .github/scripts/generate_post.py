@@ -15,14 +15,15 @@ SEU_MARKET_FACTS = """
 - Tecnologia: acesso por app, câmeras em nuvem, alertas automáticos de estoque.
 - Reposição periódica com curadoria conforme o perfil do condomínio.
 - Suporte via WhatsApp para moradores e síndico.
-- Site oficial: seumarket.com.br
-NÃO DIZER:
-- Que tem centenas de unidades instaladas (não confirme números desconhecidos)
-- Que produtos são mais baratos que supermercados (são preços de mercado)
-- Que o serviço é totalmente gratuito (cobra dos consumidores nos produtos)
+- Site oficial e Único link permitido: https://seumarketbr.com.br
+NÃO FAZER:
+- Não confirmar números de unidades instaladas desconhecidos.
+- Não dizer que produtos são mais baratos que supermercados.
+- Não dizer que o serviço é totalmente gratuito (cobra dos consumidores nos produtos).
+- NÃO usar traços ou hífens para separar ideias no meio de frases. Use vírgulas.
+- NÃO inserir links para sites externos. O Único link permitido é https://seumarketbr.com.br
 """
 
-# Prompts ricos para Pollinations flux (sem enhance, sem nologo quebrado)
 IMAGE_PROMPTS = {
     "mercado_autonomo": "ultra realistic photo, modern self-service mini market inside a luxury apartment building lobby, bright LED lighting, clean shelves with food and drinks, self-checkout kiosk touchscreen, marble floor, no people, no text, professional interior photography, 4k",
     "sindico": "ultra realistic photo, modern condominium meeting room with glass walls overlooking a residential building, professional manager at desk reviewing documents, clean corporate interior, no text, 4k architectural photography",
@@ -96,14 +97,15 @@ def title_to_slug(title: str) -> str:
 
 system_msg = (
     "Você é o redator do blog do Seu Market, empresa de minimercados autônomos 24h em condomínios brasileiros. "
-    "Escreve artigos informativos, úteis e com tom humano — sem soar como IA. "
+    "Escreve artigos informativos, úteis e com tom humano, sem soar como IA. "
     "REGRAS OBRIGATÓRIAS:\n"
     "1. NUNCA use bullet points, traços ou listas. Tudo em parágrafos corridos.\n"
-    "2. Use ## apenas para títulos de seção. Jamais ### ou ####.\n"
-    "3. Links sempre no formato [texto visível](url). Nunca URL crua.\n"
-    "4. Tom natural, direto. Sem 'Além disso', 'Outrossim', 'Em conclusão'.\n"
-    "5. NUNCA invente estatísticas ou fatos não fornecidos.\n"
-    "6. Escreva 100% em português do Brasil.\n"
+    "2. NUNCA use traço ou hífen para separar ideias no meio de uma frase. Use vírgula no lugar.\n"
+    "3. Use ## apenas para títulos de seção. Jamais ### ou ####.\n"
+    "4. O Único link permitido em todo o artigo é https://seumarketbr.com.br. NUNCA insira outros URLs.\n"
+    "5. Tom natural, direto. Sem 'Além disso', 'Outrossim', 'Em conclusão'.\n"
+    "6. NUNCA invente estatísticas ou fatos não fornecidos.\n"
+    "7. Escreva 100% em português do Brasil.\n"
     "CRÍTICO: Retorne APENAS o objeto JSON válido, sem nenhum texto antes ou depois, "
     "sem blocos de código Markdown, sem ``` de nenhum tipo. "
     "A resposta deve começar EXATAMENTE com { e terminar EXATAMENTE com }."
@@ -111,18 +113,18 @@ system_msg = (
 
 user_msg = (
     f"Hoje é {today}. {topic}\n\n"
-    f"FATOS OBRIGATÓRIOS — use SOMENTE esses dados, nunca invente:\n{SEU_MARKET_FACTS}\n\n"
+    f"FATOS OBRIGATÓRIOS, use SOMENTE esses dados, nunca invente:\n{SEU_MARKET_FACTS}\n\n"
     "Escreva um artigo com NO MÍNIMO 1200 palavras em português do Brasil. "
     "Use ## para títulos de seção e **negrito** para ênfase. "
-    "Sem bullet points, sem traços, sem ###. Apenas parágrafos corridos. "
-    "Links no formato [texto](url). Ao citar o Seu Market, linke para [seumarket.com.br](https://seumarket.com.br).\n\n"
+    "Apenas parágrafos corridos, sem listas, sem traços para separar ideias, use vírgulas. "
+    "O Único link permitido é https://seumarketbr.com.br. Ao citar o Seu Market, use: [Seu Market](https://seumarketbr.com.br).\n\n"
     "O campo slug deve ser gerado a partir do título: letras minúsculas, sem acentos, palavras separadas por hífen, máx 80 chars.\n"
-    "Exemplo: título 'Como funciona o self-checkout' → slug 'como-funciona-o-self-checkout'\n\n"
+    "Exemplo: título 'Como funciona o self-checkout' vira slug 'como-funciona-o-self-checkout'\n\n"
     "Retorne APENAS este JSON válido (sem nenhum texto fora do JSON):\n"
     "{\n"
     '  "title": "Título do artigo aqui",\n'
     '  "slug": "slug-do-artigo-aqui",\n'
-    '  "excerpt": "Resumo de 1-2 frases aqui",\n'
+    '  "excerpt": "Resumo de 1 a 2 frases aqui",\n'
     '  "content": "Conteúdo completo do artigo aqui em markdown",\n'
     f'  "category": "{category}",\n'
     '  "author": "Seu Market",\n'
@@ -134,7 +136,6 @@ user_msg = (
     "}"
 )
 
-# Modelos ordenados por confiabilidade (mais estáveis primeiro)
 MODELS = [
     "mistralai/mistral-small-3.2-24b-instruct:free",
     "google/gemma-3-27b-it:free",
@@ -146,19 +147,16 @@ MODELS = [
 
 def extrair_json(text):
     text = text.strip()
-    # 1. Direto
     try:
         return json.loads(text)
     except Exception:
         pass
-    # 2. Remove blocos ```json
     cleaned = re.sub(r"^```(?:json)?\s*", "", text, flags=re.IGNORECASE)
     cleaned = re.sub(r"\s*```$", "", cleaned).strip()
     try:
         return json.loads(cleaned)
     except Exception:
         pass
-    # 3. Extrai {...} por profundidade
     start = text.find("{")
     if start == -1:
         raise ValueError("Nenhum { encontrado")
@@ -183,7 +181,7 @@ def extrair_json(text):
                 end = i + 1
                 break
     if end == -1:
-        raise ValueError("JSON incompleto: } de fechamento não encontrado")
+        raise ValueError("JSON incompleto")
     candidate = text[start:end]
     try:
         return json.loads(candidate)
@@ -191,7 +189,7 @@ def extrair_json(text):
         raise ValueError(f"JSON inválido: {e}\nTrecho:\n{candidate[:400]}")
 
 
-# ── Chamada à API com log detalhado ──────────────────────────────────
+# ── Chamada à API com log detalhado ──────────────────────────────
 response_data = None
 content = ""
 
@@ -212,7 +210,7 @@ for model in MODELS:
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
-            "HTTP-Referer": "https://seumarket.com.br",
+            "HTTP-Referer": "https://seumarketbr.com.br",
             "X-Title": "Seu Market Blog"
         }
     )
@@ -220,38 +218,25 @@ for model in MODELS:
         with urllib.request.urlopen(req, timeout=90) as resp:
             data = json.loads(resp.read())
             print(f"[{model}] Resposta recebida. Chaves: {list(data.keys())}")
-
             choices = data.get("choices", [])
             if not choices:
-                print(f"[{model}] Sem choices na resposta. Pulando.")
-                print(f"Resposta completa: {json.dumps(data)[:500]}")
+                print(f"[{model}] Sem choices. Resposta: {json.dumps(data)[:500]}")
                 continue
-
             msg = choices[0].get("message", {})
-            print(f"[{model}] finish_reason: {choices[0].get('finish_reason')}")
-            print(f"[{model}] message keys: {list(msg.keys())}")
-
-            # Tenta content, depois reasoning (chain-of-thought)
+            print(f"[{model}] finish_reason: {choices[0].get('finish_reason')} | message keys: {list(msg.keys())}")
             raw = msg.get("content") or ""
             if not raw.strip():
                 raw = msg.get("reasoning") or ""
-            if not raw.strip():
-                # Tenta pegar de refusal ou outros campos
-                raw = str(msg)
-
             print(f"[{model}] Tamanho do conteúdo: {len(raw)} chars")
             if len(raw.strip()) < 50:
                 print(f"[{model}] Conteúdo muito curto, pulando. Raw: {repr(raw[:200])}")
                 continue
-
             content = raw.strip()
             response_data = data
             print(f"[{model}] Sucesso! {len(content)} chars")
             break
-
     except urllib.error.HTTPError as e:
-        body = e.read().decode()[:300]
-        print(f"[{model}] HTTPError {e.code}: {body}")
+        print(f"[{model}] HTTPError {e.code}: {e.read().decode()[:300]}")
     except urllib.error.URLError as e:
         print(f"[{model}] URLError: {e.reason}")
     except Exception as e:
@@ -261,7 +246,6 @@ if not response_data or not content:
     print("\nTodos os modelos falharam. Abortando.")
     sys.exit(1)
 
-# ── Extrai JSON ───────────────────────────────────────────────────────────────
 print(f"\nConteudo bruto (primeiros 300 chars):\n{content[:300]}")
 try:
     post = extrair_json(content)
@@ -270,13 +254,18 @@ except ValueError as e:
     print(f"Conteúdo bruto completo:\n{content[:2000]}")
     sys.exit(1)
 
-# Valida campos obrigatórios
 if not post.get("title") or not post.get("content"):
-    print(f"ERRO: Post sem título ou conteúdo! title={repr(post.get('title'))}, content_len={len(post.get('content',''))}")
-    print(f"Post completo: {json.dumps(post, ensure_ascii=False)[:500]}")
+    print(f"ERRO: Post sem título ou conteúdo!")
     sys.exit(1)
 
-# ── Slug baseado no título ────────────────────────────────────────────────────
+# Garante que nenhum link externo passou pelo modelo
+post["content"] = re.sub(
+    r'\[([^\]]+)\]\((?!https://seumarketbr\.com\.br)[^)]+\)',
+    r'\1',
+    post.get("content", "")
+)
+
+# Slug baseado no título
 raw_title = post.get("title", "")
 slug = title_to_slug(raw_title) if raw_title else f"post-{now.strftime('%Y-%m-%d-%H%M')}"
 base_slug = slug
@@ -288,7 +277,7 @@ while os.path.exists(f"public/blog-posts/{slug}.json"):
 post["slug"] = slug
 post["id"] = slug
 
-# ── Imagem Pollinations (modelo flux, alta resolução, sem parâmetros inválidos) ────
+# Imagem Pollinations
 seed = abs(hash(slug)) % 999999
 encoded_prompt = urllib.parse.quote(image_prompt)
 post["coverImage"] = (
@@ -296,7 +285,7 @@ post["coverImage"] = (
     f"?width=1440&height=720&model=flux&nologo=true&seed={seed}"
 )
 
-# ── Pós-processamento ─────────────────────────────────────────────────────────
+# Pós-processamento
 post["readingTime"] = max(1, round(len(post.get("content", "").split()) / 200))
 post["author"] = "Seu Market"
 post["category"] = category
@@ -304,7 +293,6 @@ post.setdefault("tags", tags)
 post.setdefault("featured", False)
 post.setdefault("date", today)
 
-# ── Salvar ────────────────────────────────────────────────────────────────────
 os.makedirs("public/blog-posts", exist_ok=True)
 filepath = f"public/blog-posts/{slug}.json"
 with open(filepath, "w", encoding="utf-8") as f:
