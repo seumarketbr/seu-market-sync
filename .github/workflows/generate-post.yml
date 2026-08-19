@@ -2,9 +2,9 @@ name: Gerar Post do Blog
 
 on:
   schedule:
-    - cron: '0 11 * * *' # 08:00 BRT — manhã (operacional)
-    - cron: '0 17 * * *' # 14:00 BRT — tarde (síndico)
-    - cron: '0 23 * * *' # 20:00 BRT — noite (tecnologia)
+    - cron: '0 11 * * *'  # 08:00 BRT — manhã (operacional)
+    - cron: '0 17 * * *'  # 14:00 BRT — tarde (síndico)
+    - cron: '0 23 * * *'  # 20:00 BRT — noite (tecnologia)
   workflow_dispatch:
     inputs:
       motivo:
@@ -44,3 +44,9 @@ jobs:
           git add public/blog-posts/
           git diff --cached --quiet || git commit -m "blog: novo post automático $(date +'%Y-%m-%d %H:%M UTC')"
           git push
+
+      - name: Trigger Cloudflare deploy
+        if: success()
+        run: |
+          echo "Post publicado com sucesso. Cloudflare detectará o push e fará deploy automático."
+          echo "Manifest atualizado — sitemap será gerado dinamicamente no próximo acesso."
