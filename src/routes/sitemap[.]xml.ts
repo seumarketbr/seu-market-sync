@@ -16,9 +16,26 @@ export const Route = createFileRoute("/sitemap.xml")({
   server: {
     handlers: {
       GET: async () => {
+        // Tenta carregar posts dinâmicos do manifest
+        let dynamicEntries: SitemapEntry[] = [];
+        try {
+          const manifestRes = await fetch(`${BASE_URL}/blog-posts/manifest.json`);
+          if (manifestRes.ok) {
+            const slugs: string[] = await manifestRes.json();
+            dynamicEntries = slugs.map((slug) => ({
+              path: `/blog/${slug}`,
+              changefreq: "monthly" as const,
+              priority: "0.7",
+            }));
+          }
+        } catch {
+          // ignora se manifest não existir ainda
+        }
+
         const entries: SitemapEntry[] = [
           { path: "/", changefreq: "weekly", priority: "1.0" },
           { path: "/blog", changefreq: "weekly", priority: "0.8" },
+          ...dynamicEntries,
           ...BLOG_POSTS.map((p) => ({
             path: `/blog/${p.slug}`,
             lastmod: p.date,

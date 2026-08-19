@@ -17,8 +17,8 @@ export interface BlogPost {
   featured?: boolean;
 }
 
-// Posts estáticos hardcoded
-const STATIC_POSTS: BlogPost[] = [
+// Posts estáticos (exportado para compatibilidade com sitemap e outros usos)
+export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "minimercado-autonomo-em-condominio-como-funciona",
     title: "Minimercado autônomo em condomínio: como funciona na prática",
@@ -123,20 +123,17 @@ async function fetchDynamicPosts(): Promise<BlogPost[]> {
     const manifestRes = await fetch("/blog-posts/manifest.json");
     if (!manifestRes.ok) return [];
     const slugs: string[] = await manifestRes.json();
-
     const posts = await Promise.all(
       slugs.map(async (slug) => {
         try {
           const res = await fetch(`/blog-posts/${slug}.json`);
           if (!res.ok) return null;
-          const post = await res.json();
-          return post as BlogPost;
+          return (await res.json()) as BlogPost;
         } catch {
           return null;
         }
       })
     );
-
     return posts.filter((p): p is BlogPost => p !== null);
   } catch {
     return [];
@@ -146,25 +143,19 @@ async function fetchDynamicPosts(): Promise<BlogPost[]> {
 // Busca todos os posts (dinâmicos + estáticos), ordenados por data
 export async function fetchAllPosts(): Promise<BlogPost[]> {
   const dynamic = await fetchDynamicPosts();
-  const all = [...dynamic, ...STATIC_POSTS];
+  const all = [...dynamic, ...BLOG_POSTS];
   return all.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
 // Busca post por slug (dinâmico primeiro, depois estático)
 export async function fetchPostBySlug(slug: string): Promise<BlogPost | null> {
-  // Tenta buscar direto o JSON dinâmico
   try {
     const res = await fetch(`/blog-posts/${slug}.json`);
-    if (res.ok) {
-      const post = await res.json();
-      return post as BlogPost;
-    }
+    if (res.ok) return (await res.json()) as BlogPost;
   } catch {
-    // ignora e cai no estático
+    // ignora
   }
-
-  // Fallback: posts estáticos
-  return STATIC_POSTS.find((p) => p.slug === slug) ?? null;
+  return BLOG_POSTS.find((p) => p.slug === slug) ?? null;
 }
 
 export const formatDate = (iso: string) =>
