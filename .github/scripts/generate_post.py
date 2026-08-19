@@ -7,21 +7,21 @@ hour = now.hour
 api_key = os.environ["OPENROUTER_API_KEY"]
 
 SEU_MARKET_FACTS = """
-- Empresa brasileira: minimercados autônomos 24h em condomínios residenciais e comerciais.
-- Operação 100% self-checkout: totem com Pix, crédito, débito e aproximação.
-- Implantação gratuita para o condomínio: estrutura, equipamentos e estoque são da operação.
-- O condomínio cede o espaço ocioso e recebe o serviço pronto, sem custo nem rateio.
-- Modelos: Compact (2x2m), Wall (3x1m), Smart (3x2m — mais vendido), Prime (4x2m).
-- Tecnologia: acesso por app, câmeras em nuvem, alertas automáticos de estoque.
-- Reposição periódica com curadoria conforme o perfil do condomínio.
-- Suporte via WhatsApp para moradores e síndico.
-- Site oficial e Único link permitido: https://seumarketbr.com.br
+Empresa brasileira: minimercados autônomos 24h em condomínios residenciais e comerciais.
+Operação 100% self-checkout: totem com Pix, crédito, débito e aproximação.
+Implantação gratuita para o condomínio: estrutura, equipamentos e estoque são da operação.
+O condomínio cede o espaço ocioso e recebe o serviço pronto, sem custo nem rateio.
+Modelos: Compact (2x2m), Wall (3x1m), Smart (3x2m, mais vendido), Prime (4x2m).
+Tecnologia: acesso por app, câmeras em nuvem, alertas automáticos de estoque.
+Reposição periódica com curadoria conforme o perfil do condomínio.
+Suporte via WhatsApp para moradores e síndico.
+Site oficial e único link permitido: https://seumarketbr.com.br
 NÃO FAZER:
-- Não confirmar números de unidades instaladas desconhecidos.
-- Não dizer que produtos são mais baratos que supermercados.
-- Não dizer que o serviço é totalmente gratuito (cobra dos consumidores nos produtos).
-- NÃO usar traços ou hífens para separar ideias no meio de frases. Use vírgulas.
-- NÃO inserir links para sites externos. O Único link permitido é https://seumarketbr.com.br
+Não confirmar números de unidades instaladas desconhecidos.
+Não dizer que produtos são mais baratos que supermercados.
+Não dizer que o serviço é totalmente gratuito (cobra dos consumidores nos produtos).
+NÃO usar traços ou hífens para separar ideias no meio de frases. Use vírgulas.
+NÃO inserir links para sites externos. O único link permitido é https://seumarketbr.com.br
 """
 
 IMAGE_PROMPTS = {
@@ -102,7 +102,7 @@ system_msg = (
     "1. NUNCA use bullet points, traços ou listas. Tudo em parágrafos corridos.\n"
     "2. NUNCA use traço ou hífen para separar ideias no meio de uma frase. Use vírgula no lugar.\n"
     "3. Use ## apenas para títulos de seção. Jamais ### ou ####.\n"
-    "4. O Único link permitido em todo o artigo é https://seumarketbr.com.br. NUNCA insira outros URLs.\n"
+    "4. O único link permitido em todo o artigo é https://seumarketbr.com.br. NUNCA insira outros URLs.\n"
     "5. Tom natural, direto. Sem 'Além disso', 'Outrossim', 'Em conclusão'.\n"
     "6. NUNCA invente estatísticas ou fatos não fornecidos.\n"
     "7. Escreva 100% em português do Brasil.\n"
@@ -117,9 +117,12 @@ user_msg = (
     "Escreva um artigo com NO MÍNIMO 1200 palavras em português do Brasil. "
     "Use ## para títulos de seção e **negrito** para ênfase. "
     "Apenas parágrafos corridos, sem listas, sem traços para separar ideias, use vírgulas. "
-    "O Único link permitido é https://seumarketbr.com.br. Ao citar o Seu Market, use: [Seu Market](https://seumarketbr.com.br).\n\n"
+    "O único link permitido é https://seumarketbr.com.br. Ao citar o Seu Market, use: [Seu Market](https://seumarketbr.com.br).\n\n"
     "O campo slug deve ser gerado a partir do título: letras minúsculas, sem acentos, palavras separadas por hífen, máx 80 chars.\n"
     "Exemplo: título 'Como funciona o self-checkout' vira slug 'como-funciona-o-self-checkout'\n\n"
+    "IMPORTANTE: o campo content deve ser uma string JSON válida. "
+    "Todas as aspas dentro do conteúdo devem usar \\\" e quebras de linha devem usar \\n. "
+    "Não encerre o JSON antes de concluir todo o conteúdo do artigo.\n\n"
     "Retorne APENAS este JSON válido (sem nenhum texto fora do JSON):\n"
     "{\n"
     '  "title": "Título do artigo aqui",\n'
@@ -136,12 +139,14 @@ user_msg = (
     "}"
 )
 
+# Modelos free ativos e verificados em agosto/2026
+# finish_reason="length" indica JSON truncado: aumentar max_tokens ou trocar modelo
 MODELS = [
-    "mistralai/mistral-small-3.2-24b-instruct:free",
-    "google/gemma-3-27b-it:free",
-    "meta-llama/llama-3.3-70b-instruct:free",
-    "deepseek/deepseek-r1-0528-qwen3-8b:free",
-    "nvidia/nemotron-3-super-120b-a12b:free",
+    "nvidia/nemotron-3-super-120b-a12b:free",   # funcionando, mas truncava com 4500
+    "deepseek/deepseek-r1-0528:free",            # deepseek r1 completo
+    "deepseek/deepseek-chat-v3-0324:free",       # deepseek v3 estável
+    "qwen/qwen3-235b-a22b:free",                 # qwen3 grande
+    "microsoft/mai-ds-r1:free",                  # mai ds r1
 ]
 
 
@@ -181,7 +186,7 @@ def extrair_json(text):
                 end = i + 1
                 break
     if end == -1:
-        raise ValueError("JSON incompleto")
+        raise ValueError("JSON incompleto: } de fechamento nao encontrado")
     candidate = text[start:end]
     try:
         return json.loads(candidate)
@@ -189,7 +194,7 @@ def extrair_json(text):
         raise ValueError(f"JSON inválido: {e}\nTrecho:\n{candidate[:400]}")
 
 
-# ── Chamada à API com log detalhado ──────────────────────────────
+# ── Chamada à API ──────────────────────────────────────────────────────────
 response_data = None
 content = ""
 
@@ -202,7 +207,7 @@ for model in MODELS:
             {"role": "user", "content": user_msg}
         ],
         "temperature": 0.7,
-        "max_tokens": 4500
+        "max_tokens": 8000  # aumentado para evitar truncamento do JSON
     }).encode()
     req = urllib.request.Request(
         "https://openrouter.ai/api/v1/chat/completions",
@@ -215,28 +220,31 @@ for model in MODELS:
         }
     )
     try:
-        with urllib.request.urlopen(req, timeout=90) as resp:
+        with urllib.request.urlopen(req, timeout=120) as resp:
             data = json.loads(resp.read())
-            print(f"[{model}] Resposta recebida. Chaves: {list(data.keys())}")
             choices = data.get("choices", [])
             if not choices:
                 print(f"[{model}] Sem choices. Resposta: {json.dumps(data)[:500]}")
                 continue
             msg = choices[0].get("message", {})
-            print(f"[{model}] finish_reason: {choices[0].get('finish_reason')} | message keys: {list(msg.keys())}")
+            finish = choices[0].get("finish_reason", "")
+            print(f"[{model}] finish_reason: {finish} | message keys: {list(msg.keys())}")
+            if finish == "length":
+                print(f"[{model}] AVISO: resposta truncada por limite de tokens. Tentando proximo modelo.")
+                continue
             raw = msg.get("content") or ""
             if not raw.strip():
                 raw = msg.get("reasoning") or ""
-            print(f"[{model}] Tamanho do conteúdo: {len(raw)} chars")
+            print(f"[{model}] Tamanho do conteudo: {len(raw)} chars")
             if len(raw.strip()) < 50:
-                print(f"[{model}] Conteúdo muito curto, pulando. Raw: {repr(raw[:200])}")
+                print(f"[{model}] Conteudo muito curto, pulando. Raw: {repr(raw[:200])}")
                 continue
             content = raw.strip()
             response_data = data
             print(f"[{model}] Sucesso! {len(content)} chars")
             break
     except urllib.error.HTTPError as e:
-        print(f"[{model}] HTTPError {e.code}: {e.read().decode()[:300]}")
+        print(f"[{model}] HTTPError {e.code}: {e.read().decode()[:400]}")
     except urllib.error.URLError as e:
         print(f"[{model}] URLError: {e.reason}")
     except Exception as e:
@@ -251,21 +259,21 @@ try:
     post = extrair_json(content)
 except ValueError as e:
     print(f"Erro ao extrair JSON: {e}")
-    print(f"Conteúdo bruto completo:\n{content[:2000]}")
+    print(f"Conteudo bruto completo:\n{content[:2000]}")
     sys.exit(1)
 
 if not post.get("title") or not post.get("content"):
-    print(f"ERRO: Post sem título ou conteúdo!")
+    print(f"ERRO: Post sem titulo ou conteudo! title={repr(post.get('title'))}, content_len={len(post.get('content',''))}")
     sys.exit(1)
 
-# Garante que nenhum link externo passou pelo modelo
+# Remove qualquer link externo que o modelo tenha inserido
 post["content"] = re.sub(
     r'\[([^\]]+)\]\((?!https://seumarketbr\.com\.br)[^)]+\)',
     r'\1',
     post.get("content", "")
 )
 
-# Slug baseado no título
+# Slug baseado no titulo
 raw_title = post.get("title", "")
 slug = title_to_slug(raw_title) if raw_title else f"post-{now.strftime('%Y-%m-%d-%H%M')}"
 base_slug = slug
@@ -285,7 +293,7 @@ post["coverImage"] = (
     f"?width=1440&height=720&model=flux&nologo=true&seed={seed}"
 )
 
-# Pós-processamento
+# Pos-processamento
 post["readingTime"] = max(1, round(len(post.get("content", "").split()) / 200))
 post["author"] = "Seu Market"
 post["category"] = category
@@ -298,8 +306,8 @@ filepath = f"public/blog-posts/{slug}.json"
 with open(filepath, "w", encoding="utf-8") as f:
     json.dump(post, f, ensure_ascii=False, indent=2)
 
-print(f"\n✔ Post salvo: {filepath}")
-print(f"✔ Título: {post['title']}")
-print(f"✔ Slug: {slug}")
-print(f"✔ Palavras: {len(post['content'].split())}")
-print(f"✔ Imagem: {post['coverImage']}")
+print(f"\n[OK] Post salvo: {filepath}")
+print(f"[OK] Titulo: {post['title']}")
+print(f"[OK] Slug: {slug}")
+print(f"[OK] Palavras: {len(post['content'].split())}")
+print(f"[OK] Imagem: {post['coverImage']}")
