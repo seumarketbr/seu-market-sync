@@ -22,19 +22,20 @@ NÃO DIZER:
 - Que o serviço é totalmente gratuito (cobra dos consumidores nos produtos)
 """
 
+# Prompts ricos para Pollinations flux (sem enhance, sem nologo quebrado)
 IMAGE_PROMPTS = {
-    "mercado_autonomo": "minimalist modern blog banner, sleek autonomous convenience store interior with self-checkout kiosk, soft warm lighting, no text, professional retail aesthetic, photorealistic",
-    "sindico": "minimalist modern blog banner, modern building management concept, neutral tones, professional corporate aesthetic, no text, photorealistic",
-    "tecnologia": "minimalist modern blog banner, digital access control and surveillance camera concept, clean dark blue palette, professional tech aesthetic, no text, photorealistic",
-    "seguranca": "minimalist modern blog banner, security shield and camera silhouette, dark background with blue accents, professional aesthetic, no text, photorealistic",
-    "espaco": "minimalist modern blog banner, architectural floor plan of small store inside a building corridor, clean lines, neutral tones, professional aesthetic, no text, photorealistic",
-    "conveniencia": "minimalist modern blog banner, grocery items and smartphone with QR code payment, soft green tones, professional lifestyle aesthetic, no text, photorealistic",
-    "implantacao": "minimalist modern blog banner, installation and setup concept with tools and building blueprint, neutral professional tones, no text, photorealistic",
-    "gestao": "minimalist modern blog banner, modern property management dashboard concept, clean blue and white tones, professional aesthetic, no text, photorealistic",
-    "valorizacao": "minimalist modern blog banner, upward growth arrow above residential building silhouette, clean green palette, professional real estate aesthetic, no text, photorealistic",
-    "sustentabilidade": "minimalist modern blog banner, green leaf icon integrated with building silhouette, eco-friendly tones, professional aesthetic, no text, photorealistic",
+    "mercado_autonomo": "ultra realistic photo, modern self-service mini market inside a luxury apartment building lobby, bright LED lighting, clean shelves with food and drinks, self-checkout kiosk touchscreen, marble floor, no people, no text, professional interior photography, 4k",
+    "sindico": "ultra realistic photo, modern condominium meeting room with glass walls overlooking a residential building, professional manager at desk reviewing documents, clean corporate interior, no text, 4k architectural photography",
+    "tecnologia": "ultra realistic photo, futuristic digital access control panel on wall of modern building corridor, glowing blue interface, security camera visible, sleek dark surfaces, no text, 4k tech photography",
+    "seguranca": "ultra realistic photo, modern security surveillance room with multiple monitor screens showing building corridors, clean dark ambient lighting, professional equipment, no text, 4k photography",
+    "espaco": "ultra realistic photo, small modern convenience store fitting perfectly inside a residential building common area, organized shelves, warm lighting, clean floors, no people, no text, 4k interior photography",
+    "conveniencia": "ultra realistic photo, close up of organized mini market shelves with packaged snacks drinks personal care items, bright clean lighting, no people, no text, 4k product photography",
+    "implantacao": "ultra realistic photo, construction workers installing modern retail shelving system inside a building lobby, clean professional environment, tools and equipment visible, no text, 4k photography",
+    "gestao": "ultra realistic photo, property manager using tablet showing analytics dashboard inside a modern condominium office, clean minimalist interior, no text, 4k photography",
+    "valorizacao": "ultra realistic photo, luxury residential building exterior at golden hour with modern lobby visible, premium architecture, lush landscaping, no text, 4k real estate photography",
+    "sustentabilidade": "ultra realistic photo, eco-friendly modern building with green wall and solar panels, sustainable architecture, clear blue sky, no text, 4k architectural photography",
 }
-DEFAULT_IMAGE_PROMPT = "minimalist modern blog banner, convenience store shelf inside a residential building, clean neutral tones, professional retail aesthetic, no text, photorealistic"
+DEFAULT_IMAGE_PROMPT = "ultra realistic photo, modern mini market inside residential building lobby, organized shelves, bright clean lighting, self-checkout kiosk, no people, no text, 4k interior photography"
 
 TOPICOS_OPERACIONAL = [
     ("mercado_autonomo", "Escreva um artigo explicando como funciona um minimercado autônomo 24h instalado dentro de um condomínio residencial: como o morador acessa, faz o pagamento self-checkout, como funciona a reposição e qual a diferença para um mercado comum."),
@@ -85,13 +86,12 @@ tags = tags_map.get(image_key, ["mercado autônomo", "condomínio"])
 
 
 def title_to_slug(title: str) -> str:
-    """Converte título em slug URL-friendly."""
     title = unicodedata.normalize("NFD", title)
     title = "".join(c for c in title if unicodedata.category(c) != "Mn")
     title = title.lower()
     title = re.sub(r"[^a-z0-9\s-]", "", title)
     title = re.sub(r"[\s-]+", "-", title).strip("-")
-    return title[:80]  # máx 80 chars
+    return title[:80]
 
 
 system_msg = (
@@ -104,9 +104,9 @@ system_msg = (
     "4. Tom natural, direto. Sem 'Além disso', 'Outrossim', 'Em conclusão'.\n"
     "5. NUNCA invente estatísticas ou fatos não fornecidos.\n"
     "6. Escreva 100% em português do Brasil.\n"
-    "CRÍTICO: Retorne APENAS o objeto JSON puro, sem nenhum texto antes ou depois, "
+    "CRÍTICO: Retorne APENAS o objeto JSON válido, sem nenhum texto antes ou depois, "
     "sem blocos de código Markdown, sem ``` de nenhum tipo. "
-    "A resposta deve começar EXATAMENTE com { e terminar EXATAMENTE com }. Nada mais."
+    "A resposta deve começar EXATAMENTE com { e terminar EXATAMENTE com }."
 )
 
 user_msg = (
@@ -116,15 +116,14 @@ user_msg = (
     "Use ## para títulos de seção e **negrito** para ênfase. "
     "Sem bullet points, sem traços, sem ###. Apenas parágrafos corridos. "
     "Links no formato [texto](url). Ao citar o Seu Market, linke para [seumarket.com.br](https://seumarket.com.br).\n\n"
-    "IMPORTANTE: o campo \"slug\" deve ser gerado a partir do título do artigo em formato URL-friendly "
-    "(letras minúsculas, sem acentos, palavras separadas por hífen, máx 80 chars). Exemplo: "
-    "título 'Como funciona o self-checkout' → slug 'como-funciona-o-self-checkout'.\n\n"
-    "Retorne APENAS este JSON (comece com { e termine com }, sem nenhum texto adicional):\n"
+    "O campo slug deve ser gerado a partir do título: letras minúsculas, sem acentos, palavras separadas por hífen, máx 80 chars.\n"
+    "Exemplo: título 'Como funciona o self-checkout' → slug 'como-funciona-o-self-checkout'\n\n"
+    "Retorne APENAS este JSON válido (sem nenhum texto fora do JSON):\n"
     "{\n"
-    '  "title": "",\n'
-    '  "slug": "",\n'
-    '  "excerpt": "",\n'
-    '  "content": "",\n'
+    '  "title": "Título do artigo aqui",\n'
+    '  "slug": "slug-do-artigo-aqui",\n'
+    '  "excerpt": "Resumo de 1-2 frases aqui",\n'
+    '  "content": "Conteúdo completo do artigo aqui em markdown",\n'
     f'  "category": "{category}",\n'
     '  "author": "Seu Market",\n'
     f'  "date": "{today}",\n'
@@ -135,29 +134,34 @@ user_msg = (
     "}"
 )
 
+# Modelos ordenados por confiabilidade (mais estáveis primeiro)
 MODELS = [
-    "nvidia/nemotron-3-super-120b-a12b:free",
-    "google/gemma-4-31b-it:free",
-    "nvidia/nemotron-3-nano-30b-a3b:free",
     "mistralai/mistral-small-3.2-24b-instruct:free",
+    "google/gemma-3-27b-it:free",
+    "meta-llama/llama-3.3-70b-instruct:free",
+    "deepseek/deepseek-r1-0528-qwen3-8b:free",
+    "nvidia/nemotron-3-super-120b-a12b:free",
 ]
 
 
 def extrair_json(text):
     text = text.strip()
+    # 1. Direto
     try:
         return json.loads(text)
     except Exception:
         pass
+    # 2. Remove blocos ```json
     cleaned = re.sub(r"^```(?:json)?\s*", "", text, flags=re.IGNORECASE)
     cleaned = re.sub(r"\s*```$", "", cleaned).strip()
     try:
         return json.loads(cleaned)
     except Exception:
         pass
+    # 3. Extrai {...} por profundidade
     start = text.find("{")
     if start == -1:
-        raise ValueError("Nenhum { encontrado na resposta do modelo.")
+        raise ValueError("Nenhum { encontrado")
     depth, in_string, escape_next, end = 0, False, False, -1
     for i, ch in enumerate(text[start:], start):
         if escape_next:
@@ -179,20 +183,20 @@ def extrair_json(text):
                 end = i + 1
                 break
     if end == -1:
-        raise ValueError("JSON incompleto.")
+        raise ValueError("JSON incompleto: } de fechamento não encontrado")
     candidate = text[start:end]
     try:
         return json.loads(candidate)
     except json.JSONDecodeError as e:
-        raise ValueError(f"JSON extraído mas inválido: {e}\nTrecho:\n{candidate[:400]}")
+        raise ValueError(f"JSON inválido: {e}\nTrecho:\n{candidate[:400]}")
 
 
-# ── Chamada à API ─────────────────────────────────────────────────────────────
+# ── Chamada à API com log detalhado ──────────────────────────────────
 response_data = None
 content = ""
 
 for model in MODELS:
-    print(f"Tentando modelo: {model}")
+    print(f"\n[{model}] Tentando...")
     payload = json.dumps({
         "model": model,
         "messages": [
@@ -213,56 +217,83 @@ for model in MODELS:
         }
     )
     try:
-        with urllib.request.urlopen(req) as resp:
+        with urllib.request.urlopen(req, timeout=90) as resp:
             data = json.loads(resp.read())
-            msg = data.get("choices", [{}])[0].get("message", {})
-            content = msg.get("content") or msg.get("reasoning") or ""
-            if not content.strip():
-                print(f"Modelo {model} retornou vazio, próximo...")
+            print(f"[{model}] Resposta recebida. Chaves: {list(data.keys())}")
+
+            choices = data.get("choices", [])
+            if not choices:
+                print(f"[{model}] Sem choices na resposta. Pulando.")
+                print(f"Resposta completa: {json.dumps(data)[:500]}")
                 continue
-            content = content.strip()
+
+            msg = choices[0].get("message", {})
+            print(f"[{model}] finish_reason: {choices[0].get('finish_reason')}")
+            print(f"[{model}] message keys: {list(msg.keys())}")
+
+            # Tenta content, depois reasoning (chain-of-thought)
+            raw = msg.get("content") or ""
+            if not raw.strip():
+                raw = msg.get("reasoning") or ""
+            if not raw.strip():
+                # Tenta pegar de refusal ou outros campos
+                raw = str(msg)
+
+            print(f"[{model}] Tamanho do conteúdo: {len(raw)} chars")
+            if len(raw.strip()) < 50:
+                print(f"[{model}] Conteúdo muito curto, pulando. Raw: {repr(raw[:200])}")
+                continue
+
+            content = raw.strip()
             response_data = data
-            print(f"Sucesso com {model} ({len(content)} chars)")
+            print(f"[{model}] Sucesso! {len(content)} chars")
             break
+
     except urllib.error.HTTPError as e:
-        print(f"Modelo {model} falhou: {e.code} - {e.read().decode()[:200]}")
-        continue
+        body = e.read().decode()[:300]
+        print(f"[{model}] HTTPError {e.code}: {body}")
+    except urllib.error.URLError as e:
+        print(f"[{model}] URLError: {e.reason}")
+    except Exception as e:
+        print(f"[{model}] Erro inesperado: {type(e).__name__}: {e}")
 
 if not response_data or not content:
-    print("Todos os modelos falharam.")
+    print("\nTodos os modelos falharam. Abortando.")
     sys.exit(1)
 
-# ── Extração robusta do JSON ──────────────────────────────────────────────────
+# ── Extrai JSON ───────────────────────────────────────────────────────────────
+print(f"\nConteudo bruto (primeiros 300 chars):\n{content[:300]}")
 try:
     post = extrair_json(content)
 except ValueError as e:
     print(f"Erro ao extrair JSON: {e}")
-    print(f"Conteúdo bruto (primeiros 800 chars):\n{content[:800]}")
+    print(f"Conteúdo bruto completo:\n{content[:2000]}")
+    sys.exit(1)
+
+# Valida campos obrigatórios
+if not post.get("title") or not post.get("content"):
+    print(f"ERRO: Post sem título ou conteúdo! title={repr(post.get('title'))}, content_len={len(post.get('content',''))}")
+    print(f"Post completo: {json.dumps(post, ensure_ascii=False)[:500]}")
     sys.exit(1)
 
 # ── Slug baseado no título ────────────────────────────────────────────────────
 raw_title = post.get("title", "")
-if raw_title:
-    slug = title_to_slug(raw_title)
-    # Garante unicidade com sufixo de data se necessário
-    base_slug = slug
-    counter = 1
-    while os.path.exists(f"public/blog-posts/{slug}.json"):
-        slug = f"{base_slug}-{counter}"
-        counter += 1
-else:
-    slug = f"post-{now.strftime('%Y-%m-%d-%H%M')}"
+slug = title_to_slug(raw_title) if raw_title else f"post-{now.strftime('%Y-%m-%d-%H%M')}"
+base_slug = slug
+counter = 1
+while os.path.exists(f"public/blog-posts/{slug}.json"):
+    slug = f"{base_slug}-{counter}"
+    counter += 1
 
 post["slug"] = slug
 post["id"] = slug
 
-# ── Imagem Pollinations alta qualidade ───────────────────────────────────────
+# ── Imagem Pollinations (modelo flux, alta resolução, sem parâmetros inválidos) ────
+seed = abs(hash(slug)) % 999999
 encoded_prompt = urllib.parse.quote(image_prompt)
-# width=1280, height=640 (aspect ratio 2:1, banner ideal), enhance=true para qualidade
 post["coverImage"] = (
     f"https://image.pollinations.ai/prompt/{encoded_prompt}"
-    f"?width=1280&height=640&model=flux&enhance=true&nologo=true"
-    f"&seed={abs(hash(slug)) % 99999}"
+    f"?width=1440&height=720&model=flux&nologo=true&seed={seed}"
 )
 
 # ── Pós-processamento ─────────────────────────────────────────────────────────
@@ -273,13 +304,14 @@ post.setdefault("tags", tags)
 post.setdefault("featured", False)
 post.setdefault("date", today)
 
-# ── Salvar JSON ───────────────────────────────────────────────────────────────
+# ── Salvar ────────────────────────────────────────────────────────────────────
 os.makedirs("public/blog-posts", exist_ok=True)
 filepath = f"public/blog-posts/{slug}.json"
 with open(filepath, "w", encoding="utf-8") as f:
     json.dump(post, f, ensure_ascii=False, indent=2)
 
-print(f"Post salvo: {filepath}")
-print(f"Título: {post.get('title', 'sem título')}")
-print(f"Slug: {slug}")
-print(f"Imagem: {post['coverImage']}")
+print(f"\n✔ Post salvo: {filepath}")
+print(f"✔ Título: {post['title']}")
+print(f"✔ Slug: {slug}")
+print(f"✔ Palavras: {len(post['content'].split())}")
+print(f"✔ Imagem: {post['coverImage']}")
