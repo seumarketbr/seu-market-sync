@@ -2,9 +2,9 @@ name: Gerar Post do Blog
 
 on:
   schedule:
-    - cron: '0 11 * * *'   # 08:00 BRT — manhã (operacional)
-    - cron: '0 17 * * *'   # 14:00 BRT — tarde (síndico)
-    - cron: '0 23 * * *'   # 20:00 BRT — noite (tecnologia)
+    - cron: '0 11 * * *' # 08:00 BRT — manhã (operacional)
+    - cron: '0 17 * * *' # 14:00 BRT — tarde (síndico)
+    - cron: '0 23 * * *' # 20:00 BRT — noite (tecnologia)
   workflow_dispatch:
     inputs:
       motivo:

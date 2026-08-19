@@ -35,6 +35,7 @@ IMAGE_PROMPTS = {
     "valorizacao": "minimalist modern blog banner, upward growth arrow above a residential building silhouette, clean green palette, professional real estate aesthetic, no text",
     "sustentabilidade": "minimalist modern blog banner, green leaf icon integrated with building silhouette, eco-friendly tones, professional aesthetic, no text",
 }
+
 DEFAULT_IMAGE_PROMPT = "minimalist modern blog banner, convenience store shelf inside a residential building, clean neutral tones, professional retail aesthetic, no text"
 
 TOPICOS_OPERACIONAL = [
@@ -85,9 +86,9 @@ tags_map = {
     "valorizacao": ["valorização", "imóvel", "amenities"],
     "sustentabilidade": ["sustentabilidade", "consumo local", "proximidade"],
 }
+
 tags = tags_map.get(image_key, ["mercado autônomo", "condomínio"])
 
-# ── CRÍTICO: instruir o modelo a retornar JSON puro ──────────────────────────
 system_msg = (
     "Você é o redator do blog do Seu Market, empresa de minimercados autônomos 24h em condomínios brasileiros. "
     "Escreve artigos informativos, úteis e com tom humano — sem soar como IA. "
@@ -113,10 +114,10 @@ user_msg = (
     "Retorne APENAS este JSON (comece com { e termine com }, sem nenhum texto adicional):\n"
     "{\n"
     f'  "id": "{slug}",\n'
-    '  "title": "<título atraente em português>",\n'
+    '  "title": "",\n'
     f'  "slug": "{slug}",\n'
-    '  "excerpt": "<resumo com até 200 caracteres>",\n'
-    '  "content": "<artigo em Markdown, \\n para quebras, mínimo 1200 palavras, sem bullet, sem ###>",\n'
+    '  "excerpt": "",\n'
+    '  "content": "",\n'
     f'  "category": "{category}",\n'
     '  "author": "Seu Market",\n'
     f'  "date": "{today}",\n'
@@ -139,13 +140,11 @@ def extrair_json(text):
     """Extrai JSON válido mesmo quando o modelo adiciona texto ao redor."""
     text = text.strip()
 
-    # 1. Tenta direto
     try:
         return json.loads(text)
     except Exception:
         pass
 
-    # 2. Remove blocos ```json...``` ou ```...```
     cleaned = re.sub(r"^```(?:json)?\s*", "", text, flags=re.IGNORECASE)
     cleaned = re.sub(r"\s*```$", "", cleaned).strip()
     try:
@@ -153,7 +152,6 @@ def extrair_json(text):
     except Exception:
         pass
 
-    # 3. Localiza o bloco { ... } respeitando aninhamento e strings
     start = text.find("{")
     if start == -1:
         raise ValueError("Nenhum { encontrado na resposta do modelo.")
@@ -223,15 +221,15 @@ for model in MODELS:
     try:
         with urllib.request.urlopen(req) as resp:
             data = json.loads(resp.read())
-        msg = data.get("choices", [{}])[0].get("message", {})
-        content = msg.get("content") or msg.get("reasoning") or ""
-        if not content.strip():
-            print(f"Modelo {model} retornou vazio, próximo...")
-            continue
-        content = content.strip()
-        response_data = data
-        print(f"Sucesso com {model} ({len(content)} chars)")
-        break
+            msg = data.get("choices", [{}])[0].get("message", {})
+            content = msg.get("content") or msg.get("reasoning") or ""
+            if not content.strip():
+                print(f"Modelo {model} retornou vazio, próximo...")
+                continue
+            content = content.strip()
+            response_data = data
+            print(f"Sucesso com {model} ({len(content)} chars)")
+            break
     except urllib.error.HTTPError as e:
         print(f"Modelo {model} falhou: {e.code} - {e.read().decode()[:200]}")
         continue
