@@ -139,14 +139,18 @@ user_msg = (
     "}"
 )
 
-# Modelos free ativos e verificados em agosto/2026
-# finish_reason="length" indica JSON truncado: aumentar max_tokens ou trocar modelo
+# Modelos free confirmados ativos em agosto/2026
+# Fonte: openrouter.ai/collections/free-models + openrouter.ai/discover
+# O openrouter/free é o router oficial da OpenRouter que seleciona automaticamente
+# um modelo free disponível no momento da chamada (fallback mais robusto).
 MODELS = [
-    "nvidia/nemotron-3-super-120b-a12b:free",   # funcionando, mas truncava com 4500
-    "deepseek/deepseek-r1-0528:free",            # deepseek r1 completo
-    "deepseek/deepseek-chat-v3-0324:free",       # deepseek v3 estável
-    "qwen/qwen3-235b-a22b:free",                 # qwen3 grande
-    "microsoft/mai-ds-r1:free",                  # mai ds r1
+    "nvidia/nemotron-3-ultra-550b-a55b:free",    # #1 mais usado, ctx 1M
+    "nvidia/nemotron-3-super-120b-a12b:free",    # #4 mais usado, ctx 262K
+    "google/gemma-4-27b-it:free",                # gemma 4 free
+    "google/gemma-4-31b-it:free",                # gemma 4 31b free
+    "nvidia/nemotron-3-nano-30b-a3b:free",       # nano 30b free
+    "inclusionai/ling-3.0-flash:free",           # #2 mais rapido
+    "openrouter/free",                           # fallback: router oficial free da OpenRouter
 ]
 
 
@@ -207,7 +211,7 @@ for model in MODELS:
             {"role": "user", "content": user_msg}
         ],
         "temperature": 0.7,
-        "max_tokens": 8000  # aumentado para evitar truncamento do JSON
+        "max_tokens": 8000
     }).encode()
     req = urllib.request.Request(
         "https://openrouter.ai/api/v1/chat/completions",
@@ -266,7 +270,7 @@ if not post.get("title") or not post.get("content"):
     print(f"ERRO: Post sem titulo ou conteudo! title={repr(post.get('title'))}, content_len={len(post.get('content',''))}")
     sys.exit(1)
 
-# Remove qualquer link externo que o modelo tenha inserido
+# Remove qualquer link externo inserido pelo modelo
 post["content"] = re.sub(
     r'\[([^\]]+)\]\((?!https://seumarketbr\.com\.br)[^)]+\)',
     r'\1',
