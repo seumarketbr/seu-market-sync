@@ -1,4 +1,4 @@
-import os, json, urllib.request, urllib.error, urllib.parse, sys, random
+import os, json, urllib.request, urllib.error, urllib.parse, sys, random, re
 from datetime import datetime, timezone
 
 now = datetime.now(timezone.utc)
@@ -87,6 +87,7 @@ tags_map = {
 }
 tags = tags_map.get(image_key, ["mercado autônomo", "condomínio"])
 
+# ── CRÍTICO: instruir o modelo a retornar JSON puro ──────────────────────────
 system_msg = (
     "Você é o redator do blog do Seu Market, empresa de minimercados autônomos 24h em condomínios brasileiros. "
     "Escreve artigos informativos, úteis e com tom humano — sem soar como IA. "
@@ -97,7 +98,9 @@ system_msg = (
     "4. Tom natural, direto. Sem 'Além disso', 'Outrossim', 'Em conclusão'.\n"
     "5. NUNCA invente estatísticas ou fatos não fornecidos.\n"
     "6. Escreva 100% em português do Brasil.\n"
-    "Retorne APENAS um objeto JSON puro, sem blocos de código Markdown."
+    "CRÍTICO: Retorne APENAS o objeto JSON puro, sem nenhum texto antes ou depois, "
+    "sem blocos de código Markdown, sem ``` de nenhum tipo. "
+    "A resposta deve começar EXATAMENTE com { e terminar EXATAMENTE com }. Nada mais."
 )
 
 user_msg = (
@@ -107,7 +110,7 @@ user_msg = (
     "Use ## para títulos de seção e **negrito** para ênfase. "
     "Sem bullet points, sem traços, sem ###. Apenas parágrafos corridos. "
     "Links no formato [texto](url). Ao citar o Seu Market, linke para [seumarket.com.br](https://seumarket.com.br).\n\n"
-    "Retorne APENAS este JSON:\n"
+    "Retorne APENAS este JSON (comece com { e termine com }, sem nenhum texto adicional):\n"
     "{\n"
     f'  "id": "{slug}",\n'
     '  "title": "<título atraente em português>",\n'
@@ -131,6 +134,66 @@ MODELS = [
     "mistralai/mistral-small-3.2-24b-instruct:free",
 ]
 
+
+def extrair_json(text):
+    """Extrai JSON válido mesmo quando o modelo adiciona texto ao redor."""
+    text = text.strip()
+
+    # 1. Tenta direto
+    try:
+        return json.loads(text)
+    except Exception:
+        pass
+
+    # 2. Remove blocos ```json...``` ou ```...```
+    cleaned = re.sub(r"^```(?:json)?\s*", "", text, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s*```$", "", cleaned).strip()
+    try:
+        return json.loads(cleaned)
+    except Exception:
+        pass
+
+    # 3. Localiza o bloco { ... } respeitando aninhamento e strings
+    start = text.find("{")
+    if start == -1:
+        raise ValueError("Nenhum { encontrado na resposta do modelo.")
+
+    depth = 0
+    in_string = False
+    escape_next = False
+    end = -1
+
+    for i, ch in enumerate(text[start:], start):
+        if escape_next:
+            escape_next = False
+            continue
+        if ch == "\\" and in_string:
+            escape_next = True
+            continue
+        if ch == '"':
+            in_string = not in_string
+            continue
+        if in_string:
+            continue
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                end = i + 1
+                break
+
+    if end == -1:
+        raise ValueError("JSON incompleto: } de fechamento não encontrado.")
+
+    candidate = text[start:end]
+    try:
+        return json.loads(candidate)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"JSON extraído mas inválido: {e}\nTrecho:\n{candidate[:400]}")
+
+
+# ── Chamada à API ─────────────────────────────────────────────────────────────
 response_data = None
 content = ""
 
@@ -160,7 +223,7 @@ for model in MODELS:
     try:
         with urllib.request.urlopen(req) as resp:
             data = json.loads(resp.read())
-        msg = data.get("choices", [{}])[0].get("message", {})
+        msg = data.get("choices", [{}]).get("message", {})
         content = msg.get("content") or msg.get("reasoning") or ""
         if not content.strip():
             print(f"Modelo {model} retornou vazio, próximo...")
@@ -177,19 +240,15 @@ if not response_data or not content:
     print("Todos os modelos falharam.")
     sys.exit(1)
 
-if content.startswith("```"):
-    content = "\n".join(content.split("\n")[1:-1]).strip()
-if not content.startswith("{"):
-    start, end = content.find("{"), content.rfind("}") + 1
-    if start != -1 and end > start:
-        content = content[start:end]
-
+# ── Extração robusta do JSON ──────────────────────────────────────────────────
 try:
-    post = json.loads(content)
-except json.JSONDecodeError as e:
-    print(f"Erro JSON: {e}\nConteúdo: {content[:500]}")
+    post = extrair_json(content)
+except ValueError as e:
+    print(f"Erro ao extrair JSON: {e}")
+    print(f"Conteúdo bruto (primeiros 800 chars):\n{content[:800]}")
     sys.exit(1)
 
+# ── Pós-processamento ─────────────────────────────────────────────────────────
 post["readingTime"] = max(1, round(len(post.get("content", "").split()) / 200))
 post["author"] = "Seu Market"
 post["category"] = category
