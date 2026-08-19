@@ -223,7 +223,7 @@ for model in MODELS:
     try:
         with urllib.request.urlopen(req) as resp:
             data = json.loads(resp.read())
-        msg = data.get("choices", [{}]).get("message", {})
+        msg = data.get("choices", [{}])[0].get("message", {})
         content = msg.get("content") or msg.get("reasoning") or ""
         if not content.strip():
             print(f"Modelo {model} retornou vazio, próximo...")
