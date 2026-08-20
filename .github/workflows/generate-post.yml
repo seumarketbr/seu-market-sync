@@ -32,6 +32,7 @@ jobs:
       - name: Gerar post com IA
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python .github/scripts/generate_post.py
 
       - name: Atualizar manifest

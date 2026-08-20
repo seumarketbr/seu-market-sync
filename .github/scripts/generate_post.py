@@ -5,6 +5,7 @@ now = datetime.now(timezone.utc)
 today = now.strftime("%Y-%m-%d")
 hour = now.hour
 api_key = os.environ["OPENROUTER_API_KEY"]
+pexels_key = os.environ.get("PEXELS_API_KEY", "")
 
 SEU_MARKET_FACTS = """
 Empresa brasileira: minimercados autônomos 24h em condomínios residenciais e comerciais.
@@ -24,19 +25,20 @@ NÃO usar traços ou hífens para separar ideias no meio de frases. Use vírgula
 NÃO inserir links para sites externos. O único link permitido é https://seumarketbr.com.br
 """
 
-IMAGE_PROMPTS = {
-    "mercado_autonomo": "ultra realistic photo, modern self-service mini market inside a luxury apartment building lobby, bright LED lighting, clean shelves with food and drinks, self-checkout kiosk touchscreen, marble floor, no people, no text, professional interior photography, 4k",
-    "sindico": "ultra realistic photo, modern condominium meeting room with glass walls overlooking a residential building, professional manager at desk reviewing documents, clean corporate interior, no text, 4k architectural photography",
-    "tecnologia": "ultra realistic photo, futuristic digital access control panel on wall of modern building corridor, glowing blue interface, security camera visible, sleek dark surfaces, no text, 4k tech photography",
-    "seguranca": "ultra realistic photo, modern security surveillance room with multiple monitor screens showing building corridors, clean dark ambient lighting, professional equipment, no text, 4k photography",
-    "espaco": "ultra realistic photo, small modern convenience store fitting perfectly inside a residential building common area, organized shelves, warm lighting, clean floors, no people, no text, 4k interior photography",
-    "conveniencia": "ultra realistic photo, close up of organized mini market shelves with packaged snacks drinks personal care items, bright clean lighting, no people, no text, 4k product photography",
-    "implantacao": "ultra realistic photo, construction workers installing modern retail shelving system inside a building lobby, clean professional environment, tools and equipment visible, no text, 4k photography",
-    "gestao": "ultra realistic photo, property manager using tablet showing analytics dashboard inside a modern condominium office, clean minimalist interior, no text, 4k photography",
-    "valorizacao": "ultra realistic photo, luxury residential building exterior at golden hour with modern lobby visible, premium architecture, lush landscaping, no text, 4k real estate photography",
-    "sustentabilidade": "ultra realistic photo, eco-friendly modern building with green wall and solar panels, sustainable architecture, clear blue sky, no text, 4k architectural photography",
+# Queries Pexels por categoria de imagem
+PEXELS_QUERIES = {
+    "mercado_autonomo": "self service mini market convenience store interior",
+    "sindico": "condominium building manager meeting professional",
+    "tecnologia": "digital payment kiosk touchscreen technology",
+    "seguranca": "security camera surveillance building modern",
+    "espaco": "convenience store shelves interior organized",
+    "conveniencia": "grocery store shelves food drinks products",
+    "implantacao": "retail store installation shelving modern",
+    "gestao": "property management building modern office",
+    "valorizacao": "luxury residential building exterior architecture",
+    "sustentabilidade": "sustainable modern building green architecture",
 }
-DEFAULT_IMAGE_PROMPT = "ultra realistic photo, modern mini market inside residential building lobby, organized shelves, bright clean lighting, self-checkout kiosk, no people, no text, 4k interior photography"
+DEFAULT_PEXELS_QUERY = "modern convenience store interior clean"
 
 TOPICOS_OPERACIONAL = [
     ("mercado_autonomo", "Como funciona um minimercado autônomo 24h instalado dentro de um condomínio residencial: como o morador acessa, faz o pagamento self-checkout, como funciona a reposição e qual a diferença para um mercado comum."),
@@ -62,7 +64,6 @@ TOPICOS_TECNOLOGIA = [
 
 pool = TOPICOS_OPERACIONAL if hour < 12 else (TOPICOS_SINDICO if hour < 19 else TOPICOS_TECNOLOGIA)
 image_key, topic = random.choice(pool)
-image_prompt = IMAGE_PROMPTS.get(image_key, DEFAULT_IMAGE_PROMPT)
 
 if pool == TOPICOS_OPERACIONAL:
     category = random.choice(["Como funciona", "Guias"])
@@ -95,8 +96,33 @@ def title_to_slug(title: str) -> str:
     return title[:80]
 
 
+def buscar_imagem_pexels(query: str, fallback_query: str = DEFAULT_PEXELS_QUERY) -> str:
+    """Busca uma foto no Pexels e retorna a URL landscape. Retorna string vazia se falhar."""
+    if not pexels_key:
+        print("  [Pexels] PEXELS_API_KEY nao definida, pulando.")
+        return ""
+    for q in [query, fallback_query]:
+        try:
+            encoded = urllib.parse.quote(q)
+            url = f"https://api.pexels.com/v1/search?query={encoded}&per_page=15&orientation=landscape"
+            req = urllib.request.Request(url, headers={"Authorization": pexels_key})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read())
+                photos = data.get("photos", [])
+                if photos:
+                    # Pega foto aleatoria entre as 15 para variar
+                    photo = random.choice(photos)
+                    img_url = photo.get("src", {}).get("large2x") or photo.get("src", {}).get("large") or ""
+                    if img_url:
+                        print(f"  [Pexels] Imagem encontrada para '{q}': {img_url[:80]}...")
+                        return img_url
+        except Exception as e:
+            print(f"  [Pexels] Erro na query '{q}': {e}")
+    return ""
+
+
 def chamar_api(messages, max_tokens=4000):
-    """Tenta cada modelo em ordem. Retorna (texto, model_id) ou lança sys.exit(1)."""
+    """Tenta cada modelo em ordem. Retorna (texto, model_id) ou (None, None)."""
     MODELS = [
         "google/gemma-4-31b-it:free",
         "nvidia/nemotron-3-super-120b-a12b:free",
@@ -150,9 +176,20 @@ def chamar_api(messages, max_tokens=4000):
     return None, None
 
 
-# ── ETAPA 1: Gerar o corpo do artigo (só markdown, sem JSON) ──────────────
+# ── ETAPA 1: Buscar imagem no Pexels ────────────────────────────────────
 print("=" * 60)
-print("ETAPA 1: Gerando corpo do artigo...")
+print("ETAPA 1: Buscando imagem no Pexels...")
+pexels_query = PEXELS_QUERIES.get(image_key, DEFAULT_PEXELS_QUERY)
+cover_image = buscar_imagem_pexels(pexels_query)
+if cover_image:
+    print(f"Imagem Pexels OK")
+else:
+    print("Pexels nao retornou imagem, post ficara sem capa.")
+
+
+# ── ETAPA 2: Gerar o corpo do artigo ───────────────────────────────────
+print("\n" + "=" * 60)
+print("ETAPA 2: Gerando corpo do artigo...")
 print(f"Tema: {topic}")
 print("=" * 60)
 
@@ -184,16 +221,16 @@ content, model_usado = chamar_api([
 ], max_tokens=4000)
 
 if not content:
-    print("ETAPA 1 falhou: todos os modelos truncaram ou falharam.")
+    print("ETAPA 2 falhou: todos os modelos truncaram ou falharam.")
     sys.exit(1)
 
 word_count = len(content.split())
-print(f"\nEtapa 1 concluída: {word_count} palavras com [{model_usado}]")
+print(f"\nEtapa 2 concluída: {word_count} palavras com [{model_usado}]")
 
 
-# ── ETAPA 2: Gerar título e excerpt (resposta curta, ~100 tokens) ─────────
+# ── ETAPA 3: Gerar título e excerpt ────────────────────────────────────
 print("\n" + "=" * 60)
-print("ETAPA 2: Gerando titulo e excerpt...")
+print("ETAPA 3: Gerando titulo e excerpt...")
 print("=" * 60)
 
 system_meta = "Você extrai metadados de artigos. Responda SOMENTE com JSON válido, sem nenhum texto fora."
@@ -217,7 +254,6 @@ if meta_raw:
         title = meta.get("title", "").strip()
         excerpt = meta.get("excerpt", "").strip()
     except Exception:
-        # tenta extrair do JSON embutido
         m = re.search(r'"title"\s*:\s*"([^"]+)"', meta_raw)
         if m:
             title = m.group(1).strip()
@@ -225,7 +261,6 @@ if meta_raw:
         if m:
             excerpt = m.group(1).strip()
 
-# Fallback: primeira linha não vazia como titulo
 if not title:
     for line in content.splitlines():
         line = line.strip().lstrip("#").strip()
@@ -245,8 +280,7 @@ print(f"Titulo: {title}")
 print(f"Excerpt: {excerpt[:80]}...")
 
 
-# ── ETAPA 3: Montar o post localmente ──────────────────────────────────
-# Remove links externos do content
+# ── ETAPA 4: Montar e salvar o post ────────────────────────────────────
 content = re.sub(
     r'\[([^\]]+)\]\((?!https://seumarketbr\.com\.br)[^)]+\)',
     r'\1',
@@ -259,13 +293,6 @@ counter = 1
 while os.path.exists(f"public/blog-posts/{slug}.json"):
     slug = f"{base_slug}-{counter}"
     counter += 1
-
-seed = abs(hash(slug)) % 999999
-encoded_prompt = urllib.parse.quote(image_prompt)
-cover_image = (
-    f"https://image.pollinations.ai/prompt/{encoded_prompt}"
-    f"?width=1440&height=720&model=flux&nologo=true&seed={seed}"
-)
 
 reading_time = max(1, round(len(content.split()) / 200))
 
@@ -294,4 +321,4 @@ print(f"[OK] Titulo: {title}")
 print(f"[OK] Slug: {slug}")
 print(f"[OK] Palavras: {len(content.split())}")
 print(f"[OK] Leitura: {reading_time} min")
-print(f"[OK] Imagem: {cover_image}")
+print(f"[OK] Imagem: {cover_image[:80] if cover_image else 'sem imagem'}")
