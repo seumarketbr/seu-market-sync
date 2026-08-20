@@ -10,21 +10,52 @@ import {
 
 import appCss from "../styles.css?url";
 
+const SITE_URL = "https://www.seumarketbr.com.br";
+const OG_IMAGE = `${SITE_URL}/og-image.jpg`;
+
+const jsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Seu Market Br",
+  description:
+    "Minimercados autônomos 24h para condomínios em Belém-PA. Implantação sem custo, tecnologia, segurança e praticidade.",
+  url: SITE_URL,
+  telephone: "+5591988622073",
+  email: "seumarketbr@gmail.com",
+  image: OG_IMAGE,
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Belém",
+    addressRegion: "PA",
+    addressCountry: "BR",
+  },
+  sameAs: [
+    "https://www.instagram.com/seumarket.br/",
+    "https://www.facebook.com/profile.php?id=61589238586713",
+    "https://www.tiktok.com/@seumarketbr",
+    "https://www.linkedin.com/in/seumarketbr",
+    "https://www.pinterest.com/seumarketbr/",
+    "https://www.youtube.com/@seumarketbr",
+  ],
+  openingHours: "Mo-Su 00:00-24:00",
+  priceRange: "$$",
+});
+
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
         <h1 className="text-7xl font-bold text-foreground">404</h1>
-        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>
+        <h2 className="mt-4 text-xl font-semibold text-foreground">Página não encontrada</h2>
         <p className="mt-2 text-sm text-muted-foreground">
-          The page you're looking for doesn't exist or has been moved.
+          A página que você está procurando não existe ou foi movida.
         </p>
         <div className="mt-6">
           <Link
             to="/"
             className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
           >
-            Go home
+            Voltar ao início
           </Link>
         </div>
       </div>
@@ -40,10 +71,10 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
         <h1 className="text-xl font-semibold tracking-tight text-foreground">
-          This page didn't load
+          Esta página não carregou
         </h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          Something went wrong on our end. You can try refreshing or head back home.
+          Algo deu errado. Tente atualizar a página ou voltar ao início.
         </p>
         <div className="mt-6 flex flex-wrap justify-center gap-2">
           <button
@@ -53,13 +84,13 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
             }}
             className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
           >
-            Try again
+            Tentar novamente
           </button>
           <a
             href="/"
             className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"
           >
-            Go home
+            Voltar ao início
           </a>
         </div>
       </div>
@@ -72,28 +103,64 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "robots", content: "index, follow" },
       { title: "Seu Market Br — O seu mercado, no seu condomínio" },
-      { name: "description", content: "Mini mercados autônomos 24h para condomínios. Soluções inteligentes que se adaptam ao espaço disponível." },
+      {
+        name: "description",
+        content:
+          "Minimercados autônomos 24h para condomínios em Belém-PA. Implantação sem custo, tecnologia, segurança e praticidade. Valorize seu condomínio.",
+      },
+      {
+        name: "keywords",
+        content:
+          "minimercado autônomo, condomínio, Belém, Pará, mercado 24h, sem funcionário, implantação grátis, Seu Market Br",
+      },
       { name: "author", content: "Seu Market Br" },
-      { property: "og:title", content: "Seu Market Br — O seu mercado, no seu condomínio" },
-      { property: "og:description", content: "Mini mercados autônomos 24h para condomínios. Soluções inteligentes que se adaptam ao espaço disponível." },
+      // Open Graph
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { property: "og:locale", content: "pt_BR" },
+      { property: "og:site_name", content: "Seu Market Br" },
+      { property: "og:url", content: SITE_URL },
+      { property: "og:title", content: "Seu Market Br — O seu mercado, no seu condomínio" },
+      {
+        property: "og:description",
+        content:
+          "Minimercados autônomos 24h para condomínios em Belém-PA. Implantação sem custo, tecnologia, segurança e praticidade.",
+      },
+      { property: "og:image", content: OG_IMAGE },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { property: "og:image:alt", content: "Seu Market Br — Minimercado autônomo para condomínios" },
+      // Twitter
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@seumarketbr" },
       { name: "twitter:title", content: "Seu Market Br — O seu mercado, no seu condomínio" },
-      { name: "twitter:description", content: "Mini mercados autônomos 24h para condomínios. Soluções inteligentes que se adaptam ao espaço disponível." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6292ab89-b8a9-4006-aca2-9d4107df647c/id-preview-d355ebda--419148ef-a574-4e9a-9643-c25d08d87d6c.lovable.app-1779152946182.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6292ab89-b8a9-4006-aca2-9d4107df647c/id-preview-d355ebda--419148ef-a574-4e9a-9643-c25d08d87d6c.lovable.app-1779152946182.png" },
+      {
+        name: "twitter:description",
+        content:
+          "Minimercados autônomos 24h para condomínios. Zero investimento. Zero preocupação. 100% vantagem.",
+      },
+      { name: "twitter:image", content: OG_IMAGE },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
+      { rel: "canonical", href: SITE_URL },
       { rel: "icon", type: "image/png", href: "/favicon.png" },
       { rel: "apple-touch-icon", href: "/favicon.png" },
+      // Preconnect para fontes (não bloqueia render)
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      // DNS prefetch como fallback
+      { rel: "dns-prefetch", href: "https://fonts.googleapis.com" },
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap",
+      },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: jsonLd,
       },
     ],
   }),
@@ -105,7 +172,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <HeadContent />
       </head>
