@@ -18,9 +18,9 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Atualizar imagens com Pexels
+      - name: Atualizar imagens com Unsplash
         env:
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: python .github/scripts/update_cover_images.py
 
       - name: Commit e push
@@ -28,7 +28,7 @@ jobs:
           git config user.name "Seu Market Bot"
           git config user.email "blog-bot@seumarketbr.com.br"
           git add public/blog-posts/
-          git diff --cached --quiet || git commit -m "fix: atualiza coverImage dos posts existentes com Pexels"
+          git diff --cached --quiet || git commit -m "fix: atualiza coverImage dos posts existentes com Unsplash"
           git push
 
       - name: Resultado

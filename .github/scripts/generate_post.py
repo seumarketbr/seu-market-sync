@@ -5,7 +5,7 @@ now = datetime.now(timezone.utc)
 today = now.strftime("%Y-%m-%d")
 hour = now.hour
 api_key = os.environ["OPENROUTER_API_KEY"]
-pexels_key = os.environ.get("PEXELS_API_KEY", "")
+unsplash_key = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
 SEU_MARKET_FACTS = """
 Empresa brasileira: minimercados autônomos 24h em condomínios residenciais e comerciais.
@@ -25,10 +25,9 @@ NÃO usar traços ou hífens para separar ideias no meio de frases. Use vírgula
 NÃO inserir links para sites externos. O único link permitido é https://seumarketbr.com.br
 """
 
-# Queries Pexels por categoria de imagem
-PEXELS_QUERIES = {
+UNSPLASH_QUERIES = {
     "mercado_autonomo": "self service mini market convenience store interior",
-    "sindico": "condominium building manager meeting professional",
+    "sindico": "condominium building manager professional",
     "tecnologia": "digital payment kiosk touchscreen technology",
     "seguranca": "security camera surveillance building modern",
     "espaco": "convenience store shelves interior organized",
@@ -38,7 +37,7 @@ PEXELS_QUERIES = {
     "valorizacao": "luxury residential building exterior architecture",
     "sustentabilidade": "sustainable modern building green architecture",
 }
-DEFAULT_PEXELS_QUERY = "modern convenience store interior clean"
+DEFAULT_UNSPLASH_QUERY = "modern convenience store interior clean"
 
 TOPICOS_OPERACIONAL = [
     ("mercado_autonomo", "Como funciona um minimercado autônomo 24h instalado dentro de um condomínio residencial: como o morador acessa, faz o pagamento self-checkout, como funciona a reposição e qual a diferença para um mercado comum."),
@@ -96,33 +95,37 @@ def title_to_slug(title: str) -> str:
     return title[:80]
 
 
-def buscar_imagem_pexels(query: str, fallback_query: str = DEFAULT_PEXELS_QUERY) -> str:
-    """Busca uma foto no Pexels e retorna a URL landscape. Retorna string vazia se falhar."""
-    if not pexels_key:
-        print("  [Pexels] PEXELS_API_KEY nao definida, pulando.")
+def buscar_imagem_unsplash(query: str, fallback: str = DEFAULT_UNSPLASH_QUERY) -> str:
+    if not unsplash_key:
+        print("  [Unsplash] UNSPLASH_ACCESS_KEY nao definida, pulando.")
         return ""
-    for q in [query, fallback_query]:
+    for q in [query, fallback]:
         try:
             encoded = urllib.parse.quote(q)
-            url = f"https://api.pexels.com/v1/search?query={encoded}&per_page=15&orientation=landscape"
-            req = urllib.request.Request(url, headers={"Authorization": pexels_key})
+            url = f"https://api.unsplash.com/search/photos?query={encoded}&per_page=15&orientation=landscape&content_filter=high"
+            req = urllib.request.Request(url, headers={
+                "Authorization": f"Client-ID {unsplash_key}",
+                "Accept-Version": "v1"
+            })
             with urllib.request.urlopen(req, timeout=15) as resp:
                 data = json.loads(resp.read())
-                photos = data.get("photos", [])
-                if photos:
-                    # Pega foto aleatoria entre as 15 para variar
-                    photo = random.choice(photos)
-                    img_url = photo.get("src", {}).get("large2x") or photo.get("src", {}).get("large") or ""
+                results = data.get("results", [])
+                if results:
+                    photo = random.choice(results)
+                    img_url = (
+                        photo.get("urls", {}).get("full")
+                        or photo.get("urls", {}).get("regular")
+                        or ""
+                    )
                     if img_url:
-                        print(f"  [Pexels] Imagem encontrada para '{q}': {img_url[:80]}...")
+                        print(f"  [Unsplash] Imagem encontrada para '{q}': {img_url[:80]}...")
                         return img_url
         except Exception as e:
-            print(f"  [Pexels] Erro na query '{q}': {e}")
+            print(f"  [Unsplash] Erro na query '{q}': {e}")
     return ""
 
 
 def chamar_api(messages, max_tokens=4000):
-    """Tenta cada modelo em ordem. Retorna (texto, model_id) ou (None, None)."""
     MODELS = [
         "google/gemma-4-31b-it:free",
         "nvidia/nemotron-3-super-120b-a12b:free",
@@ -176,18 +179,16 @@ def chamar_api(messages, max_tokens=4000):
     return None, None
 
 
-# ── ETAPA 1: Buscar imagem no Pexels ────────────────────────────────────
 print("=" * 60)
-print("ETAPA 1: Buscando imagem no Pexels...")
-pexels_query = PEXELS_QUERIES.get(image_key, DEFAULT_PEXELS_QUERY)
-cover_image = buscar_imagem_pexels(pexels_query)
+print("ETAPA 1: Buscando imagem no Unsplash...")
+unsplash_query = UNSPLASH_QUERIES.get(image_key, DEFAULT_UNSPLASH_QUERY)
+cover_image = buscar_imagem_unsplash(unsplash_query)
 if cover_image:
-    print(f"Imagem Pexels OK")
+    print(f"Imagem Unsplash OK")
 else:
-    print("Pexels nao retornou imagem, post ficara sem capa.")
+    print("Unsplash nao retornou imagem, post ficara sem capa.")
 
 
-# ── ETAPA 2: Gerar o corpo do artigo ───────────────────────────────────
 print("\n" + "=" * 60)
 print("ETAPA 2: Gerando corpo do artigo...")
 print(f"Tema: {topic}")
@@ -228,7 +229,6 @@ word_count = len(content.split())
 print(f"\nEtapa 2 concluída: {word_count} palavras com [{model_usado}]")
 
 
-# ── ETAPA 3: Gerar título e excerpt ────────────────────────────────────
 print("\n" + "=" * 60)
 print("ETAPA 3: Gerando titulo e excerpt...")
 print("=" * 60)
@@ -280,7 +280,6 @@ print(f"Titulo: {title}")
 print(f"Excerpt: {excerpt[:80]}...")
 
 
-# ── ETAPA 4: Montar e salvar o post ────────────────────────────────────
 content = re.sub(
     r'\[([^\]]+)\]\((?!https://seumarketbr\.com\.br)[^)]+\)',
     r'\1',
