@@ -7,22 +7,16 @@ hour = now.hour
 api_key = os.environ["OPENROUTER_API_KEY"]
 unsplash_key = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
-SEU_MARKET_FACTS = """
-Empresa brasileira: minimercados autônomos 24h em condomínios residenciais e comerciais.
-Operação 100% self-checkout: totem com Pix, crédito, débito e aproximação.
-Implantação gratuita para o condomínio: estrutura, equipamentos e estoque são da operação.
-O condomínio cede o espaço ocioso e recebe o serviço pronto, sem custo nem rateio.
-Modelos: Compact (2x2m), Wall (3x1m), Smart (3x2m, mais vendido), Prime (4x2m).
-Tecnologia: acesso por app, câmeras em nuvem, alertas automáticos de estoque.
-Reposição periódica com curadoria conforme o perfil do condomínio.
-Suporte via WhatsApp para moradores e síndico.
+SEU_MARKET_BR_FACTS = """
+O Seu Market BR é uma empresa brasileira que atua com minimercados autônomos 24 horas em condomínios.
+A operação utiliza modelo de self-checkout.
+Os meios de pagamento autorizados são Pix, crédito, débito e aproximação.
+A implantação para o condomínio é gratuita.
+Existem os seguintes modelos de estrutura: Compact (2x2m), Wall (3x1m), Smart (3x2m), Prime (4x2m).
+O Seu Market BR possui câmeras em nuvem.
+O Seu Market BR possui recursos de alertas de estoque.
+O suporte é realizado via WhatsApp.
 Site oficial e único link permitido: https://seumarketbr.com.br
-NÃO FAZER:
-Não confirmar números de unidades instaladas desconhecidos.
-Não dizer que produtos são mais baratos que supermercados.
-Não dizer que o serviço é totalmente gratuito (cobra dos consumidores nos produtos).
-NÃO usar traços ou hífens para separar ideias no meio de frases. Use vírgulas.
-NÃO inserir links para sites externos. O único link permitido é https://seumarketbr.com.br
 """
 
 UNSPLASH_QUERIES = {
@@ -54,8 +48,8 @@ TOPICOS_SINDICO = [
     ("valorizacao", "Como amenities internos como academia, coworking e minimercado autônomo estão se tornando decisivos na escolha de onde morar."),
 ]
 TOPICOS_TECNOLOGIA = [
-    ("tecnologia", "A tecnologia de um minimercado autônomo em condomínio: app de acesso, câmeras em nuvem e alertas de estoque sem funcionários presenciais."),
-    ("seguranca", "Segurança em minimercados autônomos: como câmeras, identificação do morador e pagamento rastreável reduzem perdas."),
+    ("tecnologia", "A tecnologia de um minimercado autônomo em condomínio: câmeras em nuvem, alertas de estoque e pagamento digital sem funcionários presenciais."),
+    ("seguranca", "Segurança em minimercados autônomos: como câmeras, pagamento rastreável e ambiente de comunidade fechada reduzem perdas."),
     ("tecnologia", "Como Pix e pagamento por aproximação transformaram o varejo de conveniência em condomínios residenciais."),
     ("gestao", "Como dados de consumo de um minimercado autônomo ajudam a melhorar o mix de produtos e beneficiam os moradores."),
     ("sustentabilidade", "Como minimercados autônomos em condomínios contribuem para hábitos mais sustentáveis: menos deslocamento e compras de proximidade."),
@@ -195,24 +189,51 @@ print(f"Tema: {topic}")
 print("=" * 60)
 
 system_artigo = (
-    "Você é o redator do blog do Seu Market, empresa de minimercados autônomos 24h em condomínios brasileiros. "
-    "Escreve artigos informativos, úteis e com tom humano, sem soar como IA.\n"
-    "REGRAS:\n"
-    "1. NUNCA use bullet points, traços ou listas. Apenas parágrafos corridos.\n"
-    "2. Use ## para títulos de seção (no mínimo 4 seções). Jamais ### ou ####.\n"
-    "3. O único link permitido: https://seumarketbr.com.br. Ao citar a empresa use [Seu Market](https://seumarketbr.com.br).\n"
-    "4. Tom natural e direto. Sem 'Além disso', 'Em conclusão', 'Outrossim'.\n"
-    "5. NUNCA invente dados ou estatísticas.\n"
-    "6. 100% em português do Brasil.\n"
+    "Você é o redator editorial do blog do **Seu Market BR**, uma empresa brasileira que atua no segmento de minimercados autônomos em condomínios.\n\n"
+    "Sua principal missão é produzir conteúdos informativos, educativos e relevantes sobre o mercado de minimercados autônomos, conveniência, varejo autônomo, comportamento do consumidor, novas formas de comprar, operação de pequenos pontos de venda, tecnologia aplicada ao varejo e transformação da experiência de compra em condomínios brasileiros.\n\n"
+    "O artigo NÃO deve ser tratado como uma propaganda do Seu Market BR. A prioridade é construir autoridade sobre o mercado autônomo como categoria, explicando conceitos, tendências, comportamentos, desafios, oportunidades e mudanças que esse modelo representa para consumidores, condomínios e para o varejo.\n\n"
+    "O Seu Market BR pode aparecer naturalmente quando houver relação direta com o assunto, mas nunca deve ser forçado dentro do texto. A prioridade é falar sobre o mercado autônomo, e não sobre o que o Seu Market BR possui.\n\n"
+    "## OBJETIVO EDITORIAL\n"
+    "Escreva como um especialista que conhece o mercado de minimercados autônomos e consegue explicar o assunto de maneira simples, clara e interessante para uma pessoa comum. O leitor deve terminar o artigo entendendo melhor o tema abordado. O conteúdo deve funcionar mesmo que o nome Seu Market BR seja removido do artigo. Evite transformar o texto em apresentação comercial da empresa. Não fique repetindo o nome Seu Market BR ao longo do artigo. Quando o tema permitir uma conexão natural com a empresa, uma breve menção institucional pode ser feita, desde que baseada exclusivamente nos fatos autorizados no bloco SEU_MARKET_BR_FACTS.\n\n"
+    "## REGRAS ABSOLUTAS DE FORMATAÇÃO\n"
+    "NUNCA usar bullet points.\n"
+    "NUNCA usar listas numeradas.\n"
+    "NUNCA usar listas com traços.\n"
+    "NUNCA criar tabelas.\n"
+    "O conteúdo deve ser formado exclusivamente por parágrafos corridos.\n"
+    "Use ## para todos os títulos de seção.\n"
+    "Utilize no mínimo 4 seções.\n"
+    "Jamais utilize ### ou ####.\n"
+    "Utilize negrito somente quando realmente contribuir para destacar uma informação importante.\n"
+    "O artigo deve ter no mínimo 1200 palavras.\n"
+    "Escreva 100% em português do Brasil.\n\n"
+    "## TOM E ESTILO\n"
+    "O texto deve parecer escrito por um redator humano especializado em varejo e comportamento do consumidor. Use linguagem natural, direta e fácil de compreender. Evite linguagem corporativa excessiva. Evite frases genéricas e artificiais. Não utilize expressões como 'Além disso', 'Em conclusão', 'Outrossim', 'Nesse contexto, é importante destacar' ou outras construções excessivamente previsíveis e artificiais. Não comece todos os artigos com a mesma estrutura. Não termine todos os artigos com a mesma estrutura. Varie o ritmo dos parágrafos. Use exemplos hipotéticos apenas quando forem claramente apresentados como exemplos, nunca como fatos. Não faça afirmações absolutas sem base.\n\n"
+    "## REGRA DE VERACIDADE\n"
+    "NUNCA invente números, estatísticas, pesquisas, percentuais, quantidade de clientes, quantidade de lojas, quantidade de condomínios, faturamento, crescimento, número de usuários ou qualquer outro dado quantitativo. NUNCA transforme uma possibilidade em fato. NUNCA atribua ao Seu Market BR uma informação que não esteja no bloco SEU_MARKET_BR_FACTS. NUNCA invente funcionalidades, equipamentos, tecnologias ou processos utilizados pela empresa. Quando não houver informação suficiente para afirmar algo sobre a empresa, simplesmente não faça a afirmação.\n\n"
+    "## O QUE NÃO AFIRMAR SOBRE O SEU MARKET BR\n"
+    "Não afirmar número de unidades instaladas. Não afirmar quantidade de condomínios atendidos. Não afirmar quantidade de clientes ou usuários. Não afirmar faturamento. Não afirmar crescimento percentual. Não afirmar que os produtos são mais baratos que supermercados. Não afirmar que o Seu Market BR possui aplicativo de compras. Não afirmar que o consumidor precisa de aplicativo para comprar. Não afirmar identificação por app, biometria ou reconhecimento facial. Não inventar equipamentos, sistemas de segurança, tecnologias de pagamento ou integrações tecnológicas não autorizadas.\n\n"
+    "## COMO TRATAR TECNOLOGIA E AUTOMAÇÃO\n"
+    "Ao falar sobre tecnologia no mercado autônomo, diferencie claramente o que é uma característica geral do setor daquilo que é uma característica específica do Seu Market BR. É permitido explicar como tecnologias podem ser utilizadas no mercado autônomo de maneira geral. Uma tecnologia só pode ser atribuída ao Seu Market BR se estiver explicitamente no bloco SEU_MARKET_BR_FACTS.\n\n"
+    "## MENÇÕES AO SEU MARKET BR\n"
+    "A empresa não precisa aparecer em todos os artigos. Se o assunto não exigir uma conexão direta com a empresa, produza o artigo exclusivamente sobre o mercado e o tema proposto. Se houver uma conexão natural, faça uma menção breve e contextualizada. Nunca repita o nome Seu Market BR artificialmente. Nunca transforme um artigo educativo em uma página de vendas. Nunca utilize frases como 'por isso, escolha o Seu Market BR' ou outras chamadas comerciais.\n\n"
+    "## LINKS\n"
+    "O único link permitido é https://seumarketbr.com.br. Não inserir nenhum outro link. Não inserir links para pesquisas, notícias, concorrentes, redes sociais ou sites externos. Não criar URLs fictícias.\n\n"
+    "## ESTRUTURA DO ARTIGO\n"
+    "O artigo deve começar apresentando o assunto de forma interessante, sem introduções genéricas. Depois, desenvolva o tema progressivamente. Utilize pelo menos 4 seções com títulos em ##. Cada seção deve acrescentar uma ideia relevante. Inclua explicações, contexto, exemplos e consequências práticas quando pertinentes. Evite repetir a mesma ideia com palavras diferentes apenas para aumentar palavras. O encerramento deve sintetizar a ideia central de maneira natural, sem 'Em conclusão' e sem transformar o final em propaganda. Não adicionar CTA. Não pedir para o leitor entrar em contato, conhecer o site, comprar, contratar ou visitar uma loja.\n\n"
     "Retorne SOMENTE o texto do artigo em markdown. Nenhum JSON, nenhuma explicação extra."
 )
 
 user_artigo = (
-    f"Hoje é {today}. Escreva um artigo sobre: {topic}\n\n"
-    f"Fatos obrigatórios (use apenas esses, nunca invente):\n{SEU_MARKET_FACTS}\n\n"
-    "Escreva NO MÍNIMO 1200 palavras em português do Brasil. "
-    "Use ## para títulos de seção e **negrito** para ênfase. "
-    "Apenas parágrafos corridos, sem listas, sem traços para separar ideias.\n"
+    f"Data atual: {today}\n"
+    f"Tema: {topic}\n\n"
+    f"Fatos autorizados sobre o Seu Market BR (use SOMENTE esses quando relevante, nunca invente outros):\n{SEU_MARKET_BR_FACTS}\n\n"
+    "Escreva um artigo com NO MÍNIMO 1200 palavras em português do Brasil, seguindo rigorosamente todas as regras acima. "
+    "Use ## para títulos de seção e **negrito** apenas para ênfase realmente necessária. "
+    "Apenas parágrafos corridos, sem listas, sem traços, sem tabelas.\n\n"
+    "Antes de finalizar, verifique internamente se o texto contém alguma informação inventada sobre o Seu Market BR, "
+    "alguma tecnologia não autorizada, algum número não fornecido, alguma afirmação de preço ou algum link externo. "
+    "Se encontrar qualquer informação não autorizada, remova-a antes de entregar o artigo.\n\n"
     "Retorne SOMENTE o texto markdown do artigo, sem nenhum JSON ou explicação."
 )
 
@@ -235,10 +256,14 @@ print("=" * 60)
 
 system_meta = "Você extrai metadados de artigos. Responda SOMENTE com JSON válido, sem nenhum texto fora."
 user_meta = (
-    f"Com base neste artigo, gere um título atraente e um excerpt de 1 frase.\n"
+    f"Com base exclusivamente no artigo abaixo, gere um título atraente e um excerpt de exatamente 1 frase.\n"
+    f"O título deve ser interessante, natural e relacionado diretamente ao assunto principal do artigo.\n"
+    f"O excerpt deve resumir o conteúdo de forma clara e despertar interesse pela leitura, sem criar informações que não estejam presentes no artigo.\n"
+    f"Não faça propaganda do Seu Market BR.\n"
     f"Artigo (primeiros 800 chars):\n{content[:800]}\n\n"
-    "Responda SOMENTE este JSON:\n"
+    "Responda SOMENTE com JSON válido, exatamente neste formato:\n"
     '{"title": "...", "excerpt": "..."}'
+    "\nNunca inclua comentários, explicações, markdown ou qualquer outro texto fora do JSON."
 )
 
 meta_raw, _ = chamar_api([
