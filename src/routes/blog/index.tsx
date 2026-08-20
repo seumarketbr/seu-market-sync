@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { fetchAllPosts, formatDate, type BlogPost } from "@/lib/blog";
 import { Navbar } from "@/components/Navbar";
+import { SiteFooter } from "@/components/SiteFooter";
 import { ArrowRight, Clock, Tag, BookOpen } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -149,6 +150,7 @@ function BlogIndex() {
           )}
         </div>
       </div>
+      <SiteFooter />
     </div>
   );
 }

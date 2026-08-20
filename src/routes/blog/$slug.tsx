@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { fetchPostBySlug, formatDate, type BlogPost } from "@/lib/blog";
 import { Navbar } from "@/components/Navbar";
+import { SiteFooter } from "@/components/SiteFooter";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { ArrowLeft, Clock, Tag, Calendar } from "lucide-react";
 
@@ -75,6 +76,7 @@ function BlogPostPage() {
             <ArrowLeft className="size-4" /> Ver todos os artigos
           </Link>
         </div>
+        <SiteFooter />
       </div>
     );
   }
@@ -163,6 +165,7 @@ function BlogPostPage() {
           </Link>
         </div>
       </div>
+      <SiteFooter />
     </div>
   );
 }
