@@ -7,7 +7,6 @@ const BASE_URL = WEBSITE_URL.replace(/\/$/, "");
 
 interface SitemapEntry {
   path: string;
-  lastmod?: string;
   changefreq?: "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never";
   priority?: string;
 }
@@ -38,7 +37,6 @@ export const Route = createFileRoute("/sitemap.xml")({
           ...dynamicEntries,
           ...BLOG_POSTS.map((p) => ({
             path: `/blog/${p.slug}`,
-            lastmod: p.date,
             changefreq: "monthly" as const,
             priority: "0.7",
           })),
@@ -48,7 +46,6 @@ export const Route = createFileRoute("/sitemap.xml")({
           [
             `  <url>`,
             `    <loc>${BASE_URL}${e.path}</loc>`,
-            e.lastmod ? `    <lastmod>${e.lastmod}</lastmod>` : null,
             e.changefreq ? `    <changefreq>${e.changefreq}</changefreq>` : null,
             e.priority ? `    <priority>${e.priority}</priority>` : null,
             `  </url>`,
