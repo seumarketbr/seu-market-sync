@@ -1,0 +1,49 @@
+name: Reescrever Posts com Novo Prompt
+
+on:
+  workflow_dispatch:
+    inputs:
+      motivo:
+        description: 'Motivo da reescrita (opcional)'
+        required: false
+        default: 'Atualizar posts com novo prompt editorial'
+
+jobs:
+  reescrever-posts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Reescrever todos os posts dinamicos
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python .github/scripts/rewrite_posts.py
+
+      - name: Atualizar manifest
+        run: python .github/scripts/generate_manifest.py
+
+      - name: Atualizar sitemap
+        run: python .github/scripts/update_sitemap.py
+
+      - name: Commit e push
+        run: |
+          git config user.name "Seu Market Bot"
+          git config user.email "blog-bot@seumarketbr.com.br"
+          git add public/blog-posts/ public/sitemap.xml
+          git diff --cached --quiet || git commit -m "blog: reescrita dos posts com novo prompt editorial $(date +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Resultado
+        if: success()
+        run: echo "Reescrita concluida. Cloudflare detectara o push e fara o deploy automatico."
