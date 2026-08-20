@@ -327,7 +327,7 @@ post = {
     "excerpt": excerpt,
     "content": content,
     "category": category,
-    "author": "Seu Market",
+    "author": "Seu Market BR",
     "date": today,
     "readingTime": reading_time,
     "featured": False,
