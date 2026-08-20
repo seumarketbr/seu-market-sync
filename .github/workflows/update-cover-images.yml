@@ -1,0 +1,36 @@
+name: Atualizar Imagens dos Posts
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-images:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Atualizar imagens com Pexels
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python .github/scripts/update_cover_images.py
+
+      - name: Commit e push
+        run: |
+          git config user.name "Seu Market Bot"
+          git config user.email "blog-bot@seumarketbr.com.br"
+          git add public/blog-posts/
+          git diff --cached --quiet || git commit -m "fix: atualiza coverImage dos posts existentes com Pexels"
+          git push
+
+      - name: Resultado
+        if: success()
+        run: echo "Imagens atualizadas com sucesso!"
