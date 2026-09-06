@@ -1,0 +1,26 @@
+name: Generate RSS Feed
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-rss:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate RSS feed
+        run: python .github/scripts/generate_rss.py
+
+      - name: Commit and push RSS changes
+        run: |
+          git config --local user.email "seumarketbr@gmail.com"
+          git config --local user.name "seumarketbr"
+          git add public/rss.xml
+          git diff --cached --quiet || git commit -m "Update RSS feed with all posts [skip ci]"
+          git push
