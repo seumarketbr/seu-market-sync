@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:ns0="http://search.yahoo.com/mrss/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
   <channel>
     <title>Seu Market BR - Blog</title>
     <link>https://seumarketbr.com.br</link>
     <description>Conteúdo sobre minimercado autônomo e tecnologia</description>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 06 Sep 2026 14:49:07 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 14:57:21 +0000</lastBuildDate>
     <item>
       <title>Dados de consumo e mix de produtos nos minimercados autônomos</title>
       <description>Entenda como os dados de consumo gerados por um minimercado autônomo ajudam a afinar o mix de produtos e tornam o serviço cada vez mais útil para os moradores.</description>
@@ -13,7 +13,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/dados-de-consumo-e-mix-de-produtos-nos-minimercados-autonomos</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8cmV0YWlsJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkJTIwZGF0YXxlbnwxfDB8fHwxNzg3MTg5MDYwfDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8cmV0YWlsJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkJTIwZGF0YXxlbnwxfDB8fHwxNzg3MTg5MDYwfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8cmV0YWlsJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkJTIwZGF0YXxlbnwxfDB8fHwxNzg3MTg5MDYwfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos 24h transformam a rotina de compras nos condomínios</title>
@@ -22,7 +22,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-24h-autonomos-revolucionam-o-consumo-nos-condominios</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1543071293-d91175a68672?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8c3VzdGFpbmFibGUlMjBtb2Rlcm4lMjBidWlsZGluZyUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg3MTg5MDYxfDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1543071293-d91175a68672?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8c3VzdGFpbmFibGUlMjBtb2Rlcm4lMjBidWlsZGluZyUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg3MTg5MDYxfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1543071293-d91175a68672?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8c3VzdGFpbmFibGUlMjBtb2Rlcm4lMjBidWlsZGluZyUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg3MTg5MDYxfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados Autônomos 24h: Conveniência Sem Horários</title>
@@ -31,7 +31,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-24h-a-revolucao-do-pix-e-do-pagamento-por-aproximacao-nos</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1683313101534-6c2e604771a4?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8N3x8ZGlnaXRhbCUyMHBheW1lbnQlMjB0b3VjaHNjcmVlbiUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4NzE4OTA2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1683313101534-6c2e604771a4?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8N3x8ZGlnaXRhbCUyMHBheW1lbnQlMjB0b3VjaHNjcmVlbiUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4NzE4OTA2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1683313101534-6c2e604771a4?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8N3x8ZGlnaXRhbCUyMHBheW1lbnQlMjB0b3VjaHNjcmVlbiUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4NzE4OTA2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como propor e aprovar um minimercado autônomo na assembleia do condomínio</title>
@@ -40,7 +40,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/2026-08-19-17</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzE4OTA2MXww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzE4OTA2MXww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzE4OTA2MXww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>A forma como as pessoas pagam por pequenas compras do dia a dia mudou mais nos últimos cinco anos do</title>
@@ -49,7 +49,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-forma-como-as-pessoas-pagam-por-pequenas-compras-do-dia-a-dia-mudou-mais-nos-u</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1647427017067-8f33ccbae493?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3MjY3ODUwfDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1647427017067-8f33ccbae493?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3MjY3ODUwfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1647427017067-8f33ccbae493?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3MjY3ODUwfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercado Autônomo 24h: Como Transformar Espaços Ociosos em Receita e Conforto para o Condomínio</title>
@@ -58,7 +58,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-autonomo-24h-como-transformar-espacos-ociosos-em-receita-e-conforto-</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1778295623148-72ae64cbe917?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzI0NzQxNHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1778295623148-72ae64cbe917?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzI0NzQxNHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1778295623148-72ae64cbe917?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzI0NzQxNHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Totem de Autoatendimento: A Chave para Compras Autônomas e Sem Fila nos Minimercados</title>
@@ -67,7 +67,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/totem-de-autoatendimento-a-chave-para-compras-autonomas-e-sem-fila-nos-minimerca</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1781579239593-c76d875c55cd?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODcyMjQ3Mzh8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1781579239593-c76d875c55cd?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODcyMjQ3Mzh8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1781579239593-c76d875c55cd?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODcyMjQ3Mzh8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Introdução ao mercado de minimercados autônomos</title>
@@ -76,7 +76,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-ao-mercado-de-minimercados-autonomos</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1765741836929-af2f9e1968e8?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3MzExMDk1fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1765741836929-af2f9e1968e8?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3MzExMDk1fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1765741836929-af2f9e1968e8?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3MzExMDk1fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos e a ideia de compras de proximidade</title>
@@ -85,7 +85,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-e-a-ideia-de-compras-de-proximidade</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1535689077097-a8726b5ff822?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Mnx8c3VzdGFpbmFibGUlMjBtb2Rlcm4lMjBidWlsZGluZyUyMGdyZWVuJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODczNTQxMjN8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1535689077097-a8726b5ff822?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Mnx8c3VzdGFpbmFibGUlMjBtb2Rlcm4lMjBidWlsZGluZyUyMGdyZWVuJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODczNTQxMjN8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1535689077097-a8726b5ff822?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Mnx8c3VzdGFpbmFibGUlMjBtb2Rlcm4lMjBidWlsZGluZyUyMGdyZWVuJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODczNTQxMjN8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>A tecnologia por trás do minimercado autônomo em condomínio</title>
@@ -94,7 +94,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-tecnologia-por-tras-do-minimercado-autonomo-em-condominio</guid>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1559131397-f94da358f7ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3NDQwMzUxfDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1559131397-f94da358f7ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3NDQwMzUxfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1559131397-f94da358f7ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3NDQwMzUxfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Introdução ao minimercado autônomo e as dúvidas dos síndicos</title>
@@ -103,7 +103,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-ao-minimercado-autonomo-e-as-duvidas-dos-sindicos</guid>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1778295623148-72ae64cbe917?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzMzMzc2Nnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1778295623148-72ae64cbe917?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzMzMzc2Nnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1778295623148-72ae64cbe917?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzMzMzc2Nnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Quando se pensa em um minimercado autônomo dentro de um condomínio, a primeira categoria que vem à mente</title>
@@ -112,7 +112,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/quando-se-pensa-em-um-minimercado-autonomo-dentro-de-um-condominio-a-primeira-categoria</guid>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1670684684445-a4504dca0bbc?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3Mzk3MTc4fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1670684684445-a4504dca0bbc?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3Mzk3MTc4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1670684684445-a4504dca0bbc?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3Mzk3MTc4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como aprovar a instalação de um minimercado autônomo em seu condomínio</title>
@@ -121,7 +121,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-aprovar-a-instalacao-de-um-minimercado-autonomo-em-seu-condominio</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1784456794764-910ad9d48a60?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGNvbmRvbWluaXVtJTIwYnVpbGRpbmclMjBtYW5hZ2VyJTIwcHJvZmVzc2lvbmFsfGVufDF8MHx8fDE3ODc1MDU5ODl8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1784456794764-910ad9d48a60?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGNvbmRvbWluaXVtJTIwYnVpbGRpbmclMjBtYW5hZ2VyJTIwcHJvZmVzc2lvbmFsfGVufDF8MHx8fDE3ODc1MDU5ODl8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1784456794764-910ad9d48a60?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGNvbmRvbWluaXVtJTIwYnVpbGRpbmclMjBtYW5hZ2VyJTIwcHJvZmVzc2lvbmFsfGVufDF8MHx8fDE3ODc1MDU5ODl8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Introdução: o papel dos dados nos minimercados autônomos</title>
@@ -130,7 +130,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-papel-dos-dados-nos-minimercados-autonomos</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1497366811353-6870744d04b2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4NzUyNjc4OHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1497366811353-6870744d04b2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4NzUyNjc4OHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1497366811353-6870744d04b2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4NzUyNjc4OHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Mix de Produtos em Minimercados Autônomos: Estratégias para Atrair Moradores 24h</title>
@@ -139,7 +139,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/mix-de-produtos-em-minimercados-autonomos-estrategias-para-atrair-moradores-24h</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1584680226833-0d680d0a0794?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3NDgzNjE3fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1584680226833-0d680d0a0794?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3NDgzNjE3fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1584680226833-0d680d0a0794?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3NDgzNjE3fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como os dados de consumo nascem em um minimercado autônomo</title>
@@ -148,7 +148,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-dados-de-consumo-nascem-em-um-minimercado-autonomo</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1497366811353-6870744d04b2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4NzYxMzMzNnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1497366811353-6870744d04b2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4NzYxMzMzNnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1497366811353-6870744d04b2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4NzYxMzMzNnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Os condomínios residenciais têm buscado maneiras de oferecer mais comodidade aos moradores sem onera</title>
@@ -157,7 +157,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-condominios-residenciais-tem-buscado-maneiras-de-oferecer-mais-comodidade-aos</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1766270596305-d0cfb9efaa52?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTN8fGx1eHVyeSUyMHJlc2lkZW50aWFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg3NTkzMDMyfDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1766270596305-d0cfb9efaa52?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTN8fGx1eHVyeSUyMHJlc2lkZW50aWFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg3NTkzMDMyfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1766270596305-d0cfb9efaa52?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTN8fGx1eHVyeSUyMHJlc2lkZW50aWFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg3NTkzMDMyfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Visão geral dos modelos de minimercados autônomos</title>
@@ -166,7 +166,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/visao-geral-dos-modelos-de-minimercados-autonomos</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1779721064963-f6d01f20f27e?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGNvbnZlbmllbmNlJTIwc3RvcmUlMjBzaGVsdmVzJTIwaW50ZXJpb3IlMjBvcmdhbml6ZWR8ZW58MXwwfHx8MTc4NzU3MDM2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1779721064963-f6d01f20f27e?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGNvbnZlbmllbmNlJTIwc3RvcmUlMjBzaGVsdmVzJTIwaW50ZXJpb3IlMjBvcmdhbml6ZWR8ZW58MXwwfHx8MTc4NzU3MDM2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1779721064963-f6d01f20f27e?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGNvbnZlbmllbmNlJTIwc3RvcmUlMjBzaGVsdmVzJTIwaW50ZXJpb3IlMjBvcmdhbml6ZWR8ZW58MXwwfHx8MTc4NzU3MDM2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Condomínios modernos: ecossistemas de conforto com desafios para síndicos e administradoras</title>
@@ -175,7 +175,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/condominios-modernos-ecossistemas-de-conforto-com-desafios-para-sindicos-e-admin</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1560264280-88b68371db39?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODc2Nzk0Njl8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1560264280-88b68371db39?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODc2Nzk0Njl8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1560264280-88b68371db39?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODc2Nzk0Njl8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Mix de produtos em minimercados autônomos: como acertar na escolha</title>
@@ -184,7 +184,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/mix-de-produtos-em-minimercados-autonomos-como-acertar-na-escolha</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1584680226833-0d680d0a0794?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3NjU2NzQ4fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1584680226833-0d680d0a0794?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3NjU2NzQ4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1584680226833-0d680d0a0794?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3NjU2NzQ4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Segurança em minimercados autônomos: como câmeras, pagamento rastreável e ambiente de comunidade fec</title>
@@ -193,7 +193,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1764524335053-34cf8a8a3406?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4NzY5OTg4MXww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1764524335053-34cf8a8a3406?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4NzY5OTg4MXww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1764524335053-34cf8a8a3406?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4NzY5OTg4MXww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos transformam a rotina dos condomínios</title>
@@ -202,7 +202,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-dos-condominios</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1688126921116-9019dc755cd6?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3NzcxNTE4fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1688126921116-9019dc755cd6?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3NzcxNTE4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1688126921116-9019dc755cd6?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3NzcxNTE4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>O surgimento dos minimercados autônomos nos condomínios brasileiros</title>
@@ -211,7 +211,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-surgimento-dos-minimercados-autonomos-nos-condominios-brasileiros</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1759774289306-36f0cdb59bc1?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3NzQzMjYyfDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1759774289306-36f0cdb59bc1?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3NzQzMjYyfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1759774289306-36f0cdb59bc1?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3NzQzMjYyfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos transformam a conveniência nos condomínios</title>
@@ -220,7 +220,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1765100213678-5cb8dfb91e41?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGNvbnZlbmllbmNlJTIwc3RvcmUlMjBzaGVsdmVzJTIwaW50ZXJpb3IlMjBvcmdhbml6ZWR8ZW58MXwwfHx8MTc4NzgwMzc2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1765100213678-5cb8dfb91e41?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGNvbnZlbmllbmNlJTIwc3RvcmUlMjBzaGVsdmVzJTIwaW50ZXJpb3IlMjBvcmdhbml6ZWR8ZW58MXwwfHx8MTc4NzgwMzc2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1765100213678-5cb8dfb91e41?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGNvbnZlbmllbmNlJTIwc3RvcmUlMjBzaGVsdmVzJTIwaW50ZXJpb3IlMjBvcmdhbml6ZWR8ZW58MXwwfHx8MTc4NzgwMzc2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Segurança em minimercados autônomos: como câmeras, pagamento rastreável e ambiente de comunidade fec</title>
@@ -229,7 +229,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente-1</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1653039923048-aa285ded90ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4Nzg2MzkwNnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1653039923048-aa285ded90ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4Nzg2MzkwNnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1653039923048-aa285ded90ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4Nzg2MzkwNnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como o morador acessa o minimercado autônomo</title>
@@ -238,7 +238,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1780538778860-7aaa9a0ee84b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODc4ODAyNzR8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1780538778860-7aaa9a0ee84b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODc4ODAyNzR8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1780538778860-7aaa9a0ee84b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODc4ODAyNzR8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercado 24h Autônomo: Conveniência nos Condomínios</title>
@@ -247,7 +247,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-24h-autonomo-conveniencia-nos-condominios</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1779598991832-d39ca09e67df?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fHNlbGYlMjBzZXJ2aWNlJTIwbWluaSUyMG1hcmtldCUyMGNvbnZlbmllbmNlJTIwc3RvcmUlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzg3ODgwMjc0fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1779598991832-d39ca09e67df?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fHNlbGYlMjBzZXJ2aWNlJTIwbWluaSUyMG1hcmtldCUyMGNvbnZlbmllbmNlJTIwc3RvcmUlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzg3ODgwMjc0fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1779598991832-d39ca09e67df?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fHNlbGYlMjBzZXJ2aWNlJTIwbWluaSUyMG1hcmtldCUyMGNvbnZlbmllbmNlJTIwc3RvcmUlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzg3ODgwMjc0fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Os minimercados autônomos têm ganhado espaço nos condomínios brasileiros como uma forma de oferecer </title>
@@ -256,7 +256,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-ganhado-espaco-nos-condominios-brasileiros-como-um</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1461685265823-f8d5d0b08b9b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8c2VjdXJpdHklMjBjYW1lcmElMjBzdXJ2ZWlsbGFuY2UlMjBidWlsZGluZyUyMG1vZGVybnxlbnwxfDB8fHwxNzg3OTUxODM2fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1461685265823-f8d5d0b08b9b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8c2VjdXJpdHklMjBjYW1lcmElMjBzdXJ2ZWlsbGFuY2UlMjBidWlsZGluZyUyMG1vZGVybnxlbnwxfDB8fHwxNzg3OTUxODM2fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1461685265823-f8d5d0b08b9b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8c2VjdXJpdHklMjBjYW1lcmElMjBzdXJ2ZWlsbGFuY2UlMjBidWlsZGluZyUyMG1vZGVybnxlbnwxfDB8fHwxNzg3OTUxODM2fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como aprovar um minimercado autônomo no condomínio sem dor de cabeça</title>
@@ -265,7 +265,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-aprovar-um-minimercado-autonomo-no-condominio-sem-dor-de-cabeca</guid>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1776477073595-1c95dc0f07d1?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8N3x8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODAxNzAwMnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1776477073595-1c95dc0f07d1?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8N3x8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODAxNzAwMnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1776477073595-1c95dc0f07d1?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8N3x8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODAxNzAwMnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como montar o mix ideal de produtos para minimercados autônomos em condomínios</title>
@@ -274,7 +274,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-montar-o-mix-ideal-de-produtos-para-minimercados-autonomos-em-condominios</guid>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1607977027972-e2aae2b5b1e0?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3OTc1ODg3fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1607977027972-e2aae2b5b1e0?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3OTc1ODg3fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1607977027972-e2aae2b5b1e0?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3OTc1ODg3fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos transformam a conveniência nos condomínios</title>
@@ -283,7 +283,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-1</guid>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1781579239593-c76d875c55cd?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3OTY0OTY3fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1781579239593-c76d875c55cd?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3OTY0OTY3fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1781579239593-c76d875c55cd?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3OTY0OTY3fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos transformam condomínios em hubs de dados de consumo</title>
@@ -292,7 +292,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-condominios-em-hubs-de-dados-de-consumo</guid>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1646153114001-495dfb56506d?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODAzMjM0NHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1646153114001-495dfb56506d?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODAzMjM0NHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1646153114001-495dfb56506d?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODAzMjM0NHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como os dados dos minimercados autônomos transformam o mix de produtos nos condomínios</title>
@@ -301,7 +301,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-dados-dos-minimercados-autonomos-transformam-o-mix-de-produtos-nos-condo</guid>
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1659384897789-392e674bde56?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgxMTg5ODh8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1659384897789-392e674bde56?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgxMTg5ODh8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1659384897789-392e674bde56?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgxMTg5ODh8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos: a revolução silenciosa dos condomínios</title>
@@ -310,7 +310,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-a-revolucao-silenciosa-dos-condominios</guid>
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1577374559080-cb697b79d8f0?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4MDUxMzA4fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1577374559080-cb697b79d8f0?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4MDUxMzA4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1577374559080-cb697b79d8f0?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4MDUxMzA4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>A nova lista de prioridades na escolha do lar</title>
@@ -319,7 +319,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-nova-lista-de-prioridades-na-escolha-do-lar</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1691272477702-0a2edae135f2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8bHV4dXJ5JTIwcmVzaWRlbnRpYWwlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODgxOTgzNzN8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1691272477702-0a2edae135f2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8bHV4dXJ5JTIwcmVzaWRlbnRpYWwlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODgxOTgzNzN8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1691272477702-0a2edae135f2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8bHV4dXJ5JTIwcmVzaWRlbnRpYWwlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODgxOTgzNzN8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>A tecnologia por trás dos minimercados autônomos em condomínios</title>
@@ -328,7 +328,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-tecnologia-por-tras-dos-minimercados-autonomos-em-condominios</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1659896974794-5c850f933210?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGRpZ2l0YWwlMjBwYXltZW50JTIwa2lvc2slMjB0b3VjaHNjcmVlbiUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4ODIxMzA4OXww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1659896974794-5c850f933210?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGRpZ2l0YWwlMjBwYXltZW50JTIwa2lvc2slMjB0b3VjaHNjcmVlbiUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4ODIxMzA4OXww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1659896974794-5c850f933210?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGRpZ2l0YWwlMjBwYXltZW50JTIwa2lvc2slMjB0b3VjaHNjcmVlbiUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4ODIxMzA4OXww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos transformam a rotina nos condomínios brasileiros</title>
@@ -337,7 +337,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-nos-condominios-brasileiros</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1766731574115-78e623815124?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4MTM4MDQ4fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1766731574115-78e623815124?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4MTM4MDQ4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1766731574115-78e623815124?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4MTM4MDQ4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como Pix e pagamento por aproximação transformaram o varejo de conveniência em condomínios residenci</title>
@@ -346,7 +346,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-pix-e-pagamento-por-aproximacao-transformaram-o-varejo-de-conveniencia-em-c</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1688126921116-9019dc755cd6?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg4MjkyMTg1fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1688126921116-9019dc755cd6?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg4MjkyMTg1fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1688126921116-9019dc755cd6?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg4MjkyMTg1fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Introdução: o papel do síndico e os desafios atuais</title>
@@ -355,7 +355,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-papel-do-sindico-e-os-desafios-atuais</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1549757521-4160565ff3de?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODI3NTk5MHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1549757521-4160565ff3de?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODI3NTk5MHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1549757521-4160565ff3de?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODI3NTk5MHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>O conceito de self‑checkout em minimercados de condomínio</title>
@@ -364,7 +364,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-conceito-de-selfcheckout-em-minimercados-de-condominio</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1779598991832-d39ca09e67df?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fHNlbGYlMjBzZXJ2aWNlJTIwbWluaSUyMG1hcmtldCUyMGNvbnZlbmllbmNlJTIwc3RvcmUlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzg4MjI2Mjg5fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1779598991832-d39ca09e67df?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fHNlbGYlMjBzZXJ2aWNlJTIwbWluaSUyMG1hcmtldCUyMGNvbnZlbmllbmNlJTIwc3RvcmUlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzg4MjI2Mjg5fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1779598991832-d39ca09e67df?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fHNlbGYlMjBzZXJ2aWNlJTIwbWluaSUyMG1hcmtldCUyMGNvbnZlbmllbmNlJTIwc3RvcmUlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzg4MjI2Mjg5fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como o morador acessa o minimercado autônomo</title>
@@ -373,7 +373,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo-1</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1761281254116-82a6bded6c30?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODgzMDk3MjJ8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1761281254116-82a6bded6c30?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODgzMDk3MjJ8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1761281254116-82a6bded6c30?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODgzMDk3MjJ8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como os dados transformam minimercados autônomos em condomínios</title>
@@ -382,7 +382,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-dados-transformam-minimercados-autonomos-em-condominios</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1549757521-4160565ff3de?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODI3NTk5MHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1549757521-4160565ff3de?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODI3NTk5MHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1549757521-4160565ff3de?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODI3NTk5MHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Os desafios do síndico na gestão contemporânea de condomínios</title>
@@ -391,7 +391,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-desafios-do-sindico-na-gestao-contemporanea-de-condominios</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1659384897789-392e674bde56?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgzNjA1OTN8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1659384897789-392e674bde56?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgzNjA1OTN8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1659384897789-392e674bde56?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgzNjA1OTN8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como as amenidades internas estão redefinindo a escolha do lar</title>
@@ -400,7 +400,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-as-amenidades-internas-estao-redefinindo-a-escolha-do-lar</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1685514823717-7e1ff6ee0563?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8bHV4dXJ5JTIwcmVzaWRlbnRpYWwlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODg0NDY5NzF8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1685514823717-7e1ff6ee0563?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8bHV4dXJ5JTIwcmVzaWRlbnRpYWwlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODg0NDY5NzF8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1685514823717-7e1ff6ee0563?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8bHV4dXJ5JTIwcmVzaWRlbnRpYWwlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODg0NDY5NzF8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como montar o mix perfeito de produtos para um minimercado autônomo no condomínio</title>
@@ -409,7 +409,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-montar-o-mix-perfeito-de-produtos-para-um-minimercado-autonomo-no-condomini</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1757801752791-8bcd63cec878?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGdyb2NlcnklMjBzdG9yZSUyMHNoZWx2ZXMlMjBmb29kJTIwZHJpbmtzJTIwcHJvZHVjdHN8ZW58MXwwfHx8MTc4ODM5Njc2MHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1757801752791-8bcd63cec878?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGdyb2NlcnklMjBzdG9yZSUyMHNoZWx2ZXMlMjBmb29kJTIwZHJpbmtzJTIwcHJvZHVjdHN8ZW58MXwwfHx8MTc4ODM5Njc2MHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1757801752791-8bcd63cec878?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGdyb2NlcnklMjBzdG9yZSUyMHNoZWx2ZXMlMjBmb29kJTIwZHJpbmtzJTIwcHJvZHVjdHN8ZW58MXwwfHx8MTc4ODM5Njc2MHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como os dados de consumo são gerados em um minimercado autônomo</title>
@@ -418,7 +418,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-dados-de-consumo-sao-gerados-em-um-minimercado-autonomo</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1666790676906-0295230c121d?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTV8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgzNjA1OTN8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1666790676906-0295230c121d?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTV8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgzNjA1OTN8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1666790676906-0295230c121d?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTV8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgzNjA1OTN8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>A psicologia da confiança e a segurança no varejo autônomo</title>
@@ -427,7 +427,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-psicologia-da-confianca-e-a-seguranca-no-varejo-autonomo</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1653039923048-aa285ded90ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4ODU0OTc4OHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1653039923048-aa285ded90ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4ODU0OTc4OHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1653039923048-aa285ded90ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4ODU0OTc4OHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Introdução: o crescimento dos minimercados autônomos em condomínios</title>
@@ -436,7 +436,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-crescimento-dos-minimercados-autonomos-em-condominios</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1771574209038-01ad953ca43a?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4NDgyMDE1fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1771574209038-01ad953ca43a?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4NDgyMDE1fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1771574209038-01ad953ca43a?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4NDgyMDE1fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados Autônomos em Condomínios: O que Síndicos Precisam Saber</title>
@@ -445,7 +445,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-o-que-sindicos-precisam-saber</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODUzMjcwOHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODUzMjcwOHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODUzMjcwOHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>A nova valorização dos critérios de escolha de moradia</title>
@@ -454,7 +454,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-nova-valorizacao-dos-criterios-de-escolha-de-moradia</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1777115470083-950377731c61?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGx1eHVyeSUyMHJlc2lkZW50aWFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg4NjM0NjA2fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1777115470083-950377731c61?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGx1eHVyeSUyMHJlc2lkZW50aWFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg4NjM0NjA2fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1777115470083-950377731c61?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGx1eHVyeSUyMHJlc2lkZW50aWFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg4NjM0NjA2fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Análise do espaço disponível no condomínio</title>
@@ -463,7 +463,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/analise-do-espaco-disponivel-no-condominio</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1781446989530-aa3c1c962d43?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8cmV0YWlsJTIwc3RvcmUlMjBpbnN0YWxsYXRpb24lMjBzaGVsdmluZyUyMG1vZGVybnxlbnwxfDB8fHwxNzg4NTY4MTc3fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1781446989530-aa3c1c962d43?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8cmV0YWlsJTIwc3RvcmUlMjBpbnN0YWxsYXRpb24lMjBzaGVsdmluZyUyMG1vZGVybnxlbnwxfDB8fHwxNzg4NTY4MTc3fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1781446989530-aa3c1c962d43?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8cmV0YWlsJTIwc3RvcmUlMjBpbnN0YWxsYXRpb24lMjBzaGVsdmluZyUyMG1vZGVybnxlbnwxfDB8fHwxNzg4NTY4MTc3fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>O que leva um síndico a considerar um minimercado autônomo</title>
@@ -472,7 +472,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-que-leva-um-sindico-a-considerar-um-minimercado-autonomo</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1767658574210-661054981453?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fGNvbmRvbWluaXVtJTIwYnVpbGRpbmclMjBtYW5hZ2VyJTIwcHJvZmVzc2lvbmFsfGVufDF8MHx8fDE3ODg2MTU0MjR8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1767658574210-661054981453?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fGNvbmRvbWluaXVtJTIwYnVpbGRpbmclMjBtYW5hZ2VyJTIwcHJvZmVzc2lvbmFsfGVufDF8MHx8fDE3ODg2MTU0MjR8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1767658574210-661054981453?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fGNvbmRvbWluaXVtJTIwYnVpbGRpbmclMjBtYW5hZ2VyJTIwcHJvZmVzc2lvbmFsfGVufDF8MHx8fDE3ODg2MTU0MjR8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Custo e investimento</title>
@@ -481,7 +481,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/custo-e-investimento</guid>
       <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODcwMjY3Mnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODcwMjY3Mnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODcwMjY3Mnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Introdução ao conceito de minimercado autônomo em condomínios</title>
@@ -490,7 +490,7 @@
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-ao-conceito-de-minimercado-autonomo-em-condominios</guid>
       <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1722639096482-4e1a805f9b0b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg4NjU0Mjg2fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
-      <ns0:content url="https://images.unsplash.com/photo-1722639096482-4e1a805f9b0b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg4NjU0Mjg2fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
+      <media:content url="https://images.unsplash.com/photo-1722639096482-4e1a805f9b0b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg4NjU0Mjg2fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
   </channel>
 </rss>

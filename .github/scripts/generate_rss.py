@@ -13,6 +13,8 @@ from xml.dom import minidom
 
 DOMAIN = "https://seumarketbr.com.br"
 BLOG_BASE = f"{DOMAIN}/blog"
+MEDIA_NAMESPACE = "http://search.yahoo.com/mrss/"
+ET.register_namespace("media", MEDIA_NAMESPACE)
 
 def parse_post(file_path: Path) -> dict | None:
     try:
@@ -77,7 +79,6 @@ def generate_rss(posts: list[dict], output_path: Path) -> None:
 
     rss = ET.Element("rss")
     rss.set("version", "2.0")
-    rss.set("xmlns:media", "http://search.yahoo.com/mrss/")
 
     channel = ET.SubElement(rss, "channel")
     ET.SubElement(channel, "title").text = "Seu Market BR - Blog"
@@ -108,7 +109,7 @@ def generate_rss(posts: list[dict], output_path: Path) -> None:
             enclosure.set("url", post["image_url"])
             enclosure.set("type", image_type)
 
-            media_content = ET.SubElement(item, "{http://search.yahoo.com/mrss/}content")
+            media_content = ET.SubElement(item, f"{{{MEDIA_NAMESPACE}}}content")
             media_content.set("url", post["image_url"])
             media_content.set("medium", "image")
 
