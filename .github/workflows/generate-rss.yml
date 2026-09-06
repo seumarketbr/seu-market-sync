@@ -2,6 +2,13 @@ name: Generate RSS Feed
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "public/blog-posts/**"
+      - ".github/scripts/generate_rss.py"
+      - ".github/workflows/generate-rss.yml"
 
 permissions:
   contents: write
