@@ -7,6 +7,7 @@ LÃª todos os posts em public/blog-posts/*.json e gera public/rss.xml.
 import json
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
@@ -29,7 +30,14 @@ def parse_post(file_path: Path) -> dict | None:
     
     link = f"{BLOG_BASE}/{slug}"
     
-    image_url = data.get("image") or data.get("imageUrl") or data.get("cover") or data.get("thumbnail") or ""
+    image_url = (
+        data.get("image")
+        or data.get("imageUrl")
+        or data.get("cover")
+        or data.get("coverImage")
+        or data.get("thumbnail")
+        or ""
+    )
     if not image_url and "images" in data and isinstance(data["images"], list) and len(data["images"]) > 0:
         image_url = data["images"][0]
     
@@ -48,6 +56,9 @@ def parse_post(file_path: Path) -> dict | None:
                 pub_date = datetime.fromisoformat(dt_str)
         except (ValueError, IndexError):
             pub_date = datetime.now(timezone.utc)
+
+    if pub_date.tzinfo is None:
+        pub_date = pub_date.replace(tzinfo=timezone.utc)
 
     return {
         "title": str(title),
@@ -84,9 +95,18 @@ def generate_rss(posts: list[dict], output_path: Path) -> None:
         ET.SubElement(item, "pubDate").text = format_rfc822(post["pub_date"])
 
         if post["image_url"]:
+            image_url_parts = urlparse(post["image_url"])
+            image_path = image_url_parts.path.lower()
+            image_query = image_url_parts.query.lower()
+            image_type = (
+                "image/jpeg"
+                if image_path.endswith((".jpg", ".jpeg")) or "fm=jpg" in image_query
+                else "image/png"
+            )
+
             enclosure = ET.SubElement(item, "enclosure")
             enclosure.set("url", post["image_url"])
-            enclosure.set("type", "image/jpeg" if post["image_url"].lower().endswith((".jpg", ".jpeg")) else "image/png")
+            enclosure.set("type", image_type)
 
             media_content = ET.SubElement(item, "{http://search.yahoo.com/mrss/}content")
             media_content.set("url", post["image_url"])

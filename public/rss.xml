@@ -1,388 +1,496 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<rss xmlns:ns0="http://search.yahoo.com/mrss/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
   <channel>
     <title>Seu Market BR - Blog</title>
     <link>https://seumarketbr.com.br</link>
     <description>Conteúdo sobre minimercado autônomo e tecnologia</description>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 06 Sep 2026 14:33:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 14:44:47 +0000</lastBuildDate>
     <item>
       <title>Dados de consumo e mix de produtos nos minimercados autônomos</title>
       <description>Entenda como os dados de consumo gerados por um minimercado autônomo ajudam a afinar o mix de produtos e tornam o serviço cada vez mais útil para os moradores.</description>
       <link>https://seumarketbr.com.br/blog/dados-de-consumo-e-mix-de-produtos-nos-minimercados-autonomos</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/dados-de-consumo-e-mix-de-produtos-nos-minimercados-autonomos</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8cmV0YWlsJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkJTIwZGF0YXxlbnwxfDB8fHwxNzg3MTg5MDYwfDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8cmV0YWlsJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkJTIwZGF0YXxlbnwxfDB8fHwxNzg3MTg5MDYwfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos 24h transformam a rotina de compras nos condomínios</title>
       <description>Esses pontos de venda sem atendimento humano oferecem conveniência imediata, permitindo que moradores comprem itens essenciais a qualquer hora sem sair do prédio.</description>
       <link>https://seumarketbr.com.br/blog/minimercados-24h-autonomos-revolucionam-o-consumo-nos-condominios</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-24h-autonomos-revolucionam-o-consumo-nos-condominios</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1543071293-d91175a68672?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8c3VzdGFpbmFibGUlMjBtb2Rlcm4lMjBidWlsZGluZyUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg3MTg5MDYxfDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1543071293-d91175a68672?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8c3VzdGFpbmFibGUlMjBtb2Rlcm4lMjBidWlsZGluZyUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg3MTg5MDYxfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados Autônomos 24h: Conveniência Sem Horários</title>
       <description>Um novo modelo de loja permite que residentes de condomínios comprem itens essenciais a qualquer hora, usando self‑checkout sem atendimento humano.</description>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-24h-a-revolucao-do-pix-e-do-pagamento-por-aproximacao-nos</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-24h-a-revolucao-do-pix-e-do-pagamento-por-aproximacao-nos</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1683313101534-6c2e604771a4?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8N3x8ZGlnaXRhbCUyMHBheW1lbnQlMjB0b3VjaHNjcmVlbiUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4NzE4OTA2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1683313101534-6c2e604771a4?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8N3x8ZGlnaXRhbCUyMHBheW1lbnQlMjB0b3VjaHNjcmVlbiUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4NzE4OTA2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como propor e aprovar um minimercado autônomo na assembleia do condomínio</title>
       <description>Guia prático para síndicos apresentar o projeto do Seu Market, superar objeções e garantir aprovação em assembleia.</description>
       <link>https://seumarketbr.com.br/blog/2026-08-19-17</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/2026-08-19-17</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzE4OTA2MXww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzE4OTA2MXww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>A forma como as pessoas pagam por pequenas compras do dia a dia mudou mais nos últimos cinco anos do</title>
       <description>A forma como as pessoas pagam por pequenas compras do dia a dia mudou mais nos últimos cinco anos do que nas três décadas anteriores. No contexto dos condomínios residenciais brasileiros, essa transfo</description>
       <link>https://seumarketbr.com.br/blog/a-forma-como-as-pessoas-pagam-por-pequenas-compras-do-dia-a-dia-mudou-mais-nos-u</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-forma-como-as-pessoas-pagam-por-pequenas-compras-do-dia-a-dia-mudou-mais-nos-u</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1647427017067-8f33ccbae493?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3MjY3ODUwfDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1647427017067-8f33ccbae493?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3MjY3ODUwfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercado Autônomo 24h: Como Transformar Espaços Ociosos em Receita e Conforto para o Condomínio</title>
       <description>Descubra como um totem de self‑checkout pode gerar renda extra, oferecer praticidade aos moradores e resolver dúvidas financeiras, de segurança e contratuais antes da implantação.</description>
       <link>https://seumarketbr.com.br/blog/minimercado-autonomo-24h-como-transformar-espacos-ociosos-em-receita-e-conforto-</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-autonomo-24h-como-transformar-espacos-ociosos-em-receita-e-conforto-</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1778295623148-72ae64cbe917?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzI0NzQxNHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1778295623148-72ae64cbe917?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzI0NzQxNHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Totem de Autoatendimento: A Chave para Compras Autônomas e Sem Fila nos Minimercados</title>
       <description>O totem de self-checkout combina pagamento digital, câmeras em nuvem e alertas de estoque para uma experiência de compra totalmente autônoma nos condomínios.</description>
       <link>https://seumarketbr.com.br/blog/totem-de-autoatendimento-a-chave-para-compras-autonomas-e-sem-fila-nos-minimerca</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/totem-de-autoatendimento-a-chave-para-compras-autonomas-e-sem-fila-nos-minimerca</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1781579239593-c76d875c55cd?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODcyMjQ3Mzh8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1781579239593-c76d875c55cd?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODcyMjQ3Mzh8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Introdução ao mercado de minimercados autônomos</title>
       <description>A busca por praticidade tem transformado a forma como os moradores de condomínios realizan suas compras, e o formato de minimercado instalado dentro de empreendimentos residenciais vem se consolidando</description>
       <link>https://seumarketbr.com.br/blog/introducao-ao-mercado-de-minimercados-autonomos</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-ao-mercado-de-minimercados-autonomos</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1765741836929-af2f9e1968e8?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3MzExMDk1fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1765741836929-af2f9e1968e8?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3MzExMDk1fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos e a ideia de compras de proximidade</title>
       <description>Os minimercados autônomos que surgem dentro de condomínios trazem uma proposta simples: disponibilizar produtos essenciais a poucos passos da residência, funcionando em regime de self‑checkout e com h</description>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-e-a-ideia-de-compras-de-proximidade</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-e-a-ideia-de-compras-de-proximidade</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1535689077097-a8726b5ff822?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Mnx8c3VzdGFpbmFibGUlMjBtb2Rlcm4lMjBidWlsZGluZyUyMGdyZWVuJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODczNTQxMjN8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1535689077097-a8726b5ff822?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Mnx8c3VzdGFpbmFibGUlMjBtb2Rlcm4lMjBidWlsZGluZyUyMGdyZWVuJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODczNTQxMjN8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>A tecnologia por trás do minimercado autônomo em condomínio</title>
       <description>Os minimercados autônomos em condomínios utilizam uma combinação de sensores, softwares e meios de pagamento para permitir que moradores comprem produtos sem atendentes, garantindo segurança e controle de estoque.</description>
       <link>https://seumarketbr.com.br/blog/a-tecnologia-por-tras-do-minimercado-autonomo-em-condominio</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-tecnologia-por-tras-do-minimercado-autonomo-em-condominio</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1559131397-f94da358f7ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3NDQwMzUxfDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1559131397-f94da358f7ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3NDQwMzUxfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Introdução ao minimercado autônomo e as dúvidas dos síndicos</title>
       <description>Nos últimos anos, a presença de pontos de venda autônomos tem se tornado uma alternativa prática para moradores de condomínios que buscam agilidade no dia a dia. A possibilidade de comprar produtos es</description>
       <link>https://seumarketbr.com.br/blog/introducao-ao-minimercado-autonomo-e-as-duvidas-dos-sindicos</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-ao-minimercado-autonomo-e-as-duvidas-dos-sindicos</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1778295623148-72ae64cbe917?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzMzMzc2Nnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1778295623148-72ae64cbe917?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4NzMzMzc2Nnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Quando se pensa em um minimercado autônomo dentro de um condomínio, a primeira categoria que vem à mente</title>
       <description>Quando se pensa em um minimercado autônomo dentro de um condomínio, a primeira categoria que vem à mente costuma ser a de bebidas. Moradores que chegam após um longo dia de trabalho ou que estão se pr</description>
       <link>https://seumarketbr.com.br/blog/quando-se-pensa-em-um-minimercado-autonomo-dentro-de-um-condominio-a-primeira-categoria</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/quando-se-pensa-em-um-minimercado-autonomo-dentro-de-um-condominio-a-primeira-categoria</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1670684684445-a4504dca0bbc?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3Mzk3MTc4fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1670684684445-a4504dca0bbc?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3Mzk3MTc4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como aprovar a instalação de um minimercado autônomo em seu condomínio</title>
       <description>Descubra como apresentar a proposta de um minimercado autônomo em assembleia, utilizando argumentos claros e antecipando objeções para levar mais conveniência aos moradores.</description>
       <link>https://seumarketbr.com.br/blog/como-aprovar-a-instalacao-de-um-minimercado-autonomo-em-seu-condominio</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-aprovar-a-instalacao-de-um-minimercado-autonomo-em-seu-condominio</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1784456794764-910ad9d48a60?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGNvbmRvbWluaXVtJTIwYnVpbGRpbmclMjBtYW5hZ2VyJTIwcHJvZmVzc2lvbmFsfGVufDF8MHx8fDE3ODc1MDU5ODl8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1784456794764-910ad9d48a60?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGNvbmRvbWluaXVtJTIwYnVpbGRpbmclMjBtYW5hZ2VyJTIwcHJvZmVzc2lvbmFsfGVufDF8MHx8fDE3ODc1MDU5ODl8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Introdução: o papel dos dados nos minimercados autônomos</title>
       <description>Os minimercados autônomos que funcionam 24 horas dentro de condomínios têm se mostrado uma resposta prática à demanda por conveniência e acesso rápido a produtos essenciais. Além da estrutura física e</description>
       <link>https://seumarketbr.com.br/blog/introducao-o-papel-dos-dados-nos-minimercados-autonomos</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-papel-dos-dados-nos-minimercados-autonomos</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1497366811353-6870744d04b2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4NzUyNjc4OHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1497366811353-6870744d04b2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4NzUyNjc4OHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Mix de Produtos em Minimercados Autônomos: Estratégias para Atrair Moradores 24h</title>
       <description>Descubra como a escolha certa de produtos, desde bebidas até itens de higiene, pode transformar um minimercado autônomo em um ponto essencial para moradores que valorizam praticidade e conveniência em qualquer horário.</description>
       <link>https://seumarketbr.com.br/blog/mix-de-produtos-em-minimercados-autonomos-estrategias-para-atrair-moradores-24h</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/mix-de-produtos-em-minimercados-autonomos-estrategias-para-atrair-moradores-24h</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1584680226833-0d680d0a0794?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3NDgzNjE3fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1584680226833-0d680d0a0794?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3NDgzNjE3fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como os dados de consumo nascem em um minimercado autônomo</title>
       <description>Os minimercados autônomos instalados nos condomínios funcionam o dia inteiro, sem atendentes presenciais, e isso gera um fluxo constante de informações sobre o que é comprado, quando e em que quantida</description>
       <link>https://seumarketbr.com.br/blog/como-os-dados-de-consumo-nascem-em-um-minimercado-autonomo</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-dados-de-consumo-nascem-em-um-minimercado-autonomo</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1497366811353-6870744d04b2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4NzYxMzMzNnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1497366811353-6870744d04b2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4NzYxMzMzNnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Os condomínios residenciais têm buscado maneiras de oferecer mais comodidade aos moradores sem onera</title>
       <description>Os condomínios residenciais têm buscado maneiras de oferecer mais comodidade aos moradores sem onerar a taxa condominial. Nesse contexto, o minimercado autônomo 24 horas surge como uma alternativa que</description>
       <link>https://seumarketbr.com.br/blog/os-condominios-residenciais-tem-buscado-maneiras-de-oferecer-mais-comodidade-aos</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-condominios-residenciais-tem-buscado-maneiras-de-oferecer-mais-comodidade-aos</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1766270596305-d0cfb9efaa52?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTN8fGx1eHVyeSUyMHJlc2lkZW50aWFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg3NTkzMDMyfDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1766270596305-d0cfb9efaa52?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTN8fGx1eHVyeSUyMHJlc2lkZW50aWFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg3NTkzMDMyfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Visão geral dos modelos de minimercados autônomos</title>
       <description>O mercado de minimercados autônomos tem se expandido nos condomínios brasileiros como uma solução de conveniência que funciona 24 horas por dia, atendendo à demanda por produtos de primeira necessidad</description>
       <link>https://seumarketbr.com.br/blog/visao-geral-dos-modelos-de-minimercados-autonomos</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/visao-geral-dos-modelos-de-minimercados-autonomos</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1779721064963-f6d01f20f27e?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGNvbnZlbmllbmNlJTIwc3RvcmUlMjBzaGVsdmVzJTIwaW50ZXJpb3IlMjBvcmdhbml6ZWR8ZW58MXwwfHx8MTc4NzU3MDM2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1779721064963-f6d01f20f27e?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGNvbnZlbmllbmNlJTIwc3RvcmUlMjBzaGVsdmVzJTIwaW50ZXJpb3IlMjBvcmdhbml6ZWR8ZW58MXwwfHx8MTc4NzU3MDM2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Condomínios modernos: ecossistemas de conforto com desafios para síndicos e administradoras</title>
       <description>Os condomínios residenciais se transformaram em pequenos ecossistemas que exigem praticidade, segurança e serviços 24h, aumentando a complexidade da gestão para síndicos e administradoras que precisam equilibrar manutenção, convivência e valorização do patrimônio.</description>
       <link>https://seumarketbr.com.br/blog/condominios-modernos-ecossistemas-de-conforto-com-desafios-para-sindicos-e-admin</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/condominios-modernos-ecossistemas-de-conforto-com-desafios-para-sindicos-e-admin</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1560264280-88b68371db39?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODc2Nzk0Njl8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1560264280-88b68371db39?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODc2Nzk0Njl8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Mix de produtos em minimercados autônomos: como acertar na escolha</title>
       <description>A definição do mix de produtos em minimercados autônomos exige análise do perfil dos condôminos, dos hábitos de consumo e da rotina do prédio para equilibrar praticidade, vendas por impulso e satisfação dos moradores.</description>
       <link>https://seumarketbr.com.br/blog/mix-de-produtos-em-minimercados-autonomos-como-acertar-na-escolha</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/mix-de-produtos-em-minimercados-autonomos-como-acertar-na-escolha</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1584680226833-0d680d0a0794?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3NjU2NzQ4fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1584680226833-0d680d0a0794?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3NjU2NzQ4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Segurança em minimercados autônomos: como câmeras, pagamento rastreável e ambiente de comunidade fec</title>
       <description>Segurança em minimercados autônomos: como câmeras, pagamento rastreável e ambiente de comunidade fechada reduzem perdas</description>
       <link>https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1764524335053-34cf8a8a3406?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4NzY5OTg4MXww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1764524335053-34cf8a8a3406?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4NzY5OTg4MXww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos transformam a rotina dos condomínios</title>
       <description>Pequenos pontos de venda sem atendentes, instalados em áreas comuns, permitem que moradores comprem itens essenciais a qualquer hora sem sair do prédio.</description>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-dos-condominios</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-dos-condominios</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1688126921116-9019dc755cd6?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3NzcxNTE4fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1688126921116-9019dc755cd6?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3NzcxNTE4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>O surgimento dos minimercados autônomos nos condomínios brasileiros</title>
       <description>A transformação do varejo de proximidade ganhou novo fôlego quando os condomínios passaram a oferecer pontos de venda que funcionam sem a presença constante de atendentes. O modelo autônomo permite qu</description>
       <link>https://seumarketbr.com.br/blog/o-surgimento-dos-minimercados-autonomos-nos-condominios-brasileiros</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-surgimento-dos-minimercados-autonomos-nos-condominios-brasileiros</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1759774289306-36f0cdb59bc1?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3NzQzMjYyfDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1759774289306-36f0cdb59bc1?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3NzQzMjYyfDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos transformam a conveniência nos condomínios</title>
       <description>O artigo explora como os minimercados self‑checkout de operação 24 horas estão se expandindo em áreas comuns de prédios, oferecendo opções de tamanho e layout que dispensam grandes obras.</description>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1765100213678-5cb8dfb91e41?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGNvbnZlbmllbmNlJTIwc3RvcmUlMjBzaGVsdmVzJTIwaW50ZXJpb3IlMjBvcmdhbml6ZWR8ZW58MXwwfHx8MTc4NzgwMzc2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1765100213678-5cb8dfb91e41?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGNvbnZlbmllbmNlJTIwc3RvcmUlMjBzaGVsdmVzJTIwaW50ZXJpb3IlMjBvcmdhbml6ZWR8ZW58MXwwfHx8MTc4NzgwMzc2Mnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Segurança em minimercados autônomos: como câmeras, pagamento rastreável e ambiente de comunidade fec</title>
       <description>A ideia de comprar em um espaço que funciona 24 horas, sem atendentes e com pagamento automático, já deixou de ser novidade em muitos condomínios brasileiros. Esse formato traz praticidade para morado</description>
       <link>https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente-1</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente-1</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1653039923048-aa285ded90ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4Nzg2MzkwNnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1653039923048-aa285ded90ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4Nzg2MzkwNnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como o morador acessa o minimercado autônomo</title>
       <description>O acesso a um minimercado autônomo instalado dentro de um condomínio costuma ser integrado ao sistema de controle de entrada já existente no prédio. Moradores podem utilizar a mesma credencial que usa</description>
       <link>https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1780538778860-7aaa9a0ee84b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODc4ODAyNzR8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1780538778860-7aaa9a0ee84b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODc4ODAyNzR8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercado 24h Autônomo: Conveniência nos Condomínios</title>
       <description>Um minimercado autônomo e 24 horas dentro dos condomínios permite que os moradores comprem itens essenciais a qualquer hora, sem necessidade de caixas atendidos.</description>
       <link>https://seumarketbr.com.br/blog/minimercado-24h-autonomo-conveniencia-nos-condominios</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-24h-autonomo-conveniencia-nos-condominios</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1779598991832-d39ca09e67df?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fHNlbGYlMjBzZXJ2aWNlJTIwbWluaSUyMG1hcmtldCUyMGNvbnZlbmllbmNlJTIwc3RvcmUlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzg3ODgwMjc0fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1779598991832-d39ca09e67df?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fHNlbGYlMjBzZXJ2aWNlJTIwbWluaSUyMG1hcmtldCUyMGNvbnZlbmllbmNlJTIwc3RvcmUlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzg3ODgwMjc0fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Os minimercados autônomos têm ganhado espaço nos condomínios brasileiros como uma forma de oferecer </title>
       <description>Os minimercados autônomos têm ganhado espaço nos condomínios brasileiros como uma forma de oferecer conveniência 24 horas sem a necessidade de atendimento humano constante. Essa proposta traz vantagen</description>
       <link>https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-ganhado-espaco-nos-condominios-brasileiros-como-um</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-ganhado-espaco-nos-condominios-brasileiros-como-um</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1461685265823-f8d5d0b08b9b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8c2VjdXJpdHklMjBjYW1lcmElMjBzdXJ2ZWlsbGFuY2UlMjBidWlsZGluZyUyMG1vZGVybnxlbnwxfDB8fHwxNzg3OTUxODM2fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1461685265823-f8d5d0b08b9b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8c2VjdXJpdHklMjBjYW1lcmElMjBzdXJ2ZWlsbGFuY2UlMjBidWlsZGluZyUyMG1vZGVybnxlbnwxfDB8fHwxNzg3OTUxODM2fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como aprovar um minimercado autônomo no condomínio sem dor de cabeça</title>
       <description>O artigo explica os passos essenciais para estruturar a proposta e conquistar o quórum necessário na assembleia que viabiliza a instalação de minimercados autônomos em condomínios.</description>
       <link>https://seumarketbr.com.br/blog/como-aprovar-um-minimercado-autonomo-no-condominio-sem-dor-de-cabeca</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-aprovar-um-minimercado-autonomo-no-condominio-sem-dor-de-cabeca</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1776477073595-1c95dc0f07d1?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8N3x8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODAxNzAwMnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1776477073595-1c95dc0f07d1?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8N3x8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODAxNzAwMnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como montar o mix ideal de produtos para minimercados autônomos em condomínios</title>
       <description>O artigo explica como equilibrar variedade e rotatividade nas categorias de bebidas e outros itens para tornar o autoatendimento 24 horas útil aos moradores sem sobrecarregar o espaço limitado.</description>
       <link>https://seumarketbr.com.br/blog/como-montar-o-mix-ideal-de-produtos-para-minimercados-autonomos-em-condominios</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-montar-o-mix-ideal-de-produtos-para-minimercados-autonomos-em-condominios</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1607977027972-e2aae2b5b1e0?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3OTc1ODg3fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1607977027972-e2aae2b5b1e0?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg3OTc1ODg3fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos transformam a conveniência nos condomínios</title>
       <description>O artigo explica como minimercados self‑checkout 24 horas, sem custo de implantação e com múltiplas formas de pagamento, podem ser adaptados a diferentes perfis de condomínio para oferecer praticidade aos moradores.</description>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-1</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-1</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1781579239593-c76d875c55cd?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3OTY0OTY3fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1781579239593-c76d875c55cd?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg3OTY0OTY3fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos transformam condomínios em hubs de dados de consumo</title>
       <description>Esses pontos de venda sem atendentes usam self‑checkout para registrar cada compra, criando um fluxo contínuo de informações sobre o que, quando e quanto os moradores consomem.</description>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-condominios-em-hubs-de-dados-de-consumo</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-condominios-em-hubs-de-dados-de-consumo</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1646153114001-495dfb56506d?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODAzMjM0NHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1646153114001-495dfb56506d?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODAzMjM0NHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como os dados dos minimercados autônomos transformam o mix de produtos nos condomínios</title>
       <description>A análise contínua das compras 24 horas permite ajustar o sortimento e melhorar a experiência dos moradores em pontos de venda autônomos.</description>
       <link>https://seumarketbr.com.br/blog/como-os-dados-dos-minimercados-autonomos-transformam-o-mix-de-produtos-nos-condo</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-dados-dos-minimercados-autonomos-transformam-o-mix-de-produtos-nos-condo</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1659384897789-392e674bde56?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgxMTg5ODh8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1659384897789-392e674bde56?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgxMTg5ODh8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos: a revolução silenciosa dos condomínios</title>
       <description>Os minimercados autônomos estão transformando a rotina dos moradores de condomínios, oferecendo praticidade e disponibilidade 24h sem sair do prédio.</description>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-a-revolucao-silenciosa-dos-condominios</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-a-revolucao-silenciosa-dos-condominios</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1577374559080-cb697b79d8f0?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4MDUxMzA4fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1577374559080-cb697b79d8f0?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4MDUxMzA4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>A nova lista de prioridades na escolha do lar</title>
       <description>Nos últimos anos, a decisão de onde morar deixou de ser baseada apenas na localização ou no tamanho do imóvel. Fatores como segurança, qualidade da construção e valor do aluguel continuam importantes,</description>
       <link>https://seumarketbr.com.br/blog/a-nova-lista-de-prioridades-na-escolha-do-lar</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-nova-lista-de-prioridades-na-escolha-do-lar</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1691272477702-0a2edae135f2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8bHV4dXJ5JTIwcmVzaWRlbnRpYWwlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODgxOTgzNzN8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1691272477702-0a2edae135f2?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8M3x8bHV4dXJ5JTIwcmVzaWRlbnRpYWwlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODgxOTgzNzN8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>A tecnologia por trás dos minimercados autônomos em condomínios</title>
       <description>Os minimercados autônomos em condomínios dependem de tecnologias integradas para oferecer segurança, gestão de estoque e experiência de compra 24 horas por dia, sem a presença de funcionários no local.</description>
       <link>https://seumarketbr.com.br/blog/a-tecnologia-por-tras-dos-minimercados-autonomos-em-condominios</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-tecnologia-por-tras-dos-minimercados-autonomos-em-condominios</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1659896974794-5c850f933210?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGRpZ2l0YWwlMjBwYXltZW50JTIwa2lvc2slMjB0b3VjaHNjcmVlbiUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4ODIxMzA4OXww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1659896974794-5c850f933210?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGRpZ2l0YWwlMjBwYXltZW50JTIwa2lvc2slMjB0b3VjaHNjcmVlbiUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4ODIxMzA4OXww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados autônomos transformam a rotina nos condomínios brasileiros</title>
       <description>O artigo explica como pontos de venda self‑checkout estão se expandindo em condomínios, oferecendo praticidade 24 horas e reduzindo deslocamentos dos moradores.</description>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-nos-condominios-brasileiros</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-nos-condominios-brasileiros</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 </pubDate>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1766731574115-78e623815124?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4MTM4MDQ4fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1766731574115-78e623815124?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4MTM4MDQ4fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como Pix e pagamento por aproximação transformaram o varejo de conveniência em condomínios residenci</title>
       <description>Nos últimos anos o modo como as pessoas fazem compras de pequeno porte passou por uma mudança silenciosa, mas profunda. A combinação de tecnologias de pagamento instantâneo e de aproximação criou um n</description>
       <link>https://seumarketbr.com.br/blog/como-pix-e-pagamento-por-aproximacao-transformaram-o-varejo-de-conveniencia-em-c</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-pix-e-pagamento-por-aproximacao-transformaram-o-varejo-de-conveniencia-em-c</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1688126921116-9019dc755cd6?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg4MjkyMTg1fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1688126921116-9019dc755cd6?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8ZGlnaXRhbCUyMHBheW1lbnQlMjBraW9zayUyMHRvdWNoc2NyZWVuJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg4MjkyMTg1fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Introdução: o papel do síndico e os desafios atuais</title>
       <description>O síndico de um condomínio enfrenta uma rotina que exige equilíbrio entre a gestão de áreas comuns, a atenção às demandas dos moradores e a busca por soluções que valorizem o empreendimento. Nesse con</description>
       <link>https://seumarketbr.com.br/blog/introducao-o-papel-do-sindico-e-os-desafios-atuais</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-papel-do-sindico-e-os-desafios-atuais</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1549757521-4160565ff3de?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODI3NTk5MHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1549757521-4160565ff3de?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODI3NTk5MHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>O conceito de self‑checkout em minimercados de condomínio</title>
       <description>Nos últimos anos a ideia de fazer compras sem passar por um caixa tradicional ganhou espaço em diversos ambientes urbanos, especialmente nos condomínios onde a praticidade e o horário flexível são val</description>
       <link>https://seumarketbr.com.br/blog/o-conceito-de-selfcheckout-em-minimercados-de-condominio</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-conceito-de-selfcheckout-em-minimercados-de-condominio</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1779598991832-d39ca09e67df?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fHNlbGYlMjBzZXJ2aWNlJTIwbWluaSUyMG1hcmtldCUyMGNvbnZlbmllbmNlJTIwc3RvcmUlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzg4MjI2Mjg5fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1779598991832-d39ca09e67df?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fHNlbGYlMjBzZXJ2aWNlJTIwbWluaSUyMG1hcmtldCUyMGNvbnZlbmllbmNlJTIwc3RvcmUlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzg4MjI2Mjg5fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como o morador acessa o minimercado autônomo</title>
       <description>Quando um condomínio decide instalar um minimercado autônomo 24 horas, a primeira questão que surge é como os residentes vão conseguir entrar no espaço e retirar os produtos que desejam. O acesso cost</description>
       <link>https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo-1</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo-1</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1761281254116-82a6bded6c30?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODgzMDk3MjJ8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1761281254116-82a6bded6c30?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8c2VsZiUyMHNlcnZpY2UlMjBtaW5pJTIwbWFya2V0JTIwY29udmVuaWVuY2UlMjBzdG9yZSUyMGludGVyaW9yfGVufDF8MHx8fDE3ODgzMDk3MjJ8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como os dados transformam minimercados autônomos em condomínios</title>
       <description>Os minimercados autônomos coletam dados de consumo que, ao serem analisados, orientam decisões para melhorar a experiência dos moradores.</description>
       <link>https://seumarketbr.com.br/blog/como-os-dados-transformam-minimercados-autonomos-em-condominios</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-dados-transformam-minimercados-autonomos-em-condominios</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1549757521-4160565ff3de?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODI3NTk5MHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1549757521-4160565ff3de?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NXx8cHJvcGVydHklMjBtYW5hZ2VtZW50JTIwYnVpbGRpbmclMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXwwfHx8MTc4ODI3NTk5MHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Os desafios do síndico na gestão contemporânea de condomínios</title>
       <description>O síndico hoje enfrenta uma rotina que vai muito além da simples administração de áreas comuns e de questões financeiras. Ele precisa lidar com a expectativa dos moradores por mais comodidade, com a n</description>
       <link>https://seumarketbr.com.br/blog/os-desafios-do-sindico-na-gestao-contemporanea-de-condominios</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-desafios-do-sindico-na-gestao-contemporanea-de-condominios</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1659384897789-392e674bde56?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgzNjA1OTN8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1659384897789-392e674bde56?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTJ8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgzNjA1OTN8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como as amenidades internas estão redefinindo a escolha do lar</title>
       <description>Como as amenidades internas estão redefinindo a escolha do lar</description>
       <link>https://seumarketbr.com.br/blog/como-as-amenidades-internas-estao-redefinindo-a-escolha-do-lar</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-as-amenidades-internas-estao-redefinindo-a-escolha-do-lar</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1685514823717-7e1ff6ee0563?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8bHV4dXJ5JTIwcmVzaWRlbnRpYWwlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODg0NDY5NzF8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1685514823717-7e1ff6ee0563?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8NHx8bHV4dXJ5JTIwcmVzaWRlbnRpYWwlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODg0NDY5NzF8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como montar o mix perfeito de produtos para um minimercado autônomo no condomínio</title>
       <description>O artigo detalha as principais categorias de itens que equilibram variedade e praticidade, atendendo ao dia a dia dos moradores sem desperdício de espaço.</description>
       <link>https://seumarketbr.com.br/blog/como-montar-o-mix-perfeito-de-produtos-para-um-minimercado-autonomo-no-condomini</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-montar-o-mix-perfeito-de-produtos-para-um-minimercado-autonomo-no-condomini</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1757801752791-8bcd63cec878?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGdyb2NlcnklMjBzdG9yZSUyMHNoZWx2ZXMlMjBmb29kJTIwZHJpbmtzJTIwcHJvZHVjdHN8ZW58MXwwfHx8MTc4ODM5Njc2MHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1757801752791-8bcd63cec878?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fGdyb2NlcnklMjBzdG9yZSUyMHNoZWx2ZXMlMjBmb29kJTIwZHJpbmtzJTIwcHJvZHVjdHN8ZW58MXwwfHx8MTc4ODM5Njc2MHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Como os dados de consumo são gerados em um minimercado autônomo</title>
       <description>Quando um morador se aproxima de um minimercado autônomo e realiza uma compra, cada interação deixa um rastro que pode ser capturado pelo sistema operacional. O self-checkout registra o item escolhido</description>
       <link>https://seumarketbr.com.br/blog/como-os-dados-de-consumo-sao-gerados-em-um-minimercado-autonomo</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-dados-de-consumo-sao-gerados-em-um-minimercado-autonomo</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1666790676906-0295230c121d?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTV8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgzNjA1OTN8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1666790676906-0295230c121d?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTV8fHByb3BlcnR5JTIwbWFuYWdlbWVudCUyMGJ1aWxkaW5nJTIwbW9kZXJuJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODgzNjA1OTN8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>A psicologia da confiança e a segurança no varejo autônomo</title>
       <description>O conceito de um mercado onde não existe a figura do operador de caixa desafia a lógica tradicional do comércio brasileiro, que historicamente se baseou na vigilância presencial para evitar perdas. No</description>
       <link>https://seumarketbr.com.br/blog/a-psicologia-da-confianca-e-a-seguranca-no-varejo-autonomo</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-psicologia-da-confianca-e-a-seguranca-no-varejo-autonomo</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1653039923048-aa285ded90ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4ODU0OTc4OHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1653039923048-aa285ded90ca?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTB8fHNlY3VyaXR5JTIwY2FtZXJhJTIwc3VydmVpbGxhbmNlJTIwYnVpbGRpbmclMjBtb2Rlcm58ZW58MXwwfHx8MTc4ODU0OTc4OHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Introdução: o crescimento dos minimercados autônomos em condomínios</title>
       <description>Nos últimos anos, a rotina dos moradores de condomínios tem passado por mudanças silenciosas, mas profundas, na forma de acessar produtos de primeira necessidade. A presença de pontos de venda autônom</description>
       <link>https://seumarketbr.com.br/blog/introducao-o-crescimento-dos-minimercados-autonomos-em-condominios</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-crescimento-dos-minimercados-autonomos-em-condominios</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1771574209038-01ad953ca43a?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4NDgyMDE1fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1771574209038-01ad953ca43a?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8Y29udmVuaWVuY2UlMjBzdG9yZSUyMHNoZWx2ZXMlMjBpbnRlcmlvciUyMG9yZ2FuaXplZHxlbnwxfDB8fHwxNzg4NDgyMDE1fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Minimercados Autônomos em Condomínios: O que Síndicos Precisam Saber</title>
       <description>O artigo esclarece as principais dúvidas de síndicos sobre a implantação de mercados autônomos, abordando pontos essenciais como custos, segurança, contratos e suporte.</description>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-o-que-sindicos-precisam-saber</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-o-que-sindicos-precisam-saber</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODUzMjcwOHww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODUzMjcwOHww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>A nova valorização dos critérios de escolha de moradia</title>
       <description>Nos últimos anos a decisão de onde morar deixou de ser baseada apenas no tamanho do apartamento ou no valor do aluguel. As pessoas passaram a observar com mais atenção o conjunto de serviços que o con</description>
       <link>https://seumarketbr.com.br/blog/a-nova-valorizacao-dos-criterios-de-escolha-de-moradia</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-nova-valorizacao-dos-criterios-de-escolha-de-moradia</guid>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1777115470083-950377731c61?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGx1eHVyeSUyMHJlc2lkZW50aWFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg4NjM0NjA2fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1777115470083-950377731c61?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTR8fGx1eHVyeSUyMHJlc2lkZW50aWFsJTIwYnVpbGRpbmclMjBleHRlcmlvciUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzg4NjM0NjA2fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Análise do espaço disponível no condomínio</title>
       <description>O primeiro passo para instalar um minimercado autônomo em um condomínio consiste em entender qual área pode receber o equipamento sem prejudicar a circulação dos moradores ou a estética do local. Essa</description>
       <link>https://seumarketbr.com.br/blog/analise-do-espaco-disponivel-no-condominio</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/analise-do-espaco-disponivel-no-condominio</guid>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1781446989530-aa3c1c962d43?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8cmV0YWlsJTIwc3RvcmUlMjBpbnN0YWxsYXRpb24lMjBzaGVsdmluZyUyMG1vZGVybnxlbnwxfDB8fHwxNzg4NTY4MTc3fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1781446989530-aa3c1c962d43?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8OHx8cmV0YWlsJTIwc3RvcmUlMjBpbnN0YWxsYXRpb24lMjBzaGVsdmluZyUyMG1vZGVybnxlbnwxfDB8fHwxNzg4NTY4MTc3fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>O que leva um síndico a considerar um minimercado autônomo</title>
       <description>A decisão de instalar um minimercado autônomo em um condomínio costuma nascer de uma combinação de fatores práticos e de expectativas dos moradores. A rotina cada vez mais acelerada faz com que a poss</description>
       <link>https://seumarketbr.com.br/blog/o-que-leva-um-sindico-a-considerar-um-minimercado-autonomo</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-que-leva-um-sindico-a-considerar-um-minimercado-autonomo</guid>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1767658574210-661054981453?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fGNvbmRvbWluaXVtJTIwYnVpbGRpbmclMjBtYW5hZ2VyJTIwcHJvZmVzc2lvbmFsfGVufDF8MHx8fDE3ODg2MTU0MjR8MA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1767658574210-661054981453?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MTF8fGNvbmRvbWluaXVtJTIwYnVpbGRpbmclMjBtYW5hZ2VyJTIwcHJvZmVzc2lvbmFsfGVufDF8MHx8fDE3ODg2MTU0MjR8MA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Custo e investimento</title>
       <description>Quando um síndico começa a avaliar a possibilidade de instalar um minimercado autônomo no condomínio, a primeira dúvida que costuma surgir refere‑se ao investimento necessário. É comum imaginar que a </description>
       <link>https://seumarketbr.com.br/blog/custo-e-investimento</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/custo-e-investimento</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODcwMjY3Mnww&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1774159642100-e95115c3892c?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8MXx8Y29uZG9taW5pdW0lMjBidWlsZGluZyUyMG1hbmFnZXIlMjBwcm9mZXNzaW9uYWx8ZW58MXwwfHx8MTc4ODcwMjY3Mnww&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
     <item>
       <title>Introdução ao conceito de minimercado autônomo em condomínios</title>
       <description>Os minimercados autônomos têm se consolidado como uma alternativa prática para atender às necessidades diárias de moradores de condomínios, especialmente em momentos em que a conveniência e o horário </description>
       <link>https://seumarketbr.com.br/blog/introducao-ao-conceito-de-minimercado-autonomo-em-condominios</link>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-ao-conceito-de-minimercado-autonomo-em-condominios</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 </pubDate>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1722639096482-4e1a805f9b0b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg4NjU0Mjg2fDA&amp;ixlib=rb-4.1.0&amp;q=85" type="image/jpeg"/>
+      <ns0:content url="https://images.unsplash.com/photo-1722639096482-4e1a805f9b0b?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=M3wxMDM2MDE5fDB8MXxzZWFyY2h8Nnx8Z3JvY2VyeSUyMHN0b3JlJTIwc2hlbHZlcyUyMGZvb2QlMjBkcmlua3MlMjBwcm9kdWN0c3xlbnwxfDB8fHwxNzg4NjU0Mjg2fDA&amp;ixlib=rb-4.1.0&amp;q=85" medium="image"/>
     </item>
   </channel>
 </rss>
