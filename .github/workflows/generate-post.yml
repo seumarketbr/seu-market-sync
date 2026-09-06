@@ -1,57 +1,47 @@
-name: Gerar Post do Blog
+name: Generate Post
 
 on:
-  schedule:
-    - cron: '0 11 * * *'  # 08:00 BRT - manha (operacional)
-    - cron: '0 17 * * *'  # 14:00 BRT - tarde (sindico)
-    - cron: '0 23 * * *'  # 20:00 BRT - noite (tecnologia)
   workflow_dispatch:
     inputs:
-      motivo:
-        description: 'Motivo da geracao manual'
+      topic:
+        description: 'Topic for the new post'
+        required: true
+        type: string
+      force:
+        description: 'Force generation even if post exists'
         required: false
-        default: 'Teste manual'
+        type: boolean
+        default: false
 
 jobs:
-  gerar-post:
+  generate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
+      - uses: actions/checkout@v4
 
-      - name: Configurar Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Gerar post com IA
-        env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Generate post
         run: python .github/scripts/generate_post.py
+        env:
+          TOPIC: ${{ github.event.inputs.topic }}
+          FORCE: ${{ github.event.inputs.force }}
 
-      - name: Atualizar manifest
-        run: python .github/scripts/generate_manifest.py
+      - name: Generate RSS feed
+        run: python .github/scripts/generate_rss.py
 
-      - name: Atualizar sitemap
-        run: python .github/scripts/update_sitemap.py
-
-      - name: Commit e push
+      - name: Commit and push changes
         run: |
-          git config user.name "Seu Market Bot"
-          git config user.email "blog-bot@seumarketbr.com.br"
-          git add public/blog-posts/ public/sitemap.xml
-          git diff --cached --quiet || git commit -m "blog: novo post automatico $(date +'%Y-%m-%d %H:%M UTC') + sitemap atualizado"
+          git config --local user.email "seumarketbr@gmail.com"
+          git config --local user.name "seumarketbr"
+          git add public/blog-posts/*.json public/rss.xml
+          git diff --cached --quiet || git commit -m "Add new post and update RSS [skip ci]"
           git push
-
-      - name: Resultado
-        if: success()
-        run: |
-          echo "Post publicado com sucesso."
-          echo "Sitemap atualizado em public/sitemap.xml"
-          echo "Cloudflare detectara o push e fara deploy automatico."
