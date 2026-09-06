@@ -9,6 +9,7 @@ Corrigido conforme especificacoes do Pinterest:
 - Links sempre sob o dominio reivindicado
 - Conteudo em XML valido
 - enclosure com atributo length
+- Usa slugs do manifest.json para URLs corretas
 """
 
 import json
@@ -22,7 +23,16 @@ from xml.dom import minidom
 DOMAIN = "https://seumarketbr.com.br"
 BLOG_BASE = f"{DOMAIN}/blog"
 
-def parse_post(file_path: Path) -> dict | None:
+def load_manifest(posts_dir: Path) -> dict:
+    """Carrega o manifest.json para obter slugs corretos."""
+    manifest_path = posts_dir / "manifest.json"
+    try:
+        with open(manifest_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+def parse_post(file_path: Path, manifest: dict) -> dict | None:
     """Carrega um JSON de post e extrai campos essenciais."""
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -37,8 +47,9 @@ def parse_post(file_path: Path) -> dict | None:
     
     description = data.get("description") or data.get("resumo") or data.get("excerpt") or title
     
-    # Slug para URL
-    slug = data.get("slug") or file_path.stem
+    # Slug: tenta manifest primeiro, depois data.slug, depois nome do arquivo
+    file_name = file_path.stem
+    slug = manifest.get(file_name, {}).get("slug") or data.get("slug") or file_name
     if slug.startswith("post-"):
         slug = slug[5:]
     
@@ -152,12 +163,15 @@ def main():
     posts_dir = repo_root / "public" / "blog-posts"
     output_file = repo_root / "public" / "rss.xml"
 
+    # Carregar manifest para obter slugs corretos
+    manifest = load_manifest(posts_dir)
+
     # Coletar todos os posts
     posts = []
     for file_path in sorted(posts_dir.glob("*.json")):
         if file_path.name == "manifest.json":
             continue
-        post = parse_post(file_path)
+        post = parse_post(file_path, manifest)
         if post:
             posts.append(post)
 
