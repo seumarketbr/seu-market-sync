@@ -71,7 +71,7 @@ def generate_rss(posts: list[dict], output_path: Path) -> None:
     channel = ET.SubElement(rss, "channel")
     ET.SubElement(channel, "title").text = "Seu Market BR - Blog"
     ET.SubElement(channel, "link").text = DOMAIN
-    ET.SubElement(channel, "description").text = "ConteÃºdo sobre minimercado autÃ´nomo e tecnologia"
+    ET.SubElement(channel, "description").text = "Conteúdo sobre minimercado autônomo e tecnologia"
     ET.SubElement(channel, "language").text = "pt-br"
     ET.SubElement(channel, "lastBuildDate").text = format_rfc822(datetime.now(timezone.utc))
 

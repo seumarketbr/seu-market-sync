@@ -3,6 +3,9 @@ name: Generate RSS Feed
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate-rss:
     runs-on: ubuntu-latest
