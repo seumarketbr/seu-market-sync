@@ -10,6 +10,7 @@ Corrigido conforme especificacoes do Pinterest:
 - Conteudo em XML valido
 - enclosure com atributo length
 - Usa slugs do manifest.json para URLs corretas
+- Suporta manifest.json como lista OU dicionario
 """
 
 import json
@@ -24,13 +25,31 @@ DOMAIN = "https://seumarketbr.com.br"
 BLOG_BASE = f"{DOMAIN}/blog"
 
 def load_manifest(posts_dir: Path) -> dict:
-    """Carrega o manifest.json para obter slugs corretos."""
+    """Carrega o manifest.json para obter slugs corretos.
+    Suporta manifest como lista de slugs OU dicionario {filename: {slug:...}}.
+    Retorna sempre um dicionario {filename_sem_ext: {"slug": slug}}.
+    """
     manifest_path = posts_dir / "manifest.json"
     try:
         with open(manifest_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+            raw = json.load(f)
     except (json.JSONDecodeError, OSError):
         return {}
+
+    # Se for lista, converte para dicionario usando o slug como chave e valor
+    if isinstance(raw, list):
+        result = {}
+        for item in raw:
+            if isinstance(item, str):
+                # item é o proprio slug; usa como nome de arquivo tambem
+                result[item] = {"slug": item}
+        return result
+
+    # Se ja for dicionario, retorna direto
+    if isinstance(raw, dict):
+        return raw
+
+    return {}
 
 def parse_post(file_path: Path, manifest: dict) -> dict | None:
     """Carrega um JSON de post e extrai campos essenciais."""
@@ -98,89 +117,108 @@ def parse_post(file_path: Path, manifest: dict) -> dict | None:
 
 def format_rfc822(dt: datetime) -> str:
     """Formata data para RFC 822 (ex: Mon, 01 Jan 2024 12:00:00 +0000)."""
-    return dt.strftime("%a, %d %b %Y %H:%M:%S %z")
+    return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
 
 
-def generate_rss(posts: list[dict], output_path: Path) -> None:
-    """Gera o arquivo RSS 2.0 com todos os posts."""
-    # Ordenar do mais antigo para o mais recente (Pinterest publica mais antigo primeiro)
-    posts_sorted = sorted(posts, key=lambda p: p["pub_date"] or datetime.min.replace(tzinfo=timezone.utc))
+def build_rss(posts: list) -> str:
+    """Constroi o XML RSS 2.0 com suporte a media:content."""
+    # Namespace media
+    ET.register_namespace("media", "http://search.yahoo.com/mrss/")
+    ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
 
-    # Elemento raiz rss
-    rss = ET.Element("rss")
-    rss.set("version", "2.0")
-    rss.set("xmlns:media", "http://search.yahoo.com/mrss/")
+    rss = ET.Element("rss", {
+        "version": "2.0",
+        "xmlns:media": "http://search.yahoo.com/mrss/",
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+    })
 
-    # Canal
     channel = ET.SubElement(rss, "channel")
+
+    # Metadados do canal
     ET.SubElement(channel, "title").text = "Seu Market BR - Blog"
     ET.SubElement(channel, "link").text = DOMAIN
-    ET.SubElement(channel, "description").text = "Conteudo sobre minimercado autonomo e tecnologia"
-    ET.SubElement(channel, "language").text = "pt-br"
+    ET.SubElement(channel, "description").text = (
+        "Dicas, tendencias e novidades sobre minimercados autonomos em condominios."
+    )
+    ET.SubElement(channel, "language").text = "pt-BR"
     ET.SubElement(channel, "lastBuildDate").text = format_rfc822(datetime.now(timezone.utc))
+    ET.SubElement(channel, "generator").text = "SeuMarketBR RSS Generator"
+
+    # Logo do canal
+    image_el = ET.SubElement(channel, "image")
+    ET.SubElement(image_el, "url").text = f"{DOMAIN}/logo.png"
+    ET.SubElement(image_el, "title").text = "Seu Market BR"
+    ET.SubElement(image_el, "link").text = DOMAIN
+
+    # Self-referencing atom:link
+    atom_link = ET.SubElement(channel, "{http://www.w3.org/2005/Atom}link")
+    atom_link.set("href", f"{DOMAIN}/rss.xml")
+    atom_link.set("rel", "self")
+    atom_link.set("type", "application/rss+xml")
 
     # Itens
-    for post in posts_sorted:
+    for post in posts:
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = post["title"]
+        ET.SubElement(item, "link").text = post["link"]
         ET.SubElement(item, "description").text = post["description"]
-        link_elem = ET.SubElement(item, "link")
-        link_elem.text = post["link"]
         ET.SubElement(item, "guid", isPermaLink="true").text = post["link"]
-        ET.SubElement(item, "pubDate").text = format_rfc822(post["pub_date"])
 
-        # Imagem via <image> (dentro do item)
-        if post["image_url"]:
-            image_elem = ET.SubElement(item, "image")
-            image_elem.text = post["image_url"]
-            
-            # enclosure com length (obrigatorio RSS 2.0)
-            enclosure = ET.SubElement(item, "enclosure")
-            enclosure.set("url", post["image_url"])
-            enclosure.set("type", "image/jpeg" if post["image_url"].lower().endswith((".jpg", ".jpeg")) else "image/png")
-            enclosure.set("length", "0")  # Pinterest nao usa length, mas RSS exige
+        if post.get("pub_date"):
+            ET.SubElement(item, "pubDate").text = format_rfc822(post["pub_date"])
 
+        if post.get("image_url"):
+            img = post["image_url"]
+            # enclosure
+            enc = ET.SubElement(item, "enclosure")
+            enc.set("url", img)
+            enc.set("type", "image/jpeg")
+            enc.set("length", "0")
             # media:content
-            media_content = ET.SubElement(item, "{http://search.yahoo.com/mrss/}content")
-            media_content.set("url", post["image_url"])
-            media_content.set("medium", "image")
+            mc = ET.SubElement(item, "{http://search.yahoo.com/mrss/}content")
+            mc.set("url", img)
+            mc.set("medium", "image")
 
-    # Serializar XML
-    xml_str = ET.tostring(rss, encoding="utf-8", xml_declaration=True)
-    # Pretty print
-    dom = minidom.parseString(xml_str.decode("utf-8"))
-    pretty_xml = dom.toprettyxml(indent="  ", encoding="utf-8").decode("utf-8")
-
-    # Escrever arquivo
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(pretty_xml)
+    # Serializar com pretty-print
+    raw = ET.tostring(rss, encoding="unicode", xml_declaration=False)
+    reparsed = minidom.parseString(f'<?xml version="1.0" encoding="UTF-8"?>{raw}')
+    return reparsed.toprettyxml(indent="  ", encoding=None).replace(
+        '<?xml version="1.0" ?>', '<?xml version="1.0" encoding="UTF-8"?>'
+    )
 
 
 def main():
-    # Diretorios relativos a raiz do repositorio
-    repo_root = Path(__file__).resolve().parent.parent.parent
-    posts_dir = repo_root / "public" / "blog-posts"
-    output_file = repo_root / "public" / "rss.xml"
+    base_dir = Path(__file__).parent.parent.parent
+    posts_dir = base_dir / "public" / "blog-posts"
 
-    # Carregar manifest para obter slugs corretos
+    if not posts_dir.exists():
+        print(f"[ERRO] Diretorio nao encontrado: {posts_dir}")
+        return
+
     manifest = load_manifest(posts_dir)
 
-    # Coletar todos os posts
+    json_files = sorted(posts_dir.glob("*.json"))
+    json_files = [f for f in json_files if f.name != "manifest.json"]
+
     posts = []
-    for file_path in sorted(posts_dir.glob("*.json")):
-        if file_path.name == "manifest.json":
-            continue
+    for file_path in json_files:
         post = parse_post(file_path, manifest)
         if post:
             posts.append(post)
 
-    if not posts:
-        print("Nenhum post encontrado.")
-        return
+    # Ordenar por data (mais recentes primeiro)
+    posts.sort(key=lambda p: p["pub_date"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
 
-    generate_rss(posts, output_file)
-    print(f"RSS gerado com {len(posts)} posts: {output_file}")
+    # Limitar a 50 itens no RSS
+    posts = posts[:50]
+
+    rss_content = build_rss(posts)
+
+    output_path = base_dir / "public" / "rss.xml"
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(rss_content)
+
+    print(f"[OK] RSS gerado com {len(posts)} posts em {output_path}")
 
 
 if __name__ == "__main__":
