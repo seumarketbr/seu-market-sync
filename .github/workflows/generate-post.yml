@@ -56,11 +56,20 @@ jobs:
 
       - name: Disparar deploy no Cloudflare
         if: success()
+        env:
+          DEPLOY_HOOK: ${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}
         run: |
+          if [ -z "$DEPLOY_HOOK" ]; then
+            echo "⚠️  Secret CLOUDFLARE_DEPLOY_HOOK nao definido. Pulando deploy hook."
+            echo "   Configure em: Settings > Secrets > Actions > CLOUDFLARE_DEPLOY_HOOK"
+            exit 0
+          fi
           echo "Disparando deploy no Cloudflare..."
-          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}")
+          HTTP_STATUS=$(curl -s -o /tmp/cf_response.txt -w "%{http_code}" --max-time 30 -X POST "$DEPLOY_HOOK" || echo "000")
           if [ "$HTTP_STATUS" = "200" ] || [ "$HTTP_STATUS" = "201" ]; then
-            echo "✅ Deploy disparado! Status: $HTTP_STATUS"
+            echo "✅ Deploy disparado com sucesso! Status: $HTTP_STATUS"
           else
-            echo "⚠️ Cloudflare retornou status: $HTTP_STATUS (verifique o secret CLOUDFLARE_DEPLOY_HOOK)"
+            echo "⚠️  Cloudflare retornou status: $HTTP_STATUS"
+            cat /tmp/cf_response.txt 2>/dev/null || true
+            echo "   Verifique o secret CLOUDFLARE_DEPLOY_HOOK no repositorio."
           fi
