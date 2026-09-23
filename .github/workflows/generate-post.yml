@@ -12,6 +12,10 @@ on:
         required: false
         type: boolean
         default: false
+  schedule:
+    - cron: '0 11 * * *'   # 08:00 BRT
+    - cron: '0 17 * * *'   # 14:00 BRT
+    - cron: '0 23 * * *'   # 20:00 BRT
 
 permissions:
   contents: write
@@ -35,6 +39,7 @@ jobs:
       - name: Generate post
         run: python .github/scripts/generate_post.py
         env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           TOPIC: ${{ github.event.inputs.topic }}
           FORCE: ${{ github.event.inputs.force }}
 
@@ -48,3 +53,14 @@ jobs:
           git add public/blog-posts/*.json public/rss.xml
           git diff --cached --quiet || git commit -m "Add new post and update RSS [skip ci]"
           git push
+
+      - name: Disparar deploy no Cloudflare
+        if: success()
+        run: |
+          echo "Disparando deploy no Cloudflare..."
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}")
+          if [ "$HTTP_STATUS" = "200" ] || [ "$HTTP_STATUS" = "201" ]; then
+            echo "✅ Deploy disparado! Status: $HTTP_STATUS"
+          else
+            echo "⚠️ Cloudflare retornou status: $HTTP_STATUS (verifique o secret CLOUDFLARE_DEPLOY_HOOK)"
+          fi
