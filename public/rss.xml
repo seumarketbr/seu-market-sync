@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 23 Sep 2026 09:37:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 15:20:27 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -20,6 +20,13 @@
       <link>https://seumarketbr.com.br/blog/o-papel-do-self-checkout-nos-minimercados-autonomos-de-condominios</link>
       <description>Descubra como os totens de self-checkout viabilizam a conveniência e a independência nas compras realizadas em minimercados autônomos dentro de condomínios.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-papel-do-self-checkout-nos-minimercados-autonomos-de-condominios</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>O peso dos amenities na decisão de moradia</title>
+      <link>https://seumarketbr.com.br/blog/o-peso-dos-amenities-na-decisao-de-moradia</link>
+      <description>Nos últimos anos a escolha de um lugar para morar passou a considerar muito mais do que apenas a metragem do apartamento ou a localização próxima ao trabalho. Os condomínios começaram a oferecer uma v</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-peso-dos-amenities-na-decisao-de-moradia</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/introducao-ao-mercado-de-minimercados-autonomos</link>
       <description>A busca por praticidade tem transformado a forma como os moradores de condomínios realizan suas compras, e o formato de minimercado instalado dentro de empreendimentos residenciais vem se consolidando</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-ao-mercado-de-minimercados-autonomos</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimercados autônomos e a ideia de compras de proximidade</title>
-      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-e-a-ideia-de-compras-de-proximidade</link>
-      <description>Os minimercados autônomos que surgem dentro de condomínios trazem uma proposta simples: disponibilizar produtos essenciais a poucos passos da residência, funcionando em regime de self‑checkout e com h</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-e-a-ideia-de-compras-de-proximidade</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
