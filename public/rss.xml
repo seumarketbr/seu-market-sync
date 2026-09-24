@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 23 Sep 2026 20:05:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 01:12:01 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Diferentes tamanhos de minimercados autônomos do Seu Market BR</title>
+      <link>https://seumarketbr.com.br/blog/diferentes-tamanhos-de-minimercados-autonomos-do-seu-market-br</link>
+      <description>O Seu Market BR disponibiliza quatro modelos de minimercados autônomos – Compact, Wall, Smart e Prime – com dimensões que vão de 2 m × 2 m a formatos estreitos como 3 m × 1 m, adaptando‑se a diferentes espaços e demandas.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/diferentes-tamanhos-de-minimercados-autonomos-do-seu-market-br</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O Papel do Self-Checkout nos Minimercados Autônomos de Condomínios</title>
       <link>https://seumarketbr.com.br/blog/o-papel-do-self-checkout-nos-minimercados-autonomos-de-condominios</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/introducao-ao-minimercado-autonomo-e-as-duvidas-dos-sindicos</link>
       <description>Nos últimos anos, a presença de pontos de venda autônomos tem se tornado uma alternativa prática para moradores de condomínios que buscam agilidade no dia a dia. A possibilidade de comprar produtos es</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-ao-minimercado-autonomo-e-as-duvidas-dos-sindicos</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quando se pensa em um minimercado autônomo dentro de um condomínio, a primeira categoria que vem à mente</title>
-      <link>https://seumarketbr.com.br/blog/quando-se-pensa-em-um-minimercado-autonomo-dentro-de-um-condominio-a-primeira-categoria</link>
-      <description>Quando se pensa em um minimercado autônomo dentro de um condomínio, a primeira categoria que vem à mente costuma ser a de bebidas. Moradores que chegam após um longo dia de trabalho ou que estão se pr</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/quando-se-pensa-em-um-minimercado-autonomo-dentro-de-um-condominio-a-primeira-categoria</guid>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
