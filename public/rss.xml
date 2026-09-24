@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 24 Sep 2026 15:44:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 20:20:12 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -27,6 +27,13 @@
       <link>https://seumarketbr.com.br/blog/diferentes-tamanhos-de-minimercados-autonomos-do-seu-market-br</link>
       <description>O Seu Market BR disponibiliza quatro modelos de minimercados autônomos – Compact, Wall, Smart e Prime – com dimensões que vão de 2 m × 2 m a formatos estreitos como 3 m × 1 m, adaptando‑se a diferentes espaços e demandas.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/diferentes-tamanhos-de-minimercados-autonomos-do-seu-market-br</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introdução: o papel dos dados nos minimercados autônomos</title>
+      <link>https://seumarketbr.com.br/blog/introducao-o-papel-dos-dados-nos-minimercados-autonomos-1</link>
+      <description>Os minimercados autônomos têm se consolidado como uma alternativa prática para atender às necessidades diárias de quem vive em condomínios. Além da conveniência de ter um ponto de venda disponível 24 </description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-papel-dos-dados-nos-minimercados-autonomos-1</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -357,13 +364,6 @@
       <description>Descubra como a escolha certa de produtos, desde bebidas até itens de higiene, pode transformar um minimercado autônomo em um ponto essencial para moradores que valorizam praticidade e conveniência em qualquer horário.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/mix-de-produtos-em-minimercados-autonomos-estrategias-para-atrair-moradores-24h</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A tecnologia por trás do minimercado autônomo em condomínio</title>
-      <link>https://seumarketbr.com.br/blog/a-tecnologia-por-tras-do-minimercado-autonomo-em-condominio</link>
-      <description>Os minimercados autônomos em condomínios utilizam uma combinação de sensores, softwares e meios de pagamento para permitir que moradores comprem produtos sem atendentes, garantindo segurança e controle de estoque.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-tecnologia-por-tras-do-minimercado-autonomo-em-condominio</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
