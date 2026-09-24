@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 24 Sep 2026 01:12:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 15:44:20 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A importância dos amenities no escolha do lar</title>
+      <link>https://seumarketbr.com.br/blog/a-importancia-dos-amenities-no-escolha-do-lar</link>
+      <description>Nos últimos anos a decisão de onde morar passou a levar em conta muito mais do que apenas a metragem do apartamento ou a proximidade com o trabalho. Os futuros residentes observam com atenção os servi</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-importancia-dos-amenities-no-escolha-do-lar</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Diferentes tamanhos de minimercados autônomos do Seu Market BR</title>
       <link>https://seumarketbr.com.br/blog/diferentes-tamanhos-de-minimercados-autonomos-do-seu-market-br</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/a-tecnologia-por-tras-do-minimercado-autonomo-em-condominio</link>
       <description>Os minimercados autônomos em condomínios utilizam uma combinação de sensores, softwares e meios de pagamento para permitir que moradores comprem produtos sem atendentes, garantindo segurança e controle de estoque.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-tecnologia-por-tras-do-minimercado-autonomo-em-condominio</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introdução ao minimercado autônomo e as dúvidas dos síndicos</title>
-      <link>https://seumarketbr.com.br/blog/introducao-ao-minimercado-autonomo-e-as-duvidas-dos-sindicos</link>
-      <description>Nos últimos anos, a presença de pontos de venda autônomos tem se tornado uma alternativa prática para moradores de condomínios que buscam agilidade no dia a dia. A possibilidade de comprar produtos es</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-ao-minimercado-autonomo-e-as-duvidas-dos-sindicos</guid>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
