@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 24 Sep 2026 20:20:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 01:13:14 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Introdução ao self‑checkout em minimercados de condomínio</title>
+      <link>https://seumarketbr.com.br/blog/introducao-ao-selfcheckout-em-minimercados-de-condominio</link>
+      <description>Nos últimos anos, a rotina de quem vive em condomínios passou a contar com uma nova opção de compra que fica disponível a qualquer hora do dia ou da noite. Trata‑se dos minimercados autônomos, espaços</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-ao-selfcheckout-em-minimercados-de-condominio</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A importância dos amenities no escolha do lar</title>
       <link>https://seumarketbr.com.br/blog/a-importancia-dos-amenities-no-escolha-do-lar</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/introducao-o-papel-dos-dados-nos-minimercados-autonomos</link>
       <description>Os minimercados autônomos que funcionam 24 horas dentro de condomínios têm se mostrado uma resposta prática à demanda por conveniência e acesso rápido a produtos essenciais. Além da estrutura física e</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-papel-dos-dados-nos-minimercados-autonomos</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mix de Produtos em Minimercados Autônomos: Estratégias para Atrair Moradores 24h</title>
-      <link>https://seumarketbr.com.br/blog/mix-de-produtos-em-minimercados-autonomos-estrategias-para-atrair-moradores-24h</link>
-      <description>Descubra como a escolha certa de produtos, desde bebidas até itens de higiene, pode transformar um minimercado autônomo em um ponto essencial para moradores que valorizam praticidade e conveniência em qualquer horário.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/mix-de-produtos-em-minimercados-autonomos-estrategias-para-atrair-moradores-24h</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
