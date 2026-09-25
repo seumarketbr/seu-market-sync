@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 25 Sep 2026 01:13:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 20:23:04 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como os minimercados autônomos em condomínios influenciam a mobilidade dos moradores</title>
+      <link>https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-em-condominios-influenciam-a-mobilidade-dos-morad</link>
+      <description>A presença de um ponto de venda autônomo dentro do condomínio muda a rotina de quem vive lá porque elimina a necessidade de deslocar‑se até um estabelecimento distante para comprar itens de uso diário</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-em-condominios-influenciam-a-mobilidade-dos-morad</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introdução ao self‑checkout em minimercados de condomínio</title>
       <link>https://seumarketbr.com.br/blog/introducao-ao-selfcheckout-em-minimercados-de-condominio</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-aprovar-a-instalacao-de-um-minimercado-autonomo-em-seu-condominio</link>
       <description>Descubra como apresentar a proposta de um minimercado autônomo em assembleia, utilizando argumentos claros e antecipando objeções para levar mais conveniência aos moradores.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-aprovar-a-instalacao-de-um-minimercado-autonomo-em-seu-condominio</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introdução: o papel dos dados nos minimercados autônomos</title>
-      <link>https://seumarketbr.com.br/blog/introducao-o-papel-dos-dados-nos-minimercados-autonomos</link>
-      <description>Os minimercados autônomos que funcionam 24 horas dentro de condomínios têm se mostrado uma resposta prática à demanda por conveniência e acesso rápido a produtos essenciais. Além da estrutura física e</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-papel-dos-dados-nos-minimercados-autonomos</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
