@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 25 Sep 2026 20:23:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 01:15:22 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Minimercados autônomos: a nova conveniência 24h dentro do condomínio</title>
+      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-a-nova-conveniencia-24h-dentro-do-condominio</link>
+      <description>Os minimercados autônomos oferecem aos moradores de condomínios acesso 24 horas a produtos essenciais com self‑checkout e pagamentos via Pix, cartão ou aproximação, sem precisar sair do prédio.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-a-nova-conveniencia-24h-dentro-do-condominio</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como os minimercados autônomos em condomínios influenciam a mobilidade dos moradores</title>
       <link>https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-em-condominios-influenciam-a-mobilidade-dos-morad</link>
@@ -357,13 +364,6 @@
       <description>O mercado de minimercados autônomos tem se expandido nos condomínios brasileiros como uma solução de conveniência que funciona 24 horas por dia, atendendo à demanda por produtos de primeira necessidad</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/visao-geral-dos-modelos-de-minimercados-autonomos</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Como aprovar a instalação de um minimercado autônomo em seu condomínio</title>
-      <link>https://seumarketbr.com.br/blog/como-aprovar-a-instalacao-de-um-minimercado-autonomo-em-seu-condominio</link>
-      <description>Descubra como apresentar a proposta de um minimercado autônomo em assembleia, utilizando argumentos claros e antecipando objeções para levar mais conveniência aos moradores.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-aprovar-a-instalacao-de-um-minimercado-autonomo-em-seu-condominio</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
