@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 27 Sep 2026 01:09:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 15:33:21 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Custo e investimento inicial</title>
+      <link>https://seumarketbr.com.br/blog/custo-e-investimento-inicial</link>
+      <description>Um dos primeiros pontos que os síndicos costumam levantar ao analisar a possibilidade de instalar um minimercado autônomo no condomínio refere‑se ao custo envolvido na implantação. No caso do modelo o</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/custo-e-investimento-inicial</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introdução: o conceito de minimercado autônomo em condomínios</title>
       <link>https://seumarketbr.com.br/blog/introducao-o-conceito-de-minimercado-autonomo-em-condominios</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/mix-de-produtos-em-minimercados-autonomos-como-acertar-na-escolha</link>
       <description>A definição do mix de produtos em minimercados autônomos exige análise do perfil dos condôminos, dos hábitos de consumo e da rotina do prédio para equilibrar praticidade, vendas por impulso e satisfação dos moradores.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/mix-de-produtos-em-minimercados-autonomos-como-acertar-na-escolha</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Segurança em minimercados autônomos: como câmeras, pagamento rastreável e ambiente de comunidade fec</title>
-      <link>https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente</link>
-      <description>Segurança em minimercados autônomos: como câmeras, pagamento rastreável e ambiente de comunidade fechada reduzem perdas</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
