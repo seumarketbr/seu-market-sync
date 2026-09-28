@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 28 Sep 2026 18:34:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 22:29:29 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como os minimercados autônomos instalados em condomínios estão mudando a rotina de moradores e, ao m</title>
+      <link>https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-instalados-em-condominios-estao-mudando-a-rotina-</link>
+      <description>Como os minimercados autônomos instalados em condomínios estão mudando a rotina de moradores e, ao mesmo tempo, influenciando práticas mais sustentáveis no cotidiano urbano. A presença desses pontos d</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-instalados-em-condominios-estao-mudando-a-rotina-</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Minimercados Autônomos em Condomínios: Conheça os Formatos que Melhor se Adaptam ao Seu Prédio</title>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-conheca-os-formatos-que-melhor-se-adaptam-</link>
@@ -357,13 +364,6 @@
       <description>A ideia de comprar em um espaço que funciona 24 horas, sem atendentes e com pagamento automático, já deixou de ser novidade em muitos condomínios brasileiros. Esse formato traz praticidade para morado</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente-1</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimercados autônomos transformam a rotina dos condomínios</title>
-      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-dos-condominios</link>
-      <description>Pequenos pontos de venda sem atendentes, instalados em áreas comuns, permitem que moradores comprem itens essenciais a qualquer hora sem sair do prédio.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-dos-condominios</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
