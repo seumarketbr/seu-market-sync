@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 30 Sep 2026 01:53:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 16:42:25 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como Avaliar um Minimercado Autônomo para o Condomínio: Guia Essencial para Síndicos</title>
+      <link>https://seumarketbr.com.br/blog/como-avaliar-um-minimercado-autonomo-para-o-condominio-guia-essencial-para-sindi</link>
+      <description>O artigo aborda as dúvidas comuns dos síndicos sobre a viabilidade financeira, segurança e suporte de um minimercado autônomo, apresentando os pontos críticos a considerar antes da instalação.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-avaliar-um-minimercado-autonomo-para-o-condominio-guia-essencial-para-sindi</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O mix ideal de produtos para um minimercado autônomo em condomínio</title>
       <link>https://seumarketbr.com.br/blog/o-mix-ideal-de-produtos-para-um-minimercado-autonomo-em-condominio</link>
@@ -357,13 +364,6 @@
       <description>Esses pontos de venda sem atendentes usam self‑checkout para registrar cada compra, criando um fluxo contínuo de informações sobre o que, quando e quanto os moradores consomem.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-condominios-em-hubs-de-dados-de-consumo</guid>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Como o morador acessa o minimercado autônomo</title>
-      <link>https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo</link>
-      <description>O acesso a um minimercado autônomo instalado dentro de um condomínio costuma ser integrado ao sistema de controle de entrada já existente no prédio. Moradores podem utilizar a mesma credencial que usa</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
