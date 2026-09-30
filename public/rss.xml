@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 29 Sep 2026 21:20:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 01:53:15 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O mix ideal de produtos para um minimercado autônomo em condomínio</title>
+      <link>https://seumarketbr.com.br/blog/o-mix-ideal-de-produtos-para-um-minimercado-autonomo-em-condominio</link>
+      <description>Morar em um condomínio traz consigo a rotina de sair pouco para comprar itens do dia a dia, especialmente quando a correria do trabalho ou os horários restritos das áreas comuns dificultam uma ida ao </description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-mix-ideal-de-produtos-para-um-minimercado-autonomo-em-condominio</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A escolha de um imóvel residencial deixou de ser uma equação resolvida apenas com variáveis como met</title>
       <link>https://seumarketbr.com.br/blog/a-escolha-de-um-imovel-residencial-deixou-de-ser-uma-equacao-resolvida-apenas-co</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo</link>
       <description>O acesso a um minimercado autônomo instalado dentro de um condomínio costuma ser integrado ao sistema de controle de entrada já existente no prédio. Moradores podem utilizar a mesma credencial que usa</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimercado 24h Autônomo: Conveniência nos Condomínios</title>
-      <link>https://seumarketbr.com.br/blog/minimercado-24h-autonomo-conveniencia-nos-condominios</link>
-      <description>Um minimercado autônomo e 24 horas dentro dos condomínios permite que os moradores comprem itens essenciais a qualquer hora, sem necessidade de caixas atendidos.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-24h-autonomo-conveniencia-nos-condominios</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
