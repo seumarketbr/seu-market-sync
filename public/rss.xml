@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 01 Oct 2026 01:51:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 17:18:33 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Introdução: o que síndicos querem saber antes de instalar um minimercado autônomo</title>
+      <link>https://seumarketbr.com.br/blog/introducao-o-que-sindicos-querem-saber-antes-de-instalar-um-minimercado-autonomo</link>
+      <description>Quando um síndico começa a avaliar a possibilidade de colocar um minimercado autônomo no condomínio, as primeiras dúvidas costumam girar em torno de quatro pontos principais: quanto vai custar, como a</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-que-sindicos-querem-saber-antes-de-instalar-um-minimercado-autonomo</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Quando um condomínio decide instalar um minimercado autônomo a primeira pergunta que surge é qual es</title>
       <link>https://seumarketbr.com.br/blog/quando-um-condominio-decide-instalar-um-minimercado-autonomo-a-primeira-pergunta</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-aprovar-um-minimercado-autonomo-no-condominio-sem-dor-de-cabeca</link>
       <description>O artigo explica os passos essenciais para estruturar a proposta e conquistar o quórum necessário na assembleia que viabiliza a instalação de minimercados autônomos em condomínios.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-aprovar-um-minimercado-autonomo-no-condominio-sem-dor-de-cabeca</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Como montar o mix ideal de produtos para minimercados autônomos em condomínios</title>
-      <link>https://seumarketbr.com.br/blog/como-montar-o-mix-ideal-de-produtos-para-minimercados-autonomos-em-condominios</link>
-      <description>O artigo explica como equilibrar variedade e rotatividade nas categorias de bebidas e outros itens para tornar o autoatendimento 24 horas útil aos moradores sem sobrecarregar o espaço limitado.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-montar-o-mix-ideal-de-produtos-para-minimercados-autonomos-em-condominios</guid>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
