@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 01 Oct 2026 21:43:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 02:04:04 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Os minimercados autônomos têm se tornado uma presença cada vez mais comum nos condomínios brasileiro</title>
+      <link>https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-se-tornado-uma-presenca-cada-vez-mais-comum-nos-co</link>
+      <description>Os minimercados autônomos têm se tornado uma presença cada vez mais comum nos condomínios brasileiros, oferecendo aos moradores a possibilidade de adquirir itens de primeira necessidade a qualquer hor</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-se-tornado-uma-presenca-cada-vez-mais-comum-nos-co</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introdução: o que síndicos querem saber antes de instalar um minimercado autônomo</title>
       <link>https://seumarketbr.com.br/blog/introducao-o-que-sindicos-querem-saber-antes-de-instalar-um-minimercado-autonomo</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-os-dados-dos-minimercados-autonomos-transformam-o-mix-de-produtos-nos-condo</link>
       <description>A análise contínua das compras 24 horas permite ajustar o sortimento e melhorar a experiência dos moradores em pontos de venda autônomos.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-dados-dos-minimercados-autonomos-transformam-o-mix-de-produtos-nos-condo</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimercados autônomos: a revolução silenciosa dos condomínios</title>
-      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-a-revolucao-silenciosa-dos-condominios</link>
-      <description>Os minimercados autônomos estão transformando a rotina dos moradores de condomínios, oferecendo praticidade e disponibilidade 24h sem sair do prédio.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-a-revolucao-silenciosa-dos-condominios</guid>
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
