@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 02 Oct 2026 21:14:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 01:46:59 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como o morador acessa o minimercado autônomo dentro do condomínio</title>
+      <link>https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo-dentro-do-condominio</link>
+      <description>Imagine que você chega em casa depois de um longo dia de trabalho e percebe que acabou o leite ou que quer um lanche rápido antes de jalar o filme da noite. Em vez de sair do prédio, pegar o carro e e</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo-dentro-do-condominio</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Os minimercados autônomos têm se tornado uma presença cada vez mais comum nos condomínios brasileiro</title>
       <link>https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-se-tornado-uma-presenca-cada-vez-mais-comum-nos-co</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/a-tecnologia-por-tras-dos-minimercados-autonomos-em-condominios</link>
       <description>Os minimercados autônomos em condomínios dependem de tecnologias integradas para oferecer segurança, gestão de estoque e experiência de compra 24 horas por dia, sem a presença de funcionários no local.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-tecnologia-por-tras-dos-minimercados-autonomos-em-condominios</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimercados autônomos transformam a rotina nos condomínios brasileiros</title>
-      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-nos-condominios-brasileiros</link>
-      <description>O artigo explica como pontos de venda self‑checkout estão se expandindo em condomínios, oferecendo praticidade 24 horas e reduzindo deslocamentos dos moradores.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-nos-condominios-brasileiros</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
