@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 03 Oct 2026 19:45:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 02:27:14 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O conceito de self‑checkout em minimercados autônomos</title>
+      <link>https://seumarketbr.com.br/blog/o-conceito-de-selfcheckout-em-minimercados-autonomos</link>
+      <description>Nos últimos anos, muitos condomínios brasileiros passaram a oferecer um pequeno mercado que funciona o dia inteiro, sem a presença de um atendente fixo. Esse formato se apoia em um totem de autoatendi</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-conceito-de-selfcheckout-em-minimercados-autonomos</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como o morador acessa o minimercado autônomo dentro do condomínio</title>
       <link>https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo-dentro-do-condominio</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/introducao-o-papel-do-sindico-e-os-desafios-atuais</link>
       <description>O síndico de um condomínio enfrenta uma rotina que exige equilíbrio entre a gestão de áreas comuns, a atenção às demandas dos moradores e a busca por soluções que valorizem o empreendimento. Nesse con</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-papel-do-sindico-e-os-desafios-atuais</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O conceito de self‑checkout em minimercados de condomínio</title>
-      <link>https://seumarketbr.com.br/blog/o-conceito-de-selfcheckout-em-minimercados-de-condominio</link>
-      <description>Nos últimos anos a ideia de fazer compras sem passar por um caixa tradicional ganhou espaço em diversos ambientes urbanos, especialmente nos condomínios onde a praticidade e o horário flexível são val</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-conceito-de-selfcheckout-em-minimercados-de-condominio</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
