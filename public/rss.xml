@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 04 Oct 2026 20:00:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 19:41:50 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como os minimercados autônomos nos condomínios podem reduzir o deslocamento cotidiano</title>
+      <link>https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-nos-condominios-podem-reduzir-o-deslocamento-coti</link>
+      <description>Viver em um condomínio frequentemente significa ter que sair do prédio para atender necessidades básicas como comprar pão, leite ou outros itens de primeira necessidade. Esse deslocamento, mesmo que c</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-nos-condominios-podem-reduzir-o-deslocamento-coti</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O conceito de self‑checkout em minimercados autônomos</title>
       <link>https://seumarketbr.com.br/blog/o-conceito-de-selfcheckout-em-minimercados-autonomos</link>
@@ -357,13 +364,6 @@
       <description>O síndico hoje enfrenta uma rotina que vai muito além da simples administração de áreas comuns e de questões financeiras. Ele precisa lidar com a expectativa dos moradores por mais comodidade, com a n</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-desafios-do-sindico-na-gestao-contemporanea-de-condominios</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Como Pix e pagamento por aproximação transformaram o varejo de conveniência em condomínios residenci</title>
-      <link>https://seumarketbr.com.br/blog/como-pix-e-pagamento-por-aproximacao-transformaram-o-varejo-de-conveniencia-em-c</link>
-      <description>Nos últimos anos o modo como as pessoas fazem compras de pequeno porte passou por uma mudança silenciosa, mas profunda. A combinação de tecnologias de pagamento instantâneo e de aproximação criou um n</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-pix-e-pagamento-por-aproximacao-transformaram-o-varejo-de-conveniencia-em-c</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
