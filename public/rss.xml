@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 06 Oct 2026 17:03:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 21:31:48 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -27,6 +27,13 @@
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-de-condominios</link>
       <description>Os minimercados autônomos oferecem aos moradores a praticidade de comprar produtos essenciais a qualquer hora por meio de self‑checkout, valorizando o cotidiano nos condomínios.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-de-condominios</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Os minimercados autônomos têm se tornado uma presença cada vez mais comum nos condomínios brasileiro</title>
+      <link>https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-se-tornado-uma-presenca-cada-vez-mais-comum-nos-co-2</link>
+      <description>Os minimercados autônomos têm se tornado uma presença cada vez mais comum nos condomínios brasileiros, oferecendo aos moradores a possibilidade de comprar itens de primeira necessidade a qualquer hora</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-se-tornado-uma-presenca-cada-vez-mais-comum-nos-co-2</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-montar-o-mix-perfeito-de-produtos-para-um-minimercado-autonomo-no-condomini</link>
       <description>O artigo detalha as principais categorias de itens que equilibram variedade e praticidade, atendendo ao dia a dia dos moradores sem desperdício de espaço.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-montar-o-mix-perfeito-de-produtos-para-um-minimercado-autonomo-no-condomini</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Como os dados de consumo são gerados em um minimercado autônomo</title>
-      <link>https://seumarketbr.com.br/blog/como-os-dados-de-consumo-sao-gerados-em-um-minimercado-autonomo</link>
-      <description>Quando um morador se aproxima de um minimercado autônomo e realiza uma compra, cada interação deixa um rastro que pode ser capturado pelo sistema operacional. O self-checkout registra o item escolhido</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-dados-de-consumo-sao-gerados-em-um-minimercado-autonomo</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
