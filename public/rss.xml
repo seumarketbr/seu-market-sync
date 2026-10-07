@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 07 Oct 2026 02:12:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 17:42:04 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nos últimos anos a procura por um lugar para chamar de lar passou a levar em conta muito mais do que</title>
+      <link>https://seumarketbr.com.br/blog/nos-ultimos-anos-a-procura-por-um-lugar-para-chamar-de-lar-passou-a-levar-em-con</link>
+      <description>Nos últimos anos a procura por um lugar para chamar de lar passou a levar em conta muito mais do que apenas a metragem do apartamento ou a localização na cidade. Os moradores passaram a valorizar aqui</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/nos-ultimos-anos-a-procura-por-um-lugar-para-chamar-de-lar-passou-a-levar-em-con</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Self‑checkout nos condomínios: como o totem transforma a compra do dia a dia</title>
       <link>https://seumarketbr.com.br/blog/selfcheckout-nos-condominios-como-o-totem-transforma-a-compra-do-dia-a-dia</link>
@@ -357,13 +364,6 @@
       <description>O artigo esclarece as principais dúvidas de síndicos sobre a implantação de mercados autônomos, abordando pontos essenciais como custos, segurança, contratos e suporte.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-o-que-sindicos-precisam-saber</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Como as amenidades internas estão redefinindo a escolha do lar</title>
-      <link>https://seumarketbr.com.br/blog/como-as-amenidades-internas-estao-redefinindo-a-escolha-do-lar</link>
-      <description>Como as amenidades internas estão redefinindo a escolha do lar</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-as-amenidades-internas-estao-redefinindo-a-escolha-do-lar</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
