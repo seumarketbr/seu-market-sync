@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 08 Oct 2026 02:35:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 17:46:21 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A ideia de instalar um minimercado autônomo dentro de um condomínio tem ganhado atenção por trazer p</title>
+      <link>https://seumarketbr.com.br/blog/a-ideia-de-instalar-um-minimercado-autonomo-dentro-de-um-condominio-tem-ganhado-</link>
+      <description>A ideia de instalar um minimercado autônomo dentro de um condomínio tem ganhado atenção por trazer praticidade aos moradores e potencializar a valorização das áreas comuns. Quando um síndico ou um gru</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-ideia-de-instalar-um-minimercado-autonomo-dentro-de-um-condominio-tem-ganhado-</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O self‑checkout em minimercados de condomínio: uma visão geral</title>
       <link>https://seumarketbr.com.br/blog/o-selfcheckout-em-minimercados-de-condominio-uma-visao-geral</link>
@@ -357,13 +364,6 @@
       <description>A decisão de instalar um minimercado autônomo em um condomínio costuma nascer de uma combinação de fatores práticos e de expectativas dos moradores. A rotina cada vez mais acelerada faz com que a poss</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-que-leva-um-sindico-a-considerar-um-minimercado-autonomo</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A psicologia da confiança e a segurança no varejo autônomo</title>
-      <link>https://seumarketbr.com.br/blog/a-psicologia-da-confianca-e-a-seguranca-no-varejo-autonomo</link>
-      <description>O conceito de um mercado onde não existe a figura do operador de caixa desafia a lógica tradicional do comércio brasileiro, que historicamente se baseou na vigilância presencial para evitar perdas. No</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-psicologia-da-confianca-e-a-seguranca-no-varejo-autonomo</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
