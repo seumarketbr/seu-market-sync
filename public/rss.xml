@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 07 Oct 2026 21:54:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 02:35:41 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O self‑checkout em minimercados de condomínio: uma visão geral</title>
+      <link>https://seumarketbr.com.br/blog/o-selfcheckout-em-minimercados-de-condominio-uma-visao-geral</link>
+      <description>Nos últimos anos, os minimercados autônomos passaram a fazer parte da rotina de muitos condomínios brasileiros. Eles surgiram como uma resposta à demanda por praticidade, especialmente em horários em </description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-selfcheckout-em-minimercados-de-condominio-uma-visao-geral</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como os Dados dos Minimercados Autônomos Transformam a Oferta nos Condomínios 24h</title>
       <link>https://seumarketbr.com.br/blog/como-os-dados-dos-minimercados-autonomos-transformam-a-oferta-nos-condominios-24</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/a-psicologia-da-confianca-e-a-seguranca-no-varejo-autonomo</link>
       <description>O conceito de um mercado onde não existe a figura do operador de caixa desafia a lógica tradicional do comércio brasileiro, que historicamente se baseou na vigilância presencial para evitar perdas. No</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-psicologia-da-confianca-e-a-seguranca-no-varejo-autonomo</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introdução: o crescimento dos minimercados autônomos em condomínios</title>
-      <link>https://seumarketbr.com.br/blog/introducao-o-crescimento-dos-minimercados-autonomos-em-condominios</link>
-      <description>Nos últimos anos, a rotina dos moradores de condomínios tem passado por mudanças silenciosas, mas profundas, na forma de acessar produtos de primeira necessidade. A presença de pontos de venda autônom</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-crescimento-dos-minimercados-autonomos-em-condominios</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
