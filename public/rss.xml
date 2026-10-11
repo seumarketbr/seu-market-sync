@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 11 Oct 2026 01:36:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 16:35:01 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como um minimercado autônomo 24h pode agregar valor ao condomínio sem impacto na taxa condominial</title>
+      <link>https://seumarketbr.com.br/blog/como-um-minimercado-autonomo-24h-pode-agregar-valor-ao-condominio-sem-impacto-na</link>
+      <description>Morar em um condomínio hoje vai muito além de ter um espaço seguro e bem conservado. Os moradores esperam comodidades que facilitem a rotina, especialmente quando o tempo é escasso e a agenda está che</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-um-minimercado-autonomo-24h-pode-agregar-valor-ao-condominio-sem-impacto-na</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Self‑checkout revoluciona minimercados 24h em condomínios brasileiros</title>
       <link>https://seumarketbr.com.br/blog/selfcheckout-revoluciona-minimercados-24h-em-condominios-brasileiros</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/o-peso-dos-amenities-na-decisao-de-moradia</link>
       <description>Nos últimos anos a escolha de um lugar para morar passou a considerar muito mais do que apenas a metragem do apartamento ou a localização próxima ao trabalho. Os condomínios começaram a oferecer uma v</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-peso-dos-amenities-na-decisao-de-moradia</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O que é o self‑checkout em minimercados de condomínio</title>
-      <link>https://seumarketbr.com.br/blog/o-que-e-o-selfcheckout-em-minimercados-de-condominio</link>
-      <description>O modelo de minimercado autônomo tem ganhado espaço nos condomínios brasileiros porque resolve a demanda por conveniência sem exigir a presença constante de funcionários, o que permite que o ponto de </description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-que-e-o-selfcheckout-em-minimercados-de-condominio</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
