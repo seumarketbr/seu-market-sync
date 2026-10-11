@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 10 Oct 2026 20:33:19 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 01:36:58 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Self‑checkout revoluciona minimercados 24h em condomínios brasileiros</title>
+      <link>https://seumarketbr.com.br/blog/selfcheckout-revoluciona-minimercados-24h-em-condominios-brasileiros</link>
+      <description>O artigo explica como totens de autoatendimento permitem compras a qualquer hora sem caixas humanos, transformando a operação e a experiência dos moradores.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/selfcheckout-revoluciona-minimercados-24h-em-condominios-brasileiros</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Minimercados autônomos em condomínios: a nova conveniência que moradores já esperam</title>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-a-nova-conveniencia-que-moradores-ja-esper</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/o-que-e-o-selfcheckout-em-minimercados-de-condominio</link>
       <description>O modelo de minimercado autônomo tem ganhado espaço nos condomínios brasileiros porque resolve a demanda por conveniência sem exigir a presença constante de funcionários, o que permite que o ponto de </description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-que-e-o-selfcheckout-em-minimercados-de-condominio</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O surgimento de novas formas de pagamento nos condomínios</title>
-      <link>https://seumarketbr.com.br/blog/o-surgimento-de-novas-formas-de-pagamento-nos-condominios</link>
-      <description>Nos últimos anos, a rotina dos moradores de condomínios residenciais passou a ser atravessada por soluções que antes eram restritas a grandes centros urbanos. A necessidade de comprar itens de primeir</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-surgimento-de-novas-formas-de-pagamento-nos-condominios</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
