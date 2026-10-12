@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 11 Oct 2026 20:51:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 02:09:21 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como funciona um minimercado autônomo 24h dentro de um condomínio residencial</title>
+      <link>https://seumarketbr.com.br/blog/como-funciona-um-minimercado-autonomo-24h-dentro-de-um-condominio-residencial</link>
+      <description>Os minimercados autônomos têm se tornado uma presença cada vez mais comum nas áreas comuns de condomínios brasileiros. Eles oferecem aos moradores a possibilidade de comprar itens de primeira necessid</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-funciona-um-minimercado-autonomo-24h-dentro-de-um-condominio-residencial</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como um minimercado autônomo 24h pode agregar valor ao condomínio sem impacto na taxa condominial</title>
       <link>https://seumarketbr.com.br/blog/como-um-minimercado-autonomo-24h-pode-agregar-valor-ao-condominio-sem-impacto-na</link>
@@ -357,13 +364,6 @@
       <description>Os minimercados autônomos têm se consolidado como uma alternativa prática para atender às necessidades diárias de quem vive em condomínios. Além da conveniência de ter um ponto de venda disponível 24 </description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-papel-dos-dados-nos-minimercados-autonomos-1</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O Papel do Self-Checkout nos Minimercados Autônomos de Condomínios</title>
-      <link>https://seumarketbr.com.br/blog/o-papel-do-self-checkout-nos-minimercados-autonomos-de-condominios</link>
-      <description>Descubra como os totens de self-checkout viabilizam a conveniência e a independência nas compras realizadas em minimercados autônomos dentro de condomínios.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-papel-do-self-checkout-nos-minimercados-autonomos-de-condominios</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
