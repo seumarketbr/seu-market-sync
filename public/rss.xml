@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 12 Oct 2026 23:34:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 03:23:53 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Introdução: o conceito de minimercado autônomo em condomínios</title>
+      <link>https://seumarketbr.com.br/blog/introducao-o-conceito-de-minimercado-autonomo-em-condominios-1</link>
+      <description>Nos últimos anos a forma como as pessoas acessam produtos de primeira necessidade tem passado por uma transformação silenciosa, impulsionada pela busca por praticidade e pela adaptação dos espaços res</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-conceito-de-minimercado-autonomo-em-condominios-1</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como funciona um minimercado autônomo 24h dentro de um condomínio residencial</title>
       <link>https://seumarketbr.com.br/blog/como-funciona-um-minimercado-autonomo-24h-dentro-de-um-condominio-residencial</link>
@@ -357,13 +364,6 @@
       <description>Nos últimos anos, a rotina de quem vive em condomínios passou a contar com uma nova opção de compra que fica disponível a qualquer hora do dia ou da noite. Trata‑se dos minimercados autônomos, espaços</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-ao-selfcheckout-em-minimercados-de-condominio</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A importância dos amenities no escolha do lar</title>
-      <link>https://seumarketbr.com.br/blog/a-importancia-dos-amenities-no-escolha-do-lar</link>
-      <description>Nos últimos anos a decisão de onde morar passou a levar em conta muito mais do que apenas a metragem do apartamento ou a proximidade com o trabalho. Os futuros residentes observam com atenção os servi</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-importancia-dos-amenities-no-escolha-do-lar</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
