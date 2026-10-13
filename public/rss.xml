@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 13 Oct 2026 03:23:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 17:58:58 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como o síndico pode otimizar áreas e reduzir custos no condomínio</title>
+      <link>https://seumarketbr.com.br/blog/como-o-sindico-pode-otimizar-areas-e-reduzir-custos-no-condominio</link>
+      <description>O síndico deve equilibrar manutenção, segurança e finanças do condomínio, aproveitando áreas ociosas e o fluxo de moradores para evitar custos extras e garantir tranquilidade.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-o-sindico-pode-otimizar-areas-e-reduzir-custos-no-condominio</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introdução: o conceito de minimercado autônomo em condomínios</title>
       <link>https://seumarketbr.com.br/blog/introducao-o-conceito-de-minimercado-autonomo-em-condominios-1</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-em-condominios-influenciam-a-mobilidade-dos-morad</link>
       <description>A presença de um ponto de venda autônomo dentro do condomínio muda a rotina de quem vive lá porque elimina a necessidade de deslocar‑se até um estabelecimento distante para comprar itens de uso diário</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-em-condominios-influenciam-a-mobilidade-dos-morad</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introdução ao self‑checkout em minimercados de condomínio</title>
-      <link>https://seumarketbr.com.br/blog/introducao-ao-selfcheckout-em-minimercados-de-condominio</link>
-      <description>Nos últimos anos, a rotina de quem vive em condomínios passou a contar com uma nova opção de compra que fica disponível a qualquer hora do dia ou da noite. Trata‑se dos minimercados autônomos, espaços</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-ao-selfcheckout-em-minimercados-de-condominio</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
