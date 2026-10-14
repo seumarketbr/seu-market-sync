@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 13 Oct 2026 21:47:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 01:41:01 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Os minimercados autônomos têm se consolidado como uma solução prática para atender às necessidades d</title>
+      <link>https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-se-consolidado-como-uma-solucao-pratica-para-atend</link>
+      <description>Os minimercados autônomos têm se consolidado como uma solução prática para atender às necessidades de moradores que buscam praticidade no dia a dia dentro dos condomínios. A possibilidade de comprar a</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-se-consolidado-como-uma-solucao-pratica-para-atend</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como o síndico pode otimizar áreas e reduzir custos no condomínio</title>
       <link>https://seumarketbr.com.br/blog/como-o-sindico-pode-otimizar-areas-e-reduzir-custos-no-condominio</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-a-nova-conveniencia-24h-dentro-do-condominio</link>
       <description>Os minimercados autônomos oferecem aos moradores de condomínios acesso 24 horas a produtos essenciais com self‑checkout e pagamentos via Pix, cartão ou aproximação, sem precisar sair do prédio.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-a-nova-conveniencia-24h-dentro-do-condominio</guid>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Segurança em minimercados autônomos: um panorama geral</title>
-      <link>https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-um-panorama-geral</link>
-      <description>Os minimercados autônomos têm ganhado espaço nos condomínios brasileiros por oferecerem praticidade e acesso a produtos essenciais em qualquer horário. Esse formato, baseado em self‑checkout, permite </description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-um-panorama-geral</guid>
       <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
