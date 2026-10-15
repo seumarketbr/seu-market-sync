@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 15 Oct 2026 01:20:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 15:33:00 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A conveniência do acesso 24 horas</title>
+      <link>https://seumarketbr.com.br/blog/a-conveniencia-do-acesso-24-horas</link>
+      <description>Morar em um condomínio residencial traz consigo a expectativa de ter serviços que facilitem o dia a dia sem precisar sair do complexo. Quando um minimercado autônomo funciona vinte e quatro horas por </description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-conveniencia-do-acesso-24-horas</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O desafio de equilibrar variedade e giro em espaços reduzidos</title>
       <link>https://seumarketbr.com.br/blog/o-desafio-de-equilibrar-variedade-e-giro-em-espacos-reduzidos</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/custo-e-investimento-inicial</link>
       <description>Um dos primeiros pontos que os síndicos costumam levantar ao analisar a possibilidade de instalar um minimercado autônomo no condomínio refere‑se ao custo envolvido na implantação. No caso do modelo o</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/custo-e-investimento-inicial</guid>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introdução: o conceito de minimercado autônomo em condomínios</title>
-      <link>https://seumarketbr.com.br/blog/introducao-o-conceito-de-minimercado-autonomo-em-condominios</link>
-      <description>Nos últimos anos o formato de minimercado autônomo tem ganhado espaço em áreas residenciais, especialmente em condomínios que buscam oferecer mais comodidade aos moradores sem precisar de um estabelec</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-conceito-de-minimercado-autonomo-em-condominios</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
