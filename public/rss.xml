@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 14 Oct 2026 20:32:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 01:20:39 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O desafio de equilibrar variedade e giro em espaços reduzidos</title>
+      <link>https://seumarketbr.com.br/blog/o-desafio-de-equilibrar-variedade-e-giro-em-espacos-reduzidos</link>
+      <description>Quando se fala em minimercado autônomo dentro de condomínios, a primeira imagem que vem à mente costuma ser a de uma geladeira com bebidas geladas e uma prateleira com salgadinhos. Essa visão, embora </description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-desafio-de-equilibrar-variedade-e-giro-em-espacos-reduzidos</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como os dados de consumo transformam o minimercado autônomo</title>
       <link>https://seumarketbr.com.br/blog/como-os-dados-de-consumo-transformam-o-minimercado-autonomo-1</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/introducao-o-conceito-de-minimercado-autonomo-em-condominios</link>
       <description>Nos últimos anos o formato de minimercado autônomo tem ganhado espaço em áreas residenciais, especialmente em condomínios que buscam oferecer mais comodidade aos moradores sem precisar de um estabelec</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-conceito-de-minimercado-autonomo-em-condominios</guid>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nos últimos anos a forma como as pessoas realizam suas compras tem passado por transformações silenc</title>
-      <link>https://seumarketbr.com.br/blog/nos-ultimos-anos-a-forma-como-as-pessoas-realizam-suas-compras-tem-passado-por-t</link>
-      <description>Nos últimos anos a forma como as pessoas realizam suas compras tem passado por transformações silenciosas, impulsionadas pela busca por praticidade e por um estilo de vida mais alinhado com as preocup</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/nos-ultimos-anos-a-forma-como-as-pessoas-realizam-suas-compras-tem-passado-por-t</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
