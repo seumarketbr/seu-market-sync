@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 17 Oct 2026 19:10:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 00:43:55 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Self‑checkout nos minimercados de condomínio: compra autônoma 24h</title>
+      <link>https://seumarketbr.com.br/blog/selfcheckout-nos-minimercados-de-condominio-compra-autonoma-24h</link>
+      <description>Os minimercados de condomínio oferecem self‑checkout 24 horas, eliminando a necessidade de caixas humanos e proporcionando autonomia aos moradores.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/selfcheckout-nos-minimercados-de-condominio-compra-autonoma-24h</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como funciona um minimercado autônomo 24h instalado dentro de um condomínio residencial: como o mora</title>
       <link>https://seumarketbr.com.br/blog/como-funciona-um-minimercado-autonomo-24h-instalado-dentro-de-um-condominio-resi</link>
@@ -357,13 +364,6 @@
       <description>Morar em um condomínio traz consigo a rotina de sair pouco para comprar itens do dia a dia, especialmente quando a correria do trabalho ou os horários restritos das áreas comuns dificultam uma ida ao </description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-mix-ideal-de-produtos-para-um-minimercado-autonomo-em-condominio</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A escolha de um imóvel residencial deixou de ser uma equação resolvida apenas com variáveis como met</title>
-      <link>https://seumarketbr.com.br/blog/a-escolha-de-um-imovel-residencial-deixou-de-ser-uma-equacao-resolvida-apenas-co</link>
-      <description>A escolha de um imóvel residencial deixou de ser uma equação resolvida apenas com variáveis como metragem, número de quartos ou proximidade do trabalho. Nos últimos anos, a infraestrutura interna do c</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-escolha-de-um-imovel-residencial-deixou-de-ser-uma-equacao-resolvida-apenas-co</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
