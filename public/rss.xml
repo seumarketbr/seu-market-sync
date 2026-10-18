@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 18 Oct 2026 00:43:55 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:21:30 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como os minimercados autônomos podem mudar a rotina de deslocamento nos condomínios</title>
+      <link>https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-podem-mudar-a-rotina-de-deslocamento-nos-condomin</link>
+      <description>Viver em um condomínio frequentemente significa ter que sair do prédio para atender necessidades cotidianas como comprar um pão, um leite ou algum item de higiene pessoal. Esse deslocamento, mesmo que</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-podem-mudar-a-rotina-de-deslocamento-nos-condomin</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Self‑checkout nos minimercados de condomínio: compra autônoma 24h</title>
       <link>https://seumarketbr.com.br/blog/selfcheckout-nos-minimercados-de-condominio-compra-autonoma-24h</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/condominios-residenciais-adotam-lojas-autonomas-para-maior-conveniencia-dos-mora</link>
       <description>Condomínios residenciais estão incorporando minimercados autônomos, que utilizam tecnologia digital para permitir compras sem caixa e acesso rápido, atendendo à demanda de praticidade dos moradores.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/condominios-residenciais-adotam-lojas-autonomas-para-maior-conveniencia-dos-mora</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O mix ideal de produtos para um minimercado autônomo em condomínio</title>
-      <link>https://seumarketbr.com.br/blog/o-mix-ideal-de-produtos-para-um-minimercado-autonomo-em-condominio</link>
-      <description>Morar em um condomínio traz consigo a rotina de sair pouco para comprar itens do dia a dia, especialmente quando a correria do trabalho ou os horários restritos das áreas comuns dificultam uma ida ao </description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-mix-ideal-de-produtos-para-um-minimercado-autonomo-em-condominio</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
