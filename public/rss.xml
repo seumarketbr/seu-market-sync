@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 18 Oct 2026 19:21:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 00:56:52 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como o morador acessa o minimercado autônomo</title>
+      <link>https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo-2</link>
+      <description>Morar em um condomínio traz a comodidade de ter serviços próximos, mas nem sempre dá para sair de casa a qualquer hora para comprar um item essencial. Quando o minimercado autônomo está instalado dent</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo-2</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como os minimercados autônomos podem mudar a rotina de deslocamento nos condomínios</title>
       <link>https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-podem-mudar-a-rotina-de-deslocamento-nos-condomin</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-avaliar-um-minimercado-autonomo-para-o-condominio-guia-essencial-para-sindi</link>
       <description>O artigo aborda as dúvidas comuns dos síndicos sobre a viabilidade financeira, segurança e suporte de um minimercado autônomo, apresentando os pontos críticos a considerar antes da instalação.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-avaliar-um-minimercado-autonomo-para-o-condominio-guia-essencial-para-sindi</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Condomínios residenciais adotam lojas autônomas para maior conveniência dos moradores</title>
-      <link>https://seumarketbr.com.br/blog/condominios-residenciais-adotam-lojas-autonomas-para-maior-conveniencia-dos-mora</link>
-      <description>Condomínios residenciais estão incorporando minimercados autônomos, que utilizam tecnologia digital para permitir compras sem caixa e acesso rápido, atendendo à demanda de praticidade dos moradores.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/condominios-residenciais-adotam-lojas-autonomas-para-maior-conveniencia-dos-mora</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
