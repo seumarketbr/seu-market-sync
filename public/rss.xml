@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 19 Oct 2026 00:56:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 17:23:46 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Antes de decidir instalar um minimercado autônomo em um condomínio, o síndico costuma reunir informa</title>
+      <link>https://seumarketbr.com.br/blog/antes-de-decidir-instalar-um-minimercado-autonomo-em-um-condominio-o-sindico-cos</link>
+      <description>Antes de decidir instalar um minimercado autônomo em um condomínio, o síndico costuma reunir informações sobre os pontos que mais influenciam a decisão: quanto vai custar, como a segurança será garant</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/antes-de-decidir-instalar-um-minimercado-autonomo-em-um-condominio-o-sindico-cos</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como o morador acessa o minimercado autônomo</title>
       <link>https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo-2</link>
@@ -357,13 +364,6 @@
       <description>Quando um condomínio decide instalar um minimercado autônomo a primeira pergunta que surge é qual estrutura cabe no espaço disponível e atende ao fluxo de moradores, pois cada modelo foi pensado para </description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/quando-um-condominio-decide-instalar-um-minimercado-autonomo-a-primeira-pergunta</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Como Avaliar um Minimercado Autônomo para o Condomínio: Guia Essencial para Síndicos</title>
-      <link>https://seumarketbr.com.br/blog/como-avaliar-um-minimercado-autonomo-para-o-condominio-guia-essencial-para-sindi</link>
-      <description>O artigo aborda as dúvidas comuns dos síndicos sobre a viabilidade financeira, segurança e suporte de um minimercado autônomo, apresentando os pontos críticos a considerar antes da instalação.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-avaliar-um-minimercado-autonomo-para-o-condominio-guia-essencial-para-sindi</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
