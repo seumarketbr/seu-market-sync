@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 19 Oct 2026 21:24:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 01:38:52 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Minimercados autônomos transformam a conveniência nos condomínios</title>
+      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-2</link>
+      <description>O artigo explica como os minimercados sem atendentes funcionam, quais formas de pagamento oferecem e como se diferenciam dos caixas tradicionais.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-2</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Antes de decidir instalar um minimercado autônomo em um condomínio, o síndico costuma reunir informa</title>
       <link>https://seumarketbr.com.br/blog/antes-de-decidir-instalar-um-minimercado-autonomo-em-um-condominio-o-sindico-cos</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/introducao-o-que-sindicos-querem-saber-antes-de-instalar-um-minimercado-autonomo</link>
       <description>Quando um síndico começa a avaliar a possibilidade de colocar um minimercado autônomo no condomínio, as primeiras dúvidas costumam girar em torno de quatro pontos principais: quanto vai custar, como a</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-que-sindicos-querem-saber-antes-de-instalar-um-minimercado-autonomo</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Os minimercados autônomos instalados dentro de condomínios têm ganhado espaço como uma alternativa p</title>
-      <link>https://seumarketbr.com.br/blog/os-minimercados-autonomos-instalados-dentro-de-condominios-tem-ganhado-espaco-co</link>
-      <description>Os minimercados autônomos instalados dentro de condomínios têm ganhado espaço como uma alternativa prática para atender às necessidades diárias dos moradores. Esse modelo traz a possibilidade de compr</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-minimercados-autonomos-instalados-dentro-de-condominios-tem-ganhado-espaco-co</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
