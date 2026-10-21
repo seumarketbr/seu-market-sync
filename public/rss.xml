@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 20 Oct 2026 20:23:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 01:22:55 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O movimento de levar pontos de venda autônomos para dentro de condomínios residenciais deixou de ser</title>
+      <link>https://seumarketbr.com.br/blog/o-movimento-de-levar-pontos-de-venda-autonomos-para-dentro-de-condominios-reside</link>
+      <description>O movimento de levar pontos de venda autônomos para dentro de condomínios residenciais deixou de ser uma novidade isolada para se tornar uma tendência consolidada no varejo brasileiro, transformando a</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-movimento-de-levar-pontos-de-venda-autonomos-para-dentro-de-condominios-reside</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Minimercados autônomos transformam a conveniência nos condomínios</title>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-2</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-se-tornado-uma-presenca-cada-vez-mais-comum-nos-co</link>
       <description>Os minimercados autônomos têm se tornado uma presença cada vez mais comum nos condomínios brasileiros, oferecendo aos moradores a possibilidade de adquirir itens de primeira necessidade a qualquer hor</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-se-tornado-uma-presenca-cada-vez-mais-comum-nos-co</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Segurança em minimercados autônomos: como câmeras, pagamento rastreável e ambiente de comunidade fec</title>
-      <link>https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente-2</link>
-      <description>Os minimercados autônomos têm ganhado espaço nos condomínios brasileiros como uma alternativa prática para quem precisa de produtos de primeira necessidade a qualquer hora do dia ou da noite. Esse for</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente-2</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
