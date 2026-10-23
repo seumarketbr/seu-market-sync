@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 23 Oct 2026 15:40:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 20:17:01 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -27,6 +27,13 @@
       <link>https://seumarketbr.com.br/blog/minimercado-autonomo-24h-conveniencia-total-nos-condominios</link>
       <description>Um minimercado autônomo 24h instalado em condomínios permite aos moradores comprarem itens de necessidade imediata a qualquer hora, com tecnologia que gerencia acesso, registro de compras e estoque, eliminando a necessidade de deslocamento até lojas externas.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-autonomo-24h-conveniencia-total-nos-condominios</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>O papel dos dados de consumo no varejo autônomo</title>
+      <link>https://seumarketbr.com.br/blog/o-papel-dos-dados-de-consumo-no-varejo-autonomo</link>
+      <description>O varejo autônomo tem ganhado espaço nos condomínios brasileiros porque oferece conveniência sem a necessidade de um atendimento presencial constante, e a geração de dados de consumo é um dos pilares </description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-papel-dos-dados-de-consumo-no-varejo-autonomo</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -357,13 +364,6 @@
       <description>Os minimercados autônomos têm ganhado espaço nos condomínios brasileiros por oferecerem uma alternativa de compra que funciona 24 horas por dia, sem a necessidade de atendimento humano constante. Esse</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-ganhado-espaco-nos-condominios-brasileiros-por-ofe</guid>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O conceito de self‑checkout em minimercados autônomos</title>
-      <link>https://seumarketbr.com.br/blog/o-conceito-de-selfcheckout-em-minimercados-autonomos</link>
-      <description>Nos últimos anos, muitos condomínios brasileiros passaram a oferecer um pequeno mercado que funciona o dia inteiro, sem a presença de um atendente fixo. Esse formato se apoia em um totem de autoatendi</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-conceito-de-selfcheckout-em-minimercados-autonomos</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
