@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 23 Oct 2026 01:19:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 15:40:31 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Minimercado autônomo 24 h chega aos condomínios e revoluciona a conveniência dos moradores</title>
+      <link>https://seumarketbr.com.br/blog/minimercado-autonomo-24-h-chega-aos-condominios-e-revoluciona-a-conveniencia-dos</link>
+      <description>O modelo permite compras sem atendentes, com self‑checkout e pagamentos por Pix, cartão ou aproximação, mantendo o ponto de venda aberto dia e noite para atender necessidades de última hora dos residentes.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-autonomo-24-h-chega-aos-condominios-e-revoluciona-a-conveniencia-dos</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Minimercado Autônomo 24h: Conveniência total nos condomínios</title>
       <link>https://seumarketbr.com.br/blog/minimercado-autonomo-24h-conveniencia-total-nos-condominios</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/o-conceito-de-selfcheckout-em-minimercados-autonomos</link>
       <description>Nos últimos anos, muitos condomínios brasileiros passaram a oferecer um pequeno mercado que funciona o dia inteiro, sem a presença de um atendente fixo. Esse formato se apoia em um totem de autoatendi</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-conceito-de-selfcheckout-em-minimercados-autonomos</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Os minimercados autônomos têm se tornado uma presença cada vez mais comum nos condomínios brasileiro</title>
-      <link>https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-se-tornado-uma-presenca-cada-vez-mais-comum-nos-co-1</link>
-      <description>Os minimercados autônomos têm se tornado uma presença cada vez mais comum nos condomínios brasileiros, oferecendo aos moradores a possibilidade de comprar produtos essenciais a qualquer hora do dia ou</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-minimercados-autonomos-tem-se-tornado-uma-presenca-cada-vez-mais-comum-nos-co-1</guid>
       <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
