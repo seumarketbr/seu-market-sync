@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 24 Oct 2026 19:22:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 00:56:21 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O self-checkout deixou de ser uma novidade restrita a grandes redes de supermercado para se tornar a</title>
+      <link>https://seumarketbr.com.br/blog/o-self-checkout-deixou-de-ser-uma-novidade-restrita-a-grandes-redes-de-supermerc</link>
+      <description>O self-checkout deixou de ser uma novidade restrita a grandes redes de supermercado para se tornar a espinha dorsal do varejo autônomo dentro de condomínios residenciais e comerciais, transformando a </description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-self-checkout-deixou-de-ser-uma-novidade-restrita-a-grandes-redes-de-supermerc</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A forma como pagamos por pequenas compras do dia a dia mudou radicalmente nos últimos anos e o varej</title>
       <link>https://seumarketbr.com.br/blog/a-forma-como-pagamos-por-pequenas-compras-do-dia-a-dia-mudou-radicalmente-nos-ul</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/as-instalacoes-de-minimercados-autonomos-tem-chamado-a-atencao-de-sindicos-que-b</link>
       <description>As instalações de minimercados autônomos têm chamado a atenção de síndicos que buscam oferecer mais praticidade aos moradores sem aumentar a carga administrativa do condomínio. Antes de tomar uma deci</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/as-instalacoes-de-minimercados-autonomos-tem-chamado-a-atencao-de-sindicos-que-b</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimercados autônomos transformam a rotina de condomínios</title>
-      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-de-condominios</link>
-      <description>Os minimercados autônomos oferecem aos moradores a praticidade de comprar produtos essenciais a qualquer hora por meio de self‑checkout, valorizando o cotidiano nos condomínios.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-de-condominios</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
