@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 26 Oct 2026 01:02:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 17:09:49 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Entendendo o modelo de minimercado autônomo</title>
+      <link>https://seumarketbr.com.br/blog/entendendo-o-modelo-de-minimercado-autonomo</link>
+      <description>O conceito de minimercado autônomo ganhou força nos últimos anos como uma resposta prática à demanda por conveniência dentro de condomínios residenciais e comerciais, pois elimina a necessidade de des</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/entendendo-o-modelo-de-minimercado-autonomo</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O desafio de montar o sortimento perfeito para um minimercado autônomo instalado dentro de um condom</title>
       <link>https://seumarketbr.com.br/blog/o-desafio-de-montar-o-sortimento-perfeito-para-um-minimercado-autonomo-instalado</link>
@@ -357,13 +364,6 @@
       <description>Nos últimos anos, os minimercados autônomos passaram a fazer parte da rotina de muitos condomínios brasileiros. Eles surgiram como uma resposta à demanda por praticidade, especialmente em horários em </description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-selfcheckout-em-minimercados-de-condominio-uma-visao-geral</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Como os Dados dos Minimercados Autônomos Transformam a Oferta nos Condomínios 24h</title>
-      <link>https://seumarketbr.com.br/blog/como-os-dados-dos-minimercados-autonomos-transformam-a-oferta-nos-condominios-24</link>
-      <description>Os minimercados autônomos recolhem continuamente informações sobre o que, quando e quantas compras são feitas, permitindo interpretar hábitos de consumo e adaptar a oferta em tempo real.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-dados-dos-minimercados-autonomos-transformam-a-oferta-nos-condominios-24</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
