@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 26 Oct 2026 21:32:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 01:52:50 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O desafio de equilibrar sortimento e espaço no varejo autônomo condominial</title>
+      <link>https://seumarketbr.com.br/blog/o-desafio-de-equilibrar-sortimento-e-espaco-no-varejo-autonomo-condominial</link>
+      <description>A definição do mix de produtos em um minimercado autônomo instalado dentro de um condomínio residencial vai muito além de simplesmente encher prateleiras com itens populares. Trata-se de um exercício </description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-desafio-de-equilibrar-sortimento-e-espaco-no-varejo-autonomo-condominial</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A tecnologia por trás de um minimercado autônomo em condomínio transforma a ideia de conveniência em</title>
       <link>https://seumarketbr.com.br/blog/a-tecnologia-por-tras-de-um-minimercado-autonomo-em-condominio-transforma-a-idei</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/a-ideia-de-instalar-um-minimercado-autonomo-dentro-de-um-condominio-tem-ganhado-</link>
       <description>A ideia de instalar um minimercado autônomo dentro de um condomínio tem ganhado atenção por trazer praticidade aos moradores e potencializar a valorização das áreas comuns. Quando um síndico ou um gru</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-ideia-de-instalar-um-minimercado-autonomo-dentro-de-um-condominio-tem-ganhado-</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimercados autônomos transformam a rotina dos condomínios</title>
-      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-dos-condominios-1</link>
-      <description>Pequenas lojas sem atendentes, abertas 24 horas, usam tecnologia de autoatendimento para que moradores comprem itens essenciais sem sair do prédio.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-dos-condominios-1</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
