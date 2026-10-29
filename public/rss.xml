@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 29 Oct 2026 02:13:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 17:22:49 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A presença de minimercados autônomos em condomínios deixou de ser uma novidade isolada para se torna</title>
+      <link>https://seumarketbr.com.br/blog/a-presenca-de-minimercados-autonomos-em-condominios-deixou-de-ser-uma-novidade-i</link>
+      <description>A presença de minimercados autônomos em condomínios deixou de ser uma novidade isolada para se tornar uma expectativa concreta de muitos moradores, especialmente em regiões metropolitanas onde a rotin</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-presenca-de-minimercados-autonomos-em-condominios-deixou-de-ser-uma-novidade-i</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Minimercados autônomos em condomínios: o novo varejo de proximidade que está mudando o dia a dia dos moradores</title>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-o-novo-varejo-de-proximidade-que-esta-muda</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/o-pix-e-a-nova-agilidade-nas-compras-de-conveniencia</link>
       <description>Nos últimos anos o Pix passou a ser uma presença constante no cotidiano de muitos brasileiros, principalmente porque permite transferências instantâneas entre contas bancárias sem a necessidade de doc</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-pix-e-a-nova-agilidade-nas-compras-de-conveniencia</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Os amenities como novo critério de escolha residencial</title>
-      <link>https://seumarketbr.com.br/blog/os-amenities-como-novo-criterio-de-escolha-residencial</link>
-      <description>Nos últimos anos, a decisão de onde morar deixou de ser baseada apenas na localização, no tamanho da planta ou no valor do aluguel. Os futuros moradores passaram a observar com atenção o conjunto de s</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/os-amenities-como-novo-criterio-de-escolha-residencial</guid>
       <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
