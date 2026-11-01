@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 31 Oct 2026 20:27:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 01:58:14 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A Revolução Silenciosa do Comércio de Condomínio</title>
+      <link>https://seumarketbr.com.br/blog/a-revolucao-silenciosa-do-comercio-de-condominio</link>
+      <description>Imagine que é madrugada, você acorda com uma sede intrema e quer algo para beber, mas o supermercado mais próximo já fechou há horas. Até alguns anos atrás, essa situação era comum, mas hoje, em muito</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-revolucao-silenciosa-do-comercio-de-condominio</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A revolução silenciosa nos pagamentos e o novo varejo de proximidade</title>
       <link>https://seumarketbr.com.br/blog/a-revolucao-silenciosa-nos-pagamentos-e-o-novo-varejo-de-proximidade</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/introducao-o-conceito-de-minimercados-autonomos-em-condominios</link>
       <description>Nos últimos anos a rotina dos moradores de condomínios tem passado por transformações silenciosas que afetam a forma como eles acessos bens de primeira necessidade. A presença de minimercados autônomo</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-conceito-de-minimercados-autonomos-em-condominios</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Segurança em minimercados autônomos: como câmeras, pagamento rastreável e ambiente de comunidade fec</title>
-      <link>https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente-4</link>
-      <description>Os minimercados autônomos têm se espalhado pelos condomínios brasileiros como uma resposta prática à demanda por conveniência e acesso a produtos essenciais em qualquer horário. Esse formato de venda,</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/seguranca-em-minimercados-autonomos-como-cameras-pagamento-rastreavel-e-ambiente-4</guid>
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
