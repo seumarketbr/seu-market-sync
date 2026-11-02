@@ -1,0 +1,18 @@
+{
+  "id": "the-user-wants-an-article-about-the-implementation-process-of-an-autonomous-mini",
+  "slug": "the-user-wants-an-article-about-the-implementation-process-of-an-autonomous-mini",
+  "title": "The user wants an article about the implementation process of an autonomous minimarket in a condomin",
+  "excerpt": "The user wants an article about the implementation process of an autonomous minimarket in a condominium.",
+  "content": "The user wants an article about the implementation process of an autonomous minimarket in a condominium.\nConstraints:\n- Minimum 1200 words.\n- Portuguese (Brazil).\n- Markdown format with ## for headers (min 4 sections).\n- No bullet points, numbered lists, dashes for lists, tables.\n- Only running paragraphs.\n- No em dashes (—), en dashes (–), or hyphens (-) for interjecting ideas (only commas). Hyphens only for compound words.\n- No single asterisks for italics. Bold only when strictly necessary.\n- No generic corporate language (\"Além disso\", \"Em conclusão\", etc.).\n- No invented stats/numbers about Seu Market BR or the market.\n- Only use authorized facts about Seu Market BR.\n- Only link allowed: https://seumarketbr.com.br.\n- Not a sales pitch. Educational/authority focus.\n- Natural human tone.\n\nAuthorized Facts for",
+  "category": "Guias",
+  "author": "Seu Market BR",
+  "date": "2026-11-02",
+  "readingTime": 1,
+  "featured": false,
+  "coverImage": "",
+  "tags": [
+    "implantação",
+    "instalação",
+    "sem custo"
+  ]
+}

@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 01 Nov 2026 01:58:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 02:10:17 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The user wants an article about the implementation process of an autonomous minimarket in a condomin</title>
+      <link>https://seumarketbr.com.br/blog/the-user-wants-an-article-about-the-implementation-process-of-an-autonomous-mini</link>
+      <description>The user wants an article about the implementation process of an autonomous minimarket in a condominium.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/the-user-wants-an-article-about-the-implementation-process-of-an-autonomous-mini</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A Revolução Silenciosa do Comércio de Condomínio</title>
       <link>https://seumarketbr.com.br/blog/a-revolucao-silenciosa-do-comercio-de-condominio</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-funciona-um-minimercado-autonomo-24h-dentro-de-um-condominio-residencial</link>
       <description>Os minimercados autônomos têm se tornado uma presença cada vez mais comum nas áreas comuns de condomínios brasileiros. Eles oferecem aos moradores a possibilidade de comprar itens de primeira necessid</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-funciona-um-minimercado-autonomo-24h-dentro-de-um-condominio-residencial</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introdução: o conceito de minimercados autônomos em condomínios</title>
-      <link>https://seumarketbr.com.br/blog/introducao-o-conceito-de-minimercados-autonomos-em-condominios</link>
-      <description>Nos últimos anos a rotina dos moradores de condomínios tem passado por transformações silenciosas que afetam a forma como eles acessos bens de primeira necessidade. A presença de minimercados autônomo</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-conceito-de-minimercados-autonomos-em-condominios</guid>
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
