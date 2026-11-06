@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 05 Nov 2026 22:37:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 03:17:30 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Minimercados autônomos ganham espaço em condomínios brasileiros</title>
+      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-ganham-espaco-em-condominios-brasileiros</link>
+      <description>O modelo de self‑checkout sem custo de implantação está transformando a rotina de moradores ao oferecer compras rápidas e horários estendidos dentro dos próprios prédios.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-ganham-espaco-em-condominios-brasileiros</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Minimercado autônomo: a conveniência 24h que chega ao seu condomínio</title>
       <link>https://seumarketbr.com.br/blog/minimercado-autonomo-a-conveniencia-24h-que-chega-ao-seu-condominio</link>
@@ -357,13 +364,6 @@
       <description>O conceito de minimercado autônomo instalado dentro de condomínios residenciais deixou de ser uma novidade pontual para se tornar uma peça central na transformação da rotina de moradores nas grandes c</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-conceito-de-minimercado-autonomo-instalado-dentro-de-condominios-residenciais-</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A conveniência do acesso 24 horas</title>
-      <link>https://seumarketbr.com.br/blog/a-conveniencia-do-acesso-24-horas</link>
-      <description>Morar em um condomínio residencial traz consigo a expectativa de ter serviços que facilitem o dia a dia sem precisar sair do complexo. Quando um minimercado autônomo funciona vinte e quatro horas por </description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-conveniencia-do-acesso-24-horas</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
