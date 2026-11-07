@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 06 Nov 2026 22:01:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 02:35:32 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Minimercados autônomos transformam a conveniência nos condomínios brasileiros</title>
+      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-brasileiros</link>
+      <description>O modelo de self‑checkout permite que moradores registrem e paguem suas compras a qualquer hora, sem a necessidade de funcionários permanentes.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-brasileiros</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como minimercados autônomos em condomínios contribuem para hábitos mais sustentáveis: menos deslocam</title>
       <link>https://seumarketbr.com.br/blog/como-minimercados-autonomos-em-condominios-contribuem-para-habitos-mais-sustenta</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-em-condominios-estimulam-habitos-mais-sustentavei</link>
       <description>A presença de minimercados autônomos dentro de condomínios tem chamado atenção por oferecer uma alternativa de compra que fica a poucos passos da residência. Esse formato traz a possibilidade de adqui</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-os-minimercados-autonomos-em-condominios-estimulam-habitos-mais-sustentavei</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nos últimos anos os condomínios residenciais têm buscado maneiras de oferecer mais comodidade aos mo</title>
-      <link>https://seumarketbr.com.br/blog/nos-ultimos-anos-os-condominios-residenciais-tem-buscado-maneiras-de-oferecer-ma</link>
-      <description>Nos últimos anos os condomínios residenciais têm buscado maneiras de oferecer mais comodidade aos moradores sem que isso implique em aumento das taxas condominiais. A demanda por serviços que estejam </description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/nos-ultimos-anos-os-condominios-residenciais-tem-buscado-maneiras-de-oferecer-ma</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
