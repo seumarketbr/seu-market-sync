@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 07 Nov 2026 20:45:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 02:07:22 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A chegada de um minimercado autônomo em um condomínio residencial costuma começar muito antes da ins</title>
+      <link>https://seumarketbr.com.br/blog/a-chegada-de-um-minimercado-autonomo-em-um-condominio-residencial-costuma-comeca</link>
+      <description>A chegada de um minimercado autônomo em um condomínio residencial costuma começar muito antes da instalação física dos equipamentos. Tudo se inicia quando moradores ou síndicos percebem que a rotina d</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-chegada-de-um-minimercado-autonomo-em-um-condominio-residencial-costuma-comeca</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A chegada do Pix e a popularização do pagamento por aproximação redesenharam a rotina de compras em </title>
       <link>https://seumarketbr.com.br/blog/a-chegada-do-pix-e-a-popularizacao-do-pagamento-por-aproximacao-redesenharam-a-r</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-funciona-um-minimercado-autonomo-24h-instalado-dentro-de-um-condominio-resi</link>
       <description>Como funciona um minimercado autônomo 24h instalado dentro de um condomínio residencial: como o morador acessa, faz o pagamento self‑checkout, como funciona a reposição e qual a diferença para um merc</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-funciona-um-minimercado-autonomo-24h-instalado-dentro-de-um-condominio-resi</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introdução: o contexto dos minimercados autônomos</title>
-      <link>https://seumarketbr.com.br/blog/introducao-o-contexto-dos-minimercados-autonomos</link>
-      <description>Os minimercados autônomos têm se consolidado como uma alternativa prática para atender às necessidades de consumo dentro de condomínios residenciais e comerciais. Eles funcionam em regime de self‑chec</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/introducao-o-contexto-dos-minimercados-autonomos</guid>
       <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
