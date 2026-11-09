@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 09 Nov 2026 02:27:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 21:20:06 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -20,6 +20,13 @@
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-dos-condominios-2</link>
       <description>Pequenos pontos de venda 24 horas sem atendentes permitem que moradores comprem itens do dia a dia sem sair do prédio, reduzindo custos e eliminando filas.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-dos-condominios-2</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>O novo ritmo das compras nos condomínios</title>
+      <link>https://seumarketbr.com.br/blog/o-novo-ritmo-das-compras-nos-condominios</link>
+      <description>A rotina de quem mora em condomínios residenciais mudou de forma silenciosa nos últimos anos. O que antes exigia deslocamento até a padaria da esquina ou ao supermercado mais próximo agora pode ser re</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-novo-ritmo-das-compras-nos-condominios</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo-2</link>
       <description>Morar em um condomínio traz a comodidade de ter serviços próximos, mas nem sempre dá para sair de casa a qualquer hora para comprar um item essencial. Quando o minimercado autônomo está instalado dent</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-o-morador-acessa-o-minimercado-autonomo-2</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Riscos e oportunidades dos minimercados autônomos sem atendimento humano</title>
-      <link>https://seumarketbr.com.br/blog/riscos-e-oportunidades-dos-minimercados-autonomos-sem-atendimento-humano</link>
-      <description>Os minimercados autônomos oferecem praticidade e redução de custos, mas dependem de sistemas eletrônicos para controlar o fluxo de mercadorias, exigindo atenção às vulnerabilidades inerentes a esse modelo.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/riscos-e-oportunidades-dos-minimercados-autonomos-sem-atendimento-humano</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
