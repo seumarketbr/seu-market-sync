@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 10 Nov 2026 00:38:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 18:32:14 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O cenário dos condomínios e a busca por novas receitas</title>
+      <link>https://seumarketbr.com.br/blog/o-cenario-dos-condominios-e-a-busca-por-novas-receitas</link>
+      <description>A gestão de um condomínio contemporâneo vai muito além da manutenção de áreas comuns e da cobrança de taxas, pois os síndicos precisam equilibrar a qualidade de vida dos moradores com a saúde financei</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-cenario-dos-condominios-e-a-busca-por-novas-receitas</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O que é um minimercado autônomo em condomínio</title>
       <link>https://seumarketbr.com.br/blog/o-que-e-um-minimercado-autonomo-em-condominio</link>
@@ -357,13 +364,6 @@
       <description>A ideia de levar um ponto de venda para dentro do condomínio nasce da percepção de que a distância entre a residência e o supermercado tradicional ainda é um obstáculo para muitas famílias, especialme</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-conceito-de-proximidade-no-varejo-autonomo</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Antes de decidir instalar um minimercado autônomo em um condomínio, o síndico costuma reunir informa</title>
-      <link>https://seumarketbr.com.br/blog/antes-de-decidir-instalar-um-minimercado-autonomo-em-um-condominio-o-sindico-cos</link>
-      <description>Antes de decidir instalar um minimercado autônomo em um condomínio, o síndico costuma reunir informações sobre os pontos que mais influenciam a decisão: quanto vai custar, como a segurança será garant</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/antes-de-decidir-instalar-um-minimercado-autonomo-em-um-condominio-o-sindico-cos</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
