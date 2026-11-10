@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 10 Nov 2026 18:32:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 22:15:23 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A transformação dos hábitos de pagamento no Brasil nos últimos anos redesenhou completamente a relaç</title>
+      <link>https://seumarketbr.com.br/blog/a-transformacao-dos-habitos-de-pagamento-no-brasil-nos-ultimos-anos-redesenhou-c</link>
+      <description>A transformação dos hábitos de pagamento no Brasil nos últimos anos redesenhou completamente a relação entre moradores e pontos de conveniência dentro de condomínios residenciais. O que antes dependia</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-transformacao-dos-habitos-de-pagamento-no-brasil-nos-ultimos-anos-redesenhou-c</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O cenário dos condomínios e a busca por novas receitas</title>
       <link>https://seumarketbr.com.br/blog/o-cenario-dos-condominios-e-a-busca-por-novas-receitas</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-2</link>
       <description>O artigo explica como os minimercados sem atendentes funcionam, quais formas de pagamento oferecem e como se diferenciam dos caixas tradicionais.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-2</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O conceito de proximidade no varejo autônomo</title>
-      <link>https://seumarketbr.com.br/blog/o-conceito-de-proximidade-no-varejo-autonomo</link>
-      <description>A ideia de levar um ponto de venda para dentro do condomínio nasce da percepção de que a distância entre a residência e o supermercado tradicional ainda é um obstáculo para muitas famílias, especialme</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-conceito-de-proximidade-no-varejo-autonomo</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
