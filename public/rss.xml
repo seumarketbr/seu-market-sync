@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 12 Nov 2026 22:40:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 03:15:16 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O desafio de montar o sortimento certo para o varejo autônomo em condomínios</title>
+      <link>https://seumarketbr.com.br/blog/o-desafio-de-montar-o-sortimento-certo-para-o-varejo-autonomo-em-condominios</link>
+      <description>A expansão dos minimercados autônomos dentro de condomínios residenciais trouxe uma nova dinâmica para o varejo de proximidade no Brasil, pois esse modelo opera na interseção entre a conveniência extr</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-desafio-de-montar-o-sortimento-certo-para-o-varejo-autonomo-em-condominios</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A Nova Decisão na Escolha de Onde Morar</title>
       <link>https://seumarketbr.com.br/blog/a-nova-decisao-na-escolha-de-onde-morar</link>
@@ -357,13 +364,6 @@
       <description>O varejo autônomo tem ganhado espaço nos condomínios brasileiros porque oferece conveniência sem a necessidade de um atendimento presencial constante, e a geração de dados de consumo é um dos pilares </description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-papel-dos-dados-de-consumo-no-varejo-autonomo</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A definição do mix de produtos para um minimercado autônomo instalado em um condomínio residencial e</title>
-      <link>https://seumarketbr.com.br/blog/a-definicao-do-mix-de-produtos-para-um-minimercado-autonomo-instalado-em-um-cond</link>
-      <description>A definição do mix de produtos para um minimercado autônomo instalado em um condomínio residencial exige uma leitura atenta da rotina de quem vive ali, pois o espaço físico reduzido transforma cada ce</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-definicao-do-mix-de-produtos-para-um-minimercado-autonomo-instalado-em-um-cond</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
