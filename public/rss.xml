@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 17 Nov 2026 19:39:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 23:48:05 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -27,6 +27,13 @@
       <link>https://seumarketbr.com.br/blog/o-cenario-antes-dos-pagamentos-instantaneos</link>
       <description>Durante muitos anos a rotina de compras dentro de condomínios residenciais dependia de dinheiro em espécie ou de cartões que exigiam a presença de um operador para autorizar a transação, o que tornava</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-cenario-antes-dos-pagamentos-instantaneos</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>O papel dos dados de consumo no varejo autônomo</title>
+      <link>https://seumarketbr.com.br/blog/o-papel-dos-dados-de-consumo-no-varejo-autonomo-1</link>
+      <description>O funcionamento de um minimercado autônomo gera um fluxo constante de informações cada vez que um morador realiza uma compra, pois o sistema registra o produto escolhido, a quantidade, o horário e a f</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-papel-dos-dados-de-consumo-no-varejo-autonomo-1</guid>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/entendendo-o-modelo-de-minimercado-autonomo</link>
       <description>O conceito de minimercado autônomo ganhou força nos últimos anos como uma resposta prática à demanda por conveniência dentro de condomínios residenciais e comerciais, pois elimina a necessidade de des</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/entendendo-o-modelo-de-minimercado-autonomo</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O desafio de montar o sortimento perfeito para um minimercado autônomo instalado dentro de um condom</title>
-      <link>https://seumarketbr.com.br/blog/o-desafio-de-montar-o-sortimento-perfeito-para-um-minimercado-autonomo-instalado</link>
-      <description>O desafio de montar o sortimento perfeito para um minimercado autônomo instalado dentro de um condomínio residencial vai muito além de simplesmente encher prateleiras com os itens mais vendidos do var</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-desafio-de-montar-o-sortimento-perfeito-para-um-minimercado-autonomo-instalado</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
