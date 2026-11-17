@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 17 Nov 2026 04:59:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 19:39:27 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -20,6 +20,13 @@
       <link>https://seumarketbr.com.br/blog/como-montar-o-sortimento-ideal-para-um-minimercado-autonomo-dentro-do-condominio</link>
       <description>O artigo explica que a proximidade dos moradores transforma o minimercado em uma extensão da despensa, exigindo uma curadoria precisa de cada SKU para atender à urgência e à compra de complemento em espaços reduzidos.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-montar-o-sortimento-ideal-para-um-minimercado-autonomo-dentro-do-condominio</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>O cenário antes dos pagamentos instantâneos</title>
+      <link>https://seumarketbr.com.br/blog/o-cenario-antes-dos-pagamentos-instantaneos</link>
+      <description>Durante muitos anos a rotina de compras dentro de condomínios residenciais dependia de dinheiro em espécie ou de cartões que exigiam a presença de um operador para autorizar a transação, o que tornava</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-cenario-antes-dos-pagamentos-instantaneos</guid>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -357,13 +364,6 @@
       <description>O desafio de montar o sortimento perfeito para um minimercado autônomo instalado dentro de um condomínio residencial vai muito além de simplesmente encher prateleiras com os itens mais vendidos do var</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-desafio-de-montar-o-sortimento-perfeito-para-um-minimercado-autonomo-instalado</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O fim do troco e a nova rotina de compras nos condomínios</title>
-      <link>https://seumarketbr.com.br/blog/o-fim-do-troco-e-a-nova-rotina-de-compras-nos-condominios</link>
-      <description>A rotina de abastecimento dentro dos condomínios residenciais passou por uma transformação silenciosa nos últimos anos, impulsionada menos pela chegada de novos produtos nas prateleiras e mais pela fo</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-fim-do-troco-e-a-nova-rotina-de-compras-nos-condominios</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
