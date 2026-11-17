@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 16 Nov 2026 20:51:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:45:42 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O self-checkout que transformou condomínios em minimercados 24 horas sem filas nem funcionários</title>
+      <link>https://seumarketbr.com.br/blog/o-self-checkout-que-transformou-condominios-em-minimercados-24-horas-sem-filas-n</link>
+      <description>À noite, moradores compram refrigerantes, biscoitos ou carregadores em totens de autoatendimento instalados no térreo, pagando em segundos e sem horário de fechamento.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-self-checkout-que-transformou-condominios-em-minimercados-24-horas-sem-filas-n</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Minimercados autônomos transformam a rotina nos condomínios</title>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-rotina-nos-condominios</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/o-self-checkout-deixou-de-ser-uma-novidade-restrita-a-grandes-redes-de-supermerc</link>
       <description>O self-checkout deixou de ser uma novidade restrita a grandes redes de supermercado para se tornar a espinha dorsal do varejo autônomo dentro de condomínios residenciais e comerciais, transformando a </description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-self-checkout-deixou-de-ser-uma-novidade-restrita-a-grandes-redes-de-supermerc</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>We need to write an article &gt;=1200 words, in Portuguese Brazil, markdown with ## headings (at least </title>
-      <link>https://seumarketbr.com.br/blog/we-need-to-write-an-article-1200-words-in-portuguese-brazil-markdown-with-headin</link>
-      <description>We need to write an article &gt;=1200 words, in Portuguese Brazil, markdown with ## headings (at least 4 sections). No bullet points, no lists, no tables. Only paragraphs. Use **bold** only when needed. </description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/we-need-to-write-an-article-1200-words-in-portuguese-brazil-markdown-with-headin</guid>
       <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
