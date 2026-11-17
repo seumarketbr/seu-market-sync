@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:45:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 04:59:36 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como montar o sortimento ideal para um minimercado autônomo dentro do condomínio</title>
+      <link>https://seumarketbr.com.br/blog/como-montar-o-sortimento-ideal-para-um-minimercado-autonomo-dentro-do-condominio</link>
+      <description>O artigo explica que a proximidade dos moradores transforma o minimercado em uma extensão da despensa, exigindo uma curadoria precisa de cada SKU para atender à urgência e à compra de complemento em espaços reduzidos.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-montar-o-sortimento-ideal-para-um-minimercado-autonomo-dentro-do-condominio</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O self-checkout que transformou condomínios em minimercados 24 horas sem filas nem funcionários</title>
       <link>https://seumarketbr.com.br/blog/o-self-checkout-que-transformou-condominios-em-minimercados-24-horas-sem-filas-n</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/o-fim-do-troco-e-a-nova-rotina-de-compras-nos-condominios</link>
       <description>A rotina de abastecimento dentro dos condomínios residenciais passou por uma transformação silenciosa nos últimos anos, impulsionada menos pela chegada de novos produtos nas prateleiras e mais pela fo</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-fim-do-troco-e-a-nova-rotina-de-compras-nos-condominios</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O self-checkout deixou de ser uma novidade restrita a grandes redes de supermercado para se tornar a</title>
-      <link>https://seumarketbr.com.br/blog/o-self-checkout-deixou-de-ser-uma-novidade-restrita-a-grandes-redes-de-supermerc</link>
-      <description>O self-checkout deixou de ser uma novidade restrita a grandes redes de supermercado para se tornar a espinha dorsal do varejo autônomo dentro de condomínios residenciais e comerciais, transformando a </description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-self-checkout-deixou-de-ser-uma-novidade-restrita-a-grandes-redes-de-supermerc</guid>
       <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
