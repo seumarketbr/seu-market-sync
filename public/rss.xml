@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 19 Nov 2026 04:00:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 19:22:56 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Minimercados autônomos em condomínios: a segurança como pilar do varejo de proximidade</title>
+      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-a-seguranca-como-pilar-do-varejo-de-proxim</link>
+      <description>A combinação de monitoramento por vídeo, pagamentos rastreáveis e o ambiente de comunidade fechada cria camadas de defesa que reduzem drasticamente furtos e danos nos minimercados autônomos instalados em condomínios.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-a-seguranca-como-pilar-do-varejo-de-proxim</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O conceito de minimercado autônomo em condomínios</title>
       <link>https://seumarketbr.com.br/blog/o-conceito-de-minimercado-autonomo-em-condominios</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/minimercado-autonomo-reinventando-a-gestao-condominial-com-conveniencia-247</link>
       <description>O papel do síndico evoluiu e a instalação de um minimercado autônomo aproveita áreas ociosas para oferecer conveniência e valorização ao condomínio.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-autonomo-reinventando-a-gestao-condominial-com-conveniencia-247</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O cenário antes do Pix</title>
-      <link>https://seumarketbr.com.br/blog/o-cenario-antes-do-pix</link>
-      <description>Durante muito tempo os moradores de condomínios dependiam de dinheiro em espécie ou de cartões que exigiam a presença de um operador para autorizar a transação, o que limitava o horário de funcionamen</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-cenario-antes-do-pix</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
