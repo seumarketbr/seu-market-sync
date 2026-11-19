@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 18 Nov 2026 23:20:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 04:00:50 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O conceito de minimercado autônomo em condomínios</title>
+      <link>https://seumarketbr.com.br/blog/o-conceito-de-minimercado-autonomo-em-condominios</link>
+      <description>A ideia de ter um ponto de venda funcionando vinte e quatro horas por dia dentro de um condomínio residencial deixou de ser uma novidade restrita a empreendimentos de altíssimo padrão para se tornar u</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-conceito-de-minimercado-autonomo-em-condominios</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A sustentabilidade no varejo costuma ser associada a embalagens recicláveis ou a logística reversa, </title>
       <link>https://seumarketbr.com.br/blog/a-sustentabilidade-no-varejo-costuma-ser-associada-a-embalagens-reciclaveis-ou-a</link>
@@ -357,13 +364,6 @@
       <description>Durante muito tempo os moradores de condomínios dependiam de dinheiro em espécie ou de cartões que exigiam a presença de um operador para autorizar a transação, o que limitava o horário de funcionamen</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-cenario-antes-do-pix</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O desafio de equilibrar sortimento e espaço no varejo autônomo condominial</title>
-      <link>https://seumarketbr.com.br/blog/o-desafio-de-equilibrar-sortimento-e-espaco-no-varejo-autonomo-condominial</link>
-      <description>A definição do mix de produtos em um minimercado autônomo instalado dentro de um condomínio residencial vai muito além de simplesmente encher prateleiras com itens populares. Trata-se de um exercício </description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-desafio-de-equilibrar-sortimento-e-espaco-no-varejo-autonomo-condominial</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
