@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 20 Nov 2026 03:54:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 18:59:31 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A decisão de instalar um minimercado autônomo em um condomínio costuma começar muito antes da assina</title>
+      <link>https://seumarketbr.com.br/blog/a-decisao-de-instalar-um-minimercado-autonomo-em-um-condominio-costuma-comecar-m</link>
+      <description>A decisão de instalar um minimercado autônomo em um condomínio costuma começar muito antes da assinatura de qualquer contrato. O síndico, figura central nessa engrenagem, carrega a responsabilidade de</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-decisao-de-instalar-um-minimercado-autonomo-em-um-condominio-costuma-comecar-m</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Entendendo o conceito de minimercado autônomo em condomínios</title>
       <link>https://seumarketbr.com.br/blog/entendendo-o-conceito-de-minimercado-autonomo-em-condominios</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/a-presenca-de-minimercados-autonomos-em-condominios-deixou-de-ser-uma-novidade-i</link>
       <description>A presença de minimercados autônomos em condomínios deixou de ser uma novidade isolada para se tornar uma expectativa concreta de muitos moradores, especialmente em regiões metropolitanas onde a rotin</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-presenca-de-minimercados-autonomos-em-condominios-deixou-de-ser-uma-novidade-i</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimercados autônomos em condomínios: o novo varejo de proximidade que está mudando o dia a dia dos moradores</title>
-      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-o-novo-varejo-de-proximidade-que-esta-muda</link>
-      <description>O conceito de minimercado autônomo dentro de condomínios residenciais está redefinindo o varejo de proximidade ao levar produtos de conveniência diretamente para onde as pessoas vivem, disponíveis 24 horas por dia sem necessidade de funcionários.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-o-novo-varejo-de-proximidade-que-esta-muda</guid>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
