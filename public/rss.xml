@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 20 Nov 2026 23:01:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 03:51:10 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como acertar o mix de produtos nos minimercados autônomos de condomínios</title>
+      <link>https://seumarketbr.com.br/blog/como-acertar-o-mix-de-produtos-nos-minimercados-autonomos-de-condominios</link>
+      <description>O artigo explica por que a curadoria contínua do sortimento é essencial para equilibrar giro, margem e satisfação dos moradores em lojas autônomas de condomínio.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-acertar-o-mix-de-produtos-nos-minimercados-autonomos-de-condominios</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A decisão de instalar um minimercado autônomo em um condomínio costuma começar muito antes da assina</title>
       <link>https://seumarketbr.com.br/blog/a-decisao-de-instalar-um-minimercado-autonomo-em-um-condominio-costuma-comecar-m</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-viram-tendencia-consolidada-nos-condominios-das-grandes-c</link>
       <description>Moradores buscam conveniência e autonomia ao resolver necessidades imediatas sem sair do prédio, impulsionando a expansão desses mercados autônomos em áreas comuns.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-viram-tendencia-consolidada-nos-condominios-das-grandes-c</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O cenário dos minimercados autônomos em condomínios</title>
-      <link>https://seumarketbr.com.br/blog/o-cenario-dos-minimercados-autonomos-em-condominios-1</link>
-      <description>Os minimercados autônomos têm se tornado uma presença constante em áreas residenciais, oferecendo conveniência 24h sem a necessidade de um operador físico permanente, o que transforma a experiência de</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-cenario-dos-minimercados-autonomos-em-condominios-1</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
