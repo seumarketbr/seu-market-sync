@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 21 Nov 2026 22:06:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 02:52:58 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O hábito de descer até a portaria ou caminhar até a esquina para comprar um item esquecido está muda</title>
+      <link>https://seumarketbr.com.br/blog/o-habito-de-descer-ate-a-portaria-ou-caminhar-ate-a-esquina-para-comprar-um-item</link>
+      <description>O hábito de descer até a portaria ou caminhar até a esquina para comprar um item esquecido está mudando de figura nos condomínios brasileiros. O que antes exigia chaves do carro, elevador lotado e fil</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-habito-de-descer-ate-a-portaria-ou-caminhar-ate-a-esquina-para-comprar-um-item</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como acertar o mix de produtos nos minimercados autônomos de condomínios</title>
       <link>https://seumarketbr.com.br/blog/como-acertar-o-mix-de-produtos-nos-minimercados-autonomos-de-condominios</link>
@@ -357,13 +364,6 @@
       <description>Imagine que é madrugada, você acorda com uma sede intrema e quer algo para beber, mas o supermercado mais próximo já fechou há horas. Até alguns anos atrás, essa situação era comum, mas hoje, em muito</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-revolucao-silenciosa-do-comercio-de-condominio</guid>
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A revolução silenciosa nos pagamentos e o novo varejo de proximidade</title>
-      <link>https://seumarketbr.com.br/blog/a-revolucao-silenciosa-nos-pagamentos-e-o-novo-varejo-de-proximidade</link>
-      <description>A forma como as pessoas pagam por pequenas compras do dia a dia mudou de maneira profunda nos últimos anos e essa transformação atingiu em cheio o varejo de conveniência instalado dentro de condomínio</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-revolucao-silenciosa-nos-pagamentos-e-o-novo-varejo-de-proximidade</guid>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
