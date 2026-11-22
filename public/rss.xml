@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 22 Nov 2026 02:52:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 18:18:01 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A decisão de onde morar deixou de ser definida apenas pela metragem do apartamento, pela localização</title>
+      <link>https://seumarketbr.com.br/blog/a-decisao-de-onde-morar-deixou-de-ser-definida-apenas-pela-metragem-do-apartamen</link>
+      <description>A decisão de onde morar deixou de ser definida apenas pela metragem do apartamento, pela localização exata ou pela proximidade de estações de transporte. Nos últimos anos, uma transformação silenciosa</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-decisao-de-onde-morar-deixou-de-ser-definida-apenas-pela-metragem-do-apartamen</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O hábito de descer até a portaria ou caminhar até a esquina para comprar um item esquecido está muda</title>
       <link>https://seumarketbr.com.br/blog/o-habito-de-descer-ate-a-portaria-ou-caminhar-ate-a-esquina-para-comprar-um-item</link>
@@ -357,13 +364,6 @@
       <description>The user wants an article about the implementation process of an autonomous minimarket in a condominium.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/the-user-wants-an-article-about-the-implementation-process-of-an-autonomous-mini</guid>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Revolução Silenciosa do Comércio de Condomínio</title>
-      <link>https://seumarketbr.com.br/blog/a-revolucao-silenciosa-do-comercio-de-condominio</link>
-      <description>Imagine que é madrugada, você acorda com uma sede intrema e quer algo para beber, mas o supermercado mais próximo já fechou há horas. Até alguns anos atrás, essa situação era comum, mas hoje, em muito</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-revolucao-silenciosa-do-comercio-de-condominio</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
