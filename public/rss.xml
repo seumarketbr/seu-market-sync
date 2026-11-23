@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 22 Nov 2026 22:22:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 03:35:22 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A expansão dos minimercados autônomos dentro de condomínios residenciais e comerciais reflete uma tr</title>
+      <link>https://seumarketbr.com.br/blog/a-expansao-dos-minimercados-autonomos-dentro-de-condominios-residenciais-e-comer</link>
+      <description>A expansão dos minimercados autônomos dentro de condomínios residenciais e comerciais reflete uma transformação profunda nos hábitos de consumo urbano, onde a proximidade e a disponibilidade ininterru</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-expansao-dos-minimercados-autonomos-dentro-de-condominios-residenciais-e-comer</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A decisão de onde morar deixou de ser definida apenas pela metragem do apartamento, pela localização</title>
       <link>https://seumarketbr.com.br/blog/a-decisao-de-onde-morar-deixou-de-ser-definida-apenas-pela-metragem-do-apartamen</link>
@@ -357,13 +364,6 @@
       <description>Os minimercados autônomos surgiram como uma resposta prática à demanda por conveniência em ambientes residenciais. Sua operação 24 horas elimina a necessidade de horários comerciais fixos, enquanto o </description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/seguranca-como-diferencial-nos-minimercados-autonomos</guid>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A madrugada em um condomínio residencial costuma ser silenciosa, mas a rotina de consumo não para qu</title>
-      <link>https://seumarketbr.com.br/blog/a-madrugada-em-um-condominio-residencial-costuma-ser-silenciosa-mas-a-rotina-de-</link>
-      <description>A madrugada em um condomínio residencial costuma ser silenciosa, mas a rotina de consumo não para quando o relógio marca meia-noite. Um morador chega do plantão noturno com fome, outro percebe que fal</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-madrugada-em-um-condominio-residencial-costuma-ser-silenciosa-mas-a-rotina-de-</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
