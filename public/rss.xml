@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 24 Nov 2026 06:49:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 21:01:37 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A rotina urbana contemporânea impõe desafios constantes para quem busca equilibrar praticidade e res</title>
+      <link>https://seumarketbr.com.br/blog/a-rotina-urbana-contemporanea-impoe-desafios-constantes-para-quem-busca-equilibr</link>
+      <description>A rotina urbana contemporânea impõe desafios constantes para quem busca equilibrar praticidade e responsabilidade ambiental. Nas grandes cidades brasileiras, o deslocamento até um supermercado tradici</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-rotina-urbana-contemporanea-impoe-desafios-constantes-para-quem-busca-equilibr</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Minimercados autônomos viram item essencial em condomínios brasileiros</title>
       <link>https://seumarketbr.com.br/blog/minimercados-autonomos-viram-item-essencial-em-condominios-brasileiros</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/morar-em-um-condominio-que-oferece-um-minimercado-autonomo-24-horas-muda-a-rotin</link>
       <description>Morar em um condomínio que oferece um minimercado autônomo 24 horas muda a rotina de quem vive ali, pois a compra de itens essenciais deixa de exigir um deslocamento até o supermercado mais próximo, e</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/morar-em-um-condominio-que-oferece-um-minimercado-autonomo-24-horas-muda-a-rotin</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O cenário dos minimercados autônomos em condomínios</title>
-      <link>https://seumarketbr.com.br/blog/o-cenario-dos-minimercados-autonomos-em-condominios-2</link>
-      <description>O crescimento dos minimercados autônomos em condomínios reflete uma mudança profunda na forma como os moradores acessam produtos de consumo imediato, pois a proximidade física elimina deslocamentos lo</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-cenario-dos-minimercados-autonomos-em-condominios-2</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
