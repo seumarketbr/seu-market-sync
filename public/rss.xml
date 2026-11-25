@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 25 Nov 2026 01:19:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 05:17:35 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Como montar o mix ideal para minimercados autônomos em condomínios</title>
+      <link>https://seumarketbr.com.br/blog/como-montar-o-mix-ideal-para-minimercados-autonomos-em-condominios</link>
+      <description>O artigo explica como a limitação de espaço e o perfil previsível dos moradores exigem uma seleção estratégica de categorias, equilíbrio entre profundidade e variedade e uso de tecnologia para reposição eficiente.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-montar-o-mix-ideal-para-minimercados-autonomos-em-condominios</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O novo hábito de comprar no próprio condomínio</title>
       <link>https://seumarketbr.com.br/blog/o-novo-habito-de-comprar-no-proprio-condominio</link>
@@ -357,13 +364,6 @@
       <description>A crescente busca por conveniência dentro dos condomínios faz com que muitos gestores comecem a avaliar a possibilidade de instalar um ponto de venda que funcione sem a presença constante de atendente</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-que-leva-um-sindico-a-pesquisar-minimercados-autonomos</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Como a infraestrutura de conveniência nos condomínios virou critério decisivo na escolha do lar</title>
-      <link>https://seumarketbr.com.br/blog/como-a-infraestrutura-de-conveniencia-nos-condominios-virou-criterio-decisivo-na</link>
-      <description>Academias, coworkings e minimercados 24 h deixaram de ser luxo e passaram a ser exigências eliminatórias para quem busca um novo endereço residencial.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-a-infraestrutura-de-conveniencia-nos-condominios-virou-criterio-decisivo-na</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
