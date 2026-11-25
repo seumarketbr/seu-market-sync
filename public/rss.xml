@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 24 Nov 2026 21:01:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 01:19:06 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O novo hábito de comprar no próprio condomínio</title>
+      <link>https://seumarketbr.com.br/blog/o-novo-habito-de-comprar-no-proprio-condominio</link>
+      <description>A presença de um minimercado autônomo dentro de um condomínio residencial deixou de ser uma novidade pontual para se tornar uma expectativa concreta de moradores que valorizam praticidade e tempo. Dif</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-novo-habito-de-comprar-no-proprio-condominio</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A rotina urbana contemporânea impõe desafios constantes para quem busca equilibrar praticidade e res</title>
       <link>https://seumarketbr.com.br/blog/a-rotina-urbana-contemporanea-impoe-desafios-constantes-para-quem-busca-equilibr</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-a-infraestrutura-de-conveniencia-nos-condominios-virou-criterio-decisivo-na</link>
       <description>Academias, coworkings e minimercados 24 h deixaram de ser luxo e passaram a ser exigências eliminatórias para quem busca um novo endereço residencial.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-a-infraestrutura-de-conveniencia-nos-condominios-virou-criterio-decisivo-na</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Morar em um condomínio que oferece um minimercado autônomo 24 horas muda a rotina de quem vive ali, </title>
-      <link>https://seumarketbr.com.br/blog/morar-em-um-condominio-que-oferece-um-minimercado-autonomo-24-horas-muda-a-rotin</link>
-      <description>Morar em um condomínio que oferece um minimercado autônomo 24 horas muda a rotina de quem vive ali, pois a compra de itens essenciais deixa de exigir um deslocamento até o supermercado mais próximo, e</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/morar-em-um-condominio-que-oferece-um-minimercado-autonomo-24-horas-muda-a-rotin</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
