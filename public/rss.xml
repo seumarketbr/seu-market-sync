@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 26 Nov 2026 04:45:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 20:01:49 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O cenário dos minimercados autônomos em condomínios</title>
+      <link>https://seumarketbr.com.br/blog/o-cenario-dos-minimercados-autonomos-em-condominios-3</link>
+      <description>O surgimento de pontos de venda autônomos dentro de áreas residenciais transformou a rotina de moradores que buscam praticidade sem sair do prédio, pois a proximidade elimina deslocamentos e filas típ</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-cenario-dos-minimercados-autonomos-em-condominios-3</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O conceito de varejo autônomo dentro de casa</title>
       <link>https://seumarketbr.com.br/blog/o-conceito-de-varejo-autonomo-dentro-de-casa</link>
@@ -357,13 +364,6 @@
       <description>O modelo de self‑checkout sem custo de implantação está transformando a rotina de moradores ao oferecer compras rápidas e horários estendidos dentro dos próprios prédios.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-ganham-espaco-em-condominios-brasileiros</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimercado autônomo: a conveniência 24h que chega ao seu condomínio</title>
-      <link>https://seumarketbr.com.br/blog/minimercado-autonomo-a-conveniencia-24h-que-chega-ao-seu-condominio</link>
-      <description>O artigo explica como minimercados autônomos funcionam dentro de condomínios, oferecendo produtos de giro rápido sem atendentes e operando o dia todo.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-autonomo-a-conveniencia-24h-que-chega-ao-seu-condominio</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
