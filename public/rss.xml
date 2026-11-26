@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 25 Nov 2026 20:25:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 04:45:57 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O conceito de varejo autônomo dentro de casa</title>
+      <link>https://seumarketbr.com.br/blog/o-conceito-de-varejo-autonomo-dentro-de-casa</link>
+      <description>A ideia de descer de elevador ou caminhar poucos metros pelo corredor do condomínio para resolver uma compra de última hora deixou de ser uma projeção futurista para se tornar parte da rotina de muito</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-conceito-de-varejo-autonomo-dentro-de-casa</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Como montar o mix ideal para minimercados autônomos em condomínios</title>
       <link>https://seumarketbr.com.br/blog/como-montar-o-mix-ideal-para-minimercados-autonomos-em-condominios</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/minimercado-autonomo-a-conveniencia-24h-que-chega-ao-seu-condominio</link>
       <description>O artigo explica como minimercados autônomos funcionam dentro de condomínios, oferecendo produtos de giro rápido sem atendentes e operando o dia todo.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-autonomo-a-conveniencia-24h-que-chega-ao-seu-condominio</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimercados autônomos em condomínios reduzem viagens de carro e o impacto ambiental das compras</title>
-      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-reduzem-viagens-de-carro-e-o-impacto-ambie</link>
-      <description>O artigo mostra como a instalação de minimercados autônomos dentro dos condomínios elimina a necessidade de deslocamentos de carro ao supermercado, diminuindo emissões, consumo de combustível e tempo no trânsito.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-em-condominios-reduzem-viagens-de-carro-e-o-impacto-ambie</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
