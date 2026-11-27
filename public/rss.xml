@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 26 Nov 2026 20:01:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:59:10 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Minimercado Autônomo: Conveniência 24 Horas Dentro do Condomínio</title>
+      <link>https://seumarketbr.com.br/blog/minimercado-autonomo-conveniencia-24-horas-dentro-do-condominio</link>
+      <description>O modelo elimina funcionários fixos usando self‑checkout e monitoramento remoto, reduzindo custos e permitindo compras rápidas a qualquer hora.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-autonomo-conveniencia-24-horas-dentro-do-condominio</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O cenário dos minimercados autônomos em condomínios</title>
       <link>https://seumarketbr.com.br/blog/o-cenario-dos-minimercados-autonomos-em-condominios-3</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/como-minimercados-autonomos-em-condominios-contribuem-para-habitos-mais-sustenta</link>
       <description>Como minimercados autônomos em condomínios contribuem para hábitos mais sustentáveis: menos deslocamento e compras de proximidade</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-minimercados-autonomos-em-condominios-contribuem-para-habitos-mais-sustenta</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimercados autônomos ganham espaço em condomínios brasileiros</title>
-      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-ganham-espaco-em-condominios-brasileiros</link>
-      <description>O modelo de self‑checkout sem custo de implantação está transformando a rotina de moradores ao oferecer compras rápidas e horários estendidos dentro dos próprios prédios.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-ganham-espaco-em-condominios-brasileiros</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
