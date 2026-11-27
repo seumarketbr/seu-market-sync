@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 27 Nov 2026 00:59:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 04:51:20 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -20,6 +20,13 @@
       <link>https://seumarketbr.com.br/blog/minimercado-autonomo-conveniencia-24-horas-dentro-do-condominio</link>
       <description>O modelo elimina funcionários fixos usando self‑checkout e monitoramento remoto, reduzindo custos e permitindo compras rápidas a qualquer hora.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-autonomo-conveniencia-24-horas-dentro-do-condominio</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>O surgimento dos minimercados autônomos dentro de condomínios residenciais mudou a rotina de quem mo</title>
+      <link>https://seumarketbr.com.br/blog/o-surgimento-dos-minimercados-autonomos-dentro-de-condominios-residenciais-mudou</link>
+      <description>O surgimento dos minimercados autônomos dentro de condomínios residenciais mudou a rotina de quem mora em apartamentos e casas fechadas, criando um novo ponto de contato entre o varejo e o consumidor </description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/o-surgimento-dos-minimercados-autonomos-dentro-de-condominios-residenciais-mudou</guid>
       <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -357,13 +364,6 @@
       <description>O modelo de self‑checkout permite que moradores registrem e paguem suas compras a qualquer hora, sem a necessidade de funcionários permanentes.</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-brasileiros</guid>
       <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Como minimercados autônomos em condomínios contribuem para hábitos mais sustentáveis: menos deslocam</title>
-      <link>https://seumarketbr.com.br/blog/como-minimercados-autonomos-em-condominios-contribuem-para-habitos-mais-sustenta</link>
-      <description>Como minimercados autônomos em condomínios contribuem para hábitos mais sustentáveis: menos deslocamento e compras de proximidade</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/como-minimercados-autonomos-em-condominios-contribuem-para-habitos-mais-sustenta</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
