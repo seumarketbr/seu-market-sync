@@ -7,7 +7,7 @@
     <link>https://seumarketbr.com.br</link>
     <description>Dicas, tendencias e novidades sobre minimercados autonomos em condominios.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 27 Nov 2026 04:51:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 00:25:19 +0000</lastBuildDate>
     <generator>SeuMarketBR RSS Generator</generator>
     <image>
       <url>https://seumarketbr.com.br/logo.png</url>
@@ -15,6 +15,13 @@
       <link>https://seumarketbr.com.br</link>
     </image>
     <atom:link href="https://seumarketbr.com.br/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Minimercado autônomo: a revolução 24 h que chega aos condomínios</title>
+      <link>https://seumarketbr.com.br/blog/minimercado-autonomo-a-revolucao-24-h-que-chega-aos-condominios</link>
+      <description>O modelo de minimercado autônomo oferece produtos de consumo imediato em pontos de venda self‑checkout que funcionam 24 horas sem operadores, reduzindo custos e eliminando filas para moradores que buscam rapidez e praticidade.</description>
+      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercado-autonomo-a-revolucao-24-h-que-chega-aos-condominios</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Minimercado Autônomo: Conveniência 24 Horas Dentro do Condomínio</title>
       <link>https://seumarketbr.com.br/blog/minimercado-autonomo-conveniencia-24-horas-dentro-do-condominio</link>
@@ -356,13 +363,6 @@
       <link>https://seumarketbr.com.br/blog/a-chegada-do-pix-e-a-popularizacao-do-pagamento-por-aproximacao-redesenharam-a-r</link>
       <description>A chegada do Pix e a popularização do pagamento por aproximação redesenharam a rotina de compras em minimercados autônomos instalados em condomínios residenciais de forma silenciosa mas profunda. Dura</description>
       <guid isPermaLink="true">https://seumarketbr.com.br/blog/a-chegada-do-pix-e-a-popularizacao-do-pagamento-por-aproximacao-redesenharam-a-r</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimercados autônomos transformam a conveniência nos condomínios brasileiros</title>
-      <link>https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-brasileiros</link>
-      <description>O modelo de self‑checkout permite que moradores registrem e paguem suas compras a qualquer hora, sem a necessidade de funcionários permanentes.</description>
-      <guid isPermaLink="true">https://seumarketbr.com.br/blog/minimercados-autonomos-transformam-a-conveniencia-nos-condominios-brasileiros</guid>
       <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
